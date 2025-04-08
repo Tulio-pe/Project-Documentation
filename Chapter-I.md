@@ -2,8 +2,6 @@
 
 ## 1.1. Startup Profile
 
-### 1.1.1. Descripción de la Startup
-
 ### 1.1.1. Descripción del startup
 
 **MecaniHub** es una startup tecnológica enfocada en transformar y digitalizar el sector automotriz. Nuestra plataforma conecta a propietarios de vehículos con talleres mecánicos de forma transparente, eficiente y confiable, facilitando la gestión de citas, el seguimiento en tiempo real del estado de reparación y la comunicación directa entre ambas partes.
@@ -56,7 +54,6 @@ La falta de comunicación clara y seguimiento transparente en los procesos de re
   - El modelo de negocio sería Freemium. Para quienes consideren una herramienta importante se estima un costo de $20 plan base, luego el precio iría en aumento acorde a los features que se genere.
 
 ### 1.2.2. Lean UX Process
-Esta sección detalla el proceso de Lean UX aplicado para desarrollar la solución.
 
 #### 1.2.2.1. Lean UX Problem Statements
 Se identifican y describen las declaraciones de problemas clave desde la perspectiva del usuario.
@@ -100,4 +97,45 @@ Se formulan hipótesis basadas en las suposiciones y problemas identificados.
 Se presenta el Lean UX Canvas como herramienta para estructurar y validar las ideas de diseño.
 
 ## 1.3. Segmentos objetivo
-Se identifican y describen los segmentos de mercado objetivo para la solución, incluyendo sus características y necesidades.
+
+### *Usuarios con autos (Conductores particulares)*
+Este segmento está conformado por personas que poseen un vehículo propio y buscan soluciones tecnológicas que les permitan mejorar su experiencia de mantenimiento automotriz. Suelen valorar la transparencia, la comodidad y el ahorro de tiempo en el proceso de reparación o revisión de su auto.
+
+#### *Características demográficas:*
+
+-Edad: 18 – 80 años.
+
+-Género: Hombres y mujeres.
+
+-Ubicación: Lima Metropolitana.
+
+-Nivel socioeconómico: Medio a medio-alto.
+
+-Ocupación: Profesionales, emprendedores, personas con alto uso del vehículo como herramienta diaria (trabajo o estudios).
+
+#### *Información estadística:*
+
+-Según el INEI (2023), Lima concentra el 64% del parque automotor del país, con más de 2 millones de vehículos particulares registrados.
+
+-El 35% de los usuarios de vehículos en Lima indican insatisfacción con la transparencia y seguimiento de procesos en talleres tradicionales.
+
+### *Concesionarias y talleres autorizados*
+Este segmento agrupa a concesionarias de marcas de autos y talleres mecánicos autorizados que buscan optimizar su atención al cliente, mejorar la trazabilidad del servicio y diferenciarse en un mercado competitivo. Les interesa ofrecer un valor agregado digital que mejore la experiencia de posventa.
+
+#### *Características del negocio:*
+
+-Ubicación: Distritos céntricos y de alto tráfico vehicular (San Luis, Surquillo, La Victoria, Independencia, entre otros).
+
+-Tamaño del negocio: Mediano a grande.
+
+-Infraestructura tecnológica: Uso de software de gestión (ERP, CRM) y predisposición a integrar soluciones de terceros.
+
+-Interés en digitalización: Alta, impulsada por la necesidad de fidelización del cliente y por los nuevos estándares del consumidor post-pandemia.
+
+#### *Información estadística:*
+
+-En Lima operan más de 1,200 talleres mecánicos formales y concesionarias autorizadas.
+
+-La digitalización de procesos en talleres ha crecido un 20% anual desde 2021, según datos del Ministerio de la Producción (2023).
+
+
