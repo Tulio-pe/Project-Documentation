@@ -19,6 +19,15 @@ En **MecaniHub**, redefinimos la manera en que las personas se relacionan con el
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
+| Integrante | Carrera | Descripción | Foto |
+|--|--|--|--|
+| A | A | A | **** |
+| Rodrigo Marcelo Torres Guillén **(U20181G760)** | Ingeniería de Software | Como estudiante de la carrera de Ing. de Software y apasionado por la ciberseguridad, me motiva conocer las estapas del desarrolo de un software para entender cómo cada decisión en el desarrollo impacta en la seguridad y el valor del producto final. Espero adquirir mayores conocimientos junto a mi equipo y trabajar colaborativamente para destacar. | **** |
+| C | C | C | **** |
+| D | D | D | **** |
+| E | E | E | **** |
+| F | F | F | **** |
+
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
