@@ -21,7 +21,8 @@ En **MecaniHub**, redefinimos la manera en que las personas se relacionan con el
 |--|--|--|--|
 | A | A | A | **** |
 | Rodrigo Marcelo Torres Guillén **(U20181G760)** | Ingeniería de Software | Como estudiante de la carrera de Ing. de Software y apasionado por la ciberseguridad, me motiva conocer las estapas del desarrolo de un software para entender cómo cada decisión en el desarrollo impacta en la seguridad y el valor del producto final. Espero adquirir mayores conocimientos junto a mi equipo y trabajar colaborativamente para destacar. | **** |
-| C | C | C | **** |
+| C| C | C | **** |
+|Renato Guillermo Calvo Yalan **(U202217053)**|Ingeniería de Software| Como estudiante de la carrera me gusta investigar sobre temas de tecnologia y avances así mismo me gusta ver temas relacionados con la ia y las mejores.Espero seguir aprendiendo mas con mis compañeros de equipo y trabajar de manera colaborativa.
 | D | D | D | **** |
 | E | E | E | **** |
 | F | F | F | **** |
@@ -57,6 +58,12 @@ La falta de comunicación clara y seguimiento transparente en los procesos de re
 
 #### 1.2.2.1. Lean UX Problem Statements
 Se identifican y describen las declaraciones de problemas clave desde la perspectiva del usuario.
+
+Los talleres automotrices fueron creados para brindar servicios de reparación o remodelación a propietarios de vehículos, ofreciendo calidad y atención personalizada. Sin embargo, muchos de estos talleres no logran atraer nuevos clientes ni retener a los actuales debido a la falta de herramientas digitales que les permitan gestionar citas, informar sobre el avance de los trabajos y mantener una comunicación clara y oportuna.
+
+Esta situación genera desconfianza e inseguridad en los clientes al momento de dejar sus vehículos, reduciendo la competitividad de los talleres y provocando la pérdida de oportunidades comerciales.
+
+**¿Cómo podríamos mejorar la visibilidad, organización, comunicación y percepción de seguridad de los talleres automotrices, para que los clientes se sientan informados y confiados durante todo el proceso de atención, y al mismo tiempo los talleres puedan atraer y gestionar más clientes con eficiencia?**
 
 #### 1.2.2.2. Lean UX Assumptions
 Se enumeran las suposiciones principales que guían el diseño y desarrollo de la solución.
