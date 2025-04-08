@@ -3,10 +3,21 @@
 ## 1.1. Startup Profile
 
 ### 1.1.1. Descripción de la Startup
-En esta sección se describe la startup, incluyendo su misión, visión, valores y objetivos principales.
+
+### 1.1.1. Descripción del startup
+
+**MecaniHub** es una startup tecnológica enfocada en transformar y digitalizar el sector automotriz. Nuestra plataforma conecta a propietarios de vehículos con talleres mecánicos de forma transparente, eficiente y confiable, facilitando la gestión de citas, el seguimiento en tiempo real del estado de reparación y la comunicación directa entre ambas partes.
+
+A través de nuestra aplicación, buscamos mejorar la experiencia del usuario, brindandole mayor control e información sobre los servicios que recibe su vehículo. Al mismo tiempo ayudamos a los talleres a optimizar su operación, atraer nuevos clientes y gestionar su negocio de manera mas ágil, moderna y competivia.
+
+En **MecaniHub**, redefinimos la manera en que las personas se relacionan con el servicio automotriz: una experiencia más conectada, más transparente y respaldada por tecnología inteligente.
+
+| Misión | Visión | Valores
+|--|--|--|
+| Impulsar la transformación digital del sector automotriz, facilitando herramientas que mejoren la experiencia, confianza y comunicación entre talleres y conductores. | Ser la plataforma líder en Latinoamérica en soluciones tecnológicas para la gestión de servicios mecánicos, posicionándonos como el principal puente entre talleres modernos y propietarios de vehículos que buscan un servicio confiable, transparente y digitalizado. | Promovemos la transparencia, la innovación y la eficiencia en el sector automotriz. Creemos en la importancia de construir relaciones de confianza entre talleres y clientes, cultivando relaciones basadas en la confianza y el crecimiento mutuo. |
+ | 
 
 ### 1.1.2. Perfiles de integrantes del equipo
-Aquí se presentan los perfiles de los integrantes del equipo, destacando sus roles, habilidades y experiencia relevante.
 
 ## 1.2. Solution Profile
 
