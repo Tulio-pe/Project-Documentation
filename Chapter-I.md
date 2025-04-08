@@ -43,10 +43,36 @@ Se identifican y describen las declaraciones de problemas clave desde la perspec
 
 #### 1.2.2.2. Lean UX Assumptions
 Se enumeran las suposiciones principales que guían el diseño y desarrollo de la solución.
-- Los usuarios están dispuestos a buscar, comparar y agendar servicios de reparación a través de una plataforma web.
-- Los usuarios valoran la transparencia y la posibilidad de seguimiento de su vehículo como un diferenciador frente a la competencia.
-- Los talleres están dispuestos a utilizar herramientas sencillas y de bajo costo si esto les representa un beneficio comercial.
-- La mayoría de talleres pequeños no cuentan con presencia digital significativa ni con una solución automatizada de atención al cliente.
+**User Assumptions:**
+  - Los usuarios están dispuestos a buscar, comparar y agendar servicios de reparación a través de una plataforma web.
+  - Los usuarios valoran la transparencia y la posibilidad de seguimiento de su vehículo como un diferenciador frente a la competencia.
+  - Los usuarios confían más en talleres que ofrecen actualizaciones claras y rápidas del estado de su vehículo.
+  - Los usuarios prefieren plataformas que agrupen múltiples opciones en un solo lugar para ahorrar tiempo.
+  - La mayoría de usuarios tiene acceso a smartphones o computadoras con conexión a internet.
+  - Los usuarios están dispuestos a crear una cuenta en la plataforma si esto les permite agendar, contactar y recibir seguimiento fácilmente.
+
+**Business Assumptions:**
+  - Los talleres están dispuestos a utilizar herramientas sencillas y de bajo costo si esto les representa un beneficio comercial.
+  - La mayoría de talleres pequeños no cuentan con presencia digital significativa ni con una solución automatizada de atención al cliente.
+  - Los talleres ven valor en recibir nuevos clientes a través de una plataforma centralizada.
+  - Los propietarios de talleres están abiertos a modernizar su atención si no implica una curva de aprendizaje alta.
+  - Los talleres están dispuestos a actualizar manualmente o con asistencia el estado de los vehículos en reparación dentro de la plataforma.
+  - Los talleres aceptarán un modelo freemium o de suscripción asequible a cambio de visibilidad y generación de citas.
+
+**Business Outcome Assumptions**
+  - La plataforma incrementará la visibilidad de talleres que antes no tenían presencia digital.
+  - Los talleres recibirán más solicitudes de servicio gracias a la centralización de la oferta.
+  - Se reducirá el tiempo que los talleres dedican a responder consultas básicas, gracias a la automatización del seguimiento y agendamiento.
+  - Los talleres podrán fidelizar clientes mediante una experiencia más transparente y organizada.
+  - El modelo de negocio podrá escalar a otras ciudades o regiones con una demanda similar de servicios automotrices.
+
+**User Outcome Assumptions**
+  - Los usuarios podrán tomar decisiones más informadas al comparar múltiples talleres en un solo lugar.
+  - Los usuarios se sentirán más tranquilos al contar con actualizaciones sobre el estado de su vehículo.
+  - Se reducirá el tiempo y esfuerzo que el usuario dedica a encontrar un taller confiable.
+  - Los usuarios aumentarán su nivel de satisfacción y recurrencia al sentirse acompañados en todo el proceso de reparación.
+  - La experiencia digital mejorará la percepción de confianza y profesionalismo en los talleres afiliados.
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
 Se formulan hipótesis basadas en las suposiciones y problemas identificados.
 
