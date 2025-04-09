@@ -24,6 +24,7 @@ En **MecaniHub**, redefinimos la manera en que las personas se relacionan con el
 | C| C | C | **** |
 |Renato Guillermo Calvo Yalan **(U202217053)**|Ingeniería de Software| Como estudiante de la carrera me gusta investigar sobre temas de tecnologia y avances así mismo me gusta ver temas relacionados con la ia y las mejores.Espero seguir aprendiendo mas con mis compañeros de equipo y trabajar de manera colaborativa.
 | D | D | D | **** |
+|Raúl Adrian Medina Cruzado **(U202210938)**|Ingenieria de Software|Como estudiante de la carrera de Ingeniería de Software, soy apasionado por la ciencia de datos. Me motiva descubrir cómo el análisis y la interpretación de grandes volúmenes de información pueden generar soluciones innovadoras dentro del desarrollo de software. Me interesa explorar cómo los datos pueden optimizar procesos, anticipar errores y mejorar la toma de decisiones. Confío en que, junto a mi equipo, podré seguir fortaleciendo mis habilidades y contribuir de manera significativa en cada etapa del proyecto.| **** |
 | E | E | E | **** |
 | F | F | F | **** |
 
