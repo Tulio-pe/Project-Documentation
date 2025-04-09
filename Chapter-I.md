@@ -100,6 +100,10 @@ Se enumeran las suposiciones principales que guían el diseño y desarrollo de l
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 Se formulan hipótesis basadas en las suposiciones y problemas identificados.
+Creemos que **una mayor confianza y organización  de los clientes**  
+se logrará si **los dueños de vehículos que necesitan el servicio de los talleres automotrices**  
+pueden **gestionar citas, recibir notificaciones del avance de sus autos y comunicarse directamente con el taller de forma personalizada**  
+con **una plataforma digital que integre seguimiento en tiempo real, historial de servicios, recordatorios y chat directo**.
 
 #### 1.2.2.4. Lean UX Canvas
 Se presenta el Lean UX Canvas como herramienta para estructurar y validar las ideas de diseño.
