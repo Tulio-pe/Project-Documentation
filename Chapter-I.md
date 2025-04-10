@@ -39,7 +39,7 @@ Paralelamente, en diversos sectores se ha observado un crecimiento en soluciones
 
 Muchos talleres no cuentan con el capital necesario para invertir en el desarrollo de sitios web propios o en estrategias de presencia digital, lo cual limita su alcance comercial. Iniciativas como tallermec.net.pe han buscado visibilizar a estos negocios, pero se requiere ir más allá de un simple directorio. Es fundamental crear plataformas que, además de mostrar información, permitan generar oportunidades reales de contacto con potenciales clientes, agendar citas y brindar atención personalizada de forma eficiente y accesible para ambos actores del servicio.
 
-### PROBLEMÁTICA
+#### PROBLEMÁTICA
 La falta de comunicación clara y seguimiento transparente en los procesos de reparación de vehículos genera desconfianza e insatisfacción en los clientes. Muchos talleres automotrices, especialmente los de menor capital, no cuentan con herramientas digitales para gestionar citas, actualizar el estado del servicio o atraer nuevos clientes. Esta carencia limita su competitividad frente a negocios con mayores recursos tecnológicos y deja al usuario con pocas opciones centralizadas para comparar y contactar talleres de forma efectiva. La necesidad de una plataforma accesible que conecte clientes con talleres y facilite la gestión del servicio es cada vez más evidente en un mercado con alta oferta y poca digitalización.
 - **What:**
   - Mejorar la gestión de citas, la visibilidad del estado de reparación del vehículo y la conexión directa con los clientes.
@@ -103,6 +103,8 @@ Creemos que **una mayor confianza y organización  de los clientes**
 se logrará si **los dueños de vehículos que necesitan el servicio de los talleres automotrices**  
 pueden **gestionar citas, recibir notificaciones del avance de sus autos y comunicarse directamente con el taller de forma personalizada**  
 con **una plataforma digital que integre seguimiento en tiempo real, historial de servicios, recordatorios y chat directo**.
+
+Más hypothesis aquí
 
 #### 1.2.2.4. Lean UX Canvas
 
