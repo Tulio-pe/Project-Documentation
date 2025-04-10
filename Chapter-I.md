@@ -107,7 +107,7 @@ con **una plataforma digital que integre seguimiento en tiempo real, historial d
 Más hypothesis aquí
 
 #### 1.2.2.4. Lean UX Canvas
-![UxCanvas](blob:https://web.whatsapp.com/6f29f24a-e8d2-4654-90ba-066927736144)
+![UxCanvas](
 
 ## 1.3. Segmentos objetivo
 
