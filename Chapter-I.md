@@ -4,11 +4,11 @@
 
 ### 1.1.1. Descripción del startup
 
-**MecaniHub** es una startup tecnológica enfocada en transformar y digitalizar el sector automotriz. Nuestra plataforma conecta a propietarios de vehículos con talleres mecánicos de forma transparente, eficiente y confiable, facilitando la gestión de citas, el seguimiento en tiempo real del estado de reparación y la comunicación directa entre ambas partes.
+**Tallerazo.pe** es una startup tecnológica enfocada en transformar y digitalizar el sector automotriz. Nuestra plataforma conecta a propietarios de vehículos con talleres mecánicos de forma transparente, eficiente y confiable, facilitando la gestión de citas, el seguimiento en tiempo real del estado de reparación y la comunicación directa entre ambas partes.
 
 A través de nuestra aplicación, buscamos mejorar la experiencia del usuario, brindandole mayor control e información sobre los servicios que recibe su vehículo. Al mismo tiempo ayudamos a los talleres a optimizar su operación, atraer nuevos clientes y gestionar su negocio de manera mas ágil, moderna y competivia.
 
-En **MecaniHub**, redefinimos la manera en que las personas se relacionan con el servicio automotriz: una experiencia más conectada, más transparente y respaldada por tecnología inteligente.
+En **Tallerazo.pe**, redefinimos la manera en que las personas se relacionan con el servicio automotriz: una experiencia más conectada, más transparente y respaldada por tecnología inteligente.
 
 | Misión | Visión | Valores
 |--|--|--|
@@ -31,6 +31,7 @@ En **MecaniHub**, redefinimos la manera en que las personas se relacionan con el
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
+
 #### ANTECEDENTES
 En el sector de la reparación automotriz, una de las principales preocupaciones de los propietarios de vehículos es conocer el estado y avance del servicio brindado por los talleres. Esta necesidad de seguimiento oportuno y transparente genera en muchos casos incertidumbre, especialmente cuando no se cuenta con canales eficientes de comunicación entre el taller y el cliente. Algunos talleres con mayores recursos han logrado implementar plataformas personalizadas o canales de mensajería como WhatsApp para informar sobre el progreso del servicio. Sin embargo, esta no es una realidad accesible para todos.
 
@@ -58,7 +59,6 @@ La falta de comunicación clara y seguimiento transparente en los procesos de re
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
-Se identifican y describen las declaraciones de problemas clave desde la perspectiva del usuario.
 
 Los talleres automotrices fueron creados para brindar servicios de reparación o remodelación a propietarios de vehículos, ofreciendo calidad y atención personalizada. Sin embargo, muchos de estos talleres no logran atraer nuevos clientes ni retener a los actuales debido a la falta de herramientas digitales que les permitan gestionar citas, informar sobre el avance de los trabajos y mantener una comunicación clara y oportuna.
 
@@ -67,7 +67,7 @@ Esta situación genera desconfianza e inseguridad en los clientes al momento de 
 **¿Cómo podríamos mejorar la visibilidad, organización, comunicación y percepción de seguridad de los talleres automotrices, para que los clientes se sientan informados y confiados durante todo el proceso de atención, y al mismo tiempo los talleres puedan atraer y gestionar más clientes con eficiencia?**
 
 #### 1.2.2.2. Lean UX Assumptions
-Se enumeran las suposiciones principales que guían el diseño y desarrollo de la solución.
+
 **User Assumptions:**
   - Los usuarios están dispuestos a buscar, comparar y agendar servicios de reparación a través de una plataforma web.
   - Los usuarios valoran la transparencia y la posibilidad de seguimiento de su vehículo como un diferenciador frente a la competencia.
@@ -99,14 +99,13 @@ Se enumeran las suposiciones principales que guían el diseño y desarrollo de l
   - La experiencia digital mejorará la percepción de confianza y profesionalismo en los talleres afiliados.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
-Se formulan hipótesis basadas en las suposiciones y problemas identificados.
 Creemos que **una mayor confianza y organización  de los clientes**  
 se logrará si **los dueños de vehículos que necesitan el servicio de los talleres automotrices**  
 pueden **gestionar citas, recibir notificaciones del avance de sus autos y comunicarse directamente con el taller de forma personalizada**  
 con **una plataforma digital que integre seguimiento en tiempo real, historial de servicios, recordatorios y chat directo**.
 
 #### 1.2.2.4. Lean UX Canvas
-Se presenta el Lean UX Canvas como herramienta para estructurar y validar las ideas de diseño.
+
 
 ## 1.3. Segmentos objetivo
 
@@ -149,5 +148,3 @@ Este segmento agrupa a concesionarias de marcas de autos y talleres mecánicos a
 -En Lima operan más de 1,200 talleres mecánicos formales y concesionarias autorizadas.
 
 -La digitalización de procesos en talleres ha crecido un 20% anual desde 2021, según datos del Ministerio de la Producción (2023).
-
-
