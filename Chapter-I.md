@@ -99,12 +99,21 @@ Esta situación genera desconfianza e inseguridad en los clientes al momento de 
   - La experiencia digital mejorará la percepción de confianza y profesionalismo en los talleres afiliados.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
-Creemos que **una mayor confianza y organización  de los clientes**  
-se logrará si **los dueños de vehículos que necesitan el servicio de los talleres automotrices**  
-pueden **gestionar citas, recibir notificaciones del avance de sus autos y comunicarse directamente con el taller de forma personalizada**  
-con **una plataforma digital que integre seguimiento en tiempo real, historial de servicios, recordatorios y chat directo**.
+- Creemos que **una mayor confianza y organización  de los clientes** se logrará si **los dueños de vehículos que necesitan el servicio de los talleres automotrices** pueden **gestionar citas, recibir 
+  notificaciones del avance de sus autos y comunicarse directamente con el taller de forma personalizada** con **una plataforma digital que integre seguimiento en tiempo real, historial de servicios, 
+  recordatorios y chat directo**.
 
-Más hypothesis aquí
+- Creemos que **los propietarios de vehículos estarán más satisfechos** si pueden comparar precios, reputación y tiempos estimados de atención entre diferentes talleres a través de una plataforma digital 
+  que tenga filtros y califaciones.
+
+- Creemos que **los usuarios confiarán más en los talleres** si pueden acceder a recomendaciones o calificación con ayuda de un sistema de perfiles de talleres.
+
+- Creemos que **los usuarios se sentirán más seguros dejando su vehículo** si reciben alertas automáticas mediante notificaciones.
+
+- Creemos que **los talleres podrán optimizar su agenda y mejorar su eficiencia** si reciben reservas de citas con horarios claros a través de un sistema digital de reservas.
+
+- Creemos que **los talleres tenen clientes mas fieles** si pueden enviar actualizaciones y notificaciones del estado del vehículo a través de la app o plataforma de gestión de servicios.
+
 
 #### 1.2.2.4. Lean UX Canvas
 ![UxCanvas](https://github.com/Tulio-pe/Project-Documentation/blob/main/src/Lean%20UX%20Canva.jpg)
