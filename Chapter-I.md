@@ -107,7 +107,7 @@ con **una plataforma digital que integre seguimiento en tiempo real, historial d
 Más hypothesis aquí
 
 #### 1.2.2.4. Lean UX Canvas
-![UxCanvas](https://github.com/Tulio-pe/Project-Documentation/blob/main/src/Lean%20UX%20Canva.jpg)
+![UxCanvas](src/Lean%20UX%20Canva.jpg)
 
 ## 1.3. Segmentos objetivo
 
