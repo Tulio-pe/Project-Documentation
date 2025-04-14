@@ -13,7 +13,6 @@ En **Tallerazo.pe**, redefinimos la manera en que las personas se relacionan con
 | Misión | Visión | Valores
 |--|--|--|
 | Impulsar la transformación digital del sector automotriz, facilitando herramientas que mejoren la experiencia, confianza y comunicación entre talleres y conductores. | Ser la plataforma líder en Latinoamérica en soluciones tecnológicas para la gestión de servicios mecánicos, posicionándonos como el principal puente entre talleres modernos y propietarios de vehículos que buscan un servicio confiable, transparente y digitalizado. | Promovemos la transparencia, la innovación y la eficiencia en el sector automotriz. Creemos en la importancia de construir relaciones de confianza entre talleres y clientes, cultivando relaciones basadas en la confianza y el crecimiento mutuo. |
- | 
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
