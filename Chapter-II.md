@@ -71,7 +71,11 @@ Análisis de los datos obtenidos durante las entrevistas.
 #### 2.3. Needfinding
 
 ##### 2.3.1. User Personas
-Creación de perfiles de usuario representativos.
+
+### Segmento 1:
+![User_Persona-Juan](src/User_Persona-Juan.png)
+### Segmento 2:
+![User_Persona_Mariana](src/User_Persona_Mariana.png)
 
 ##### 2.3.2. User Task Matrix
 Matriz de tareas de usuario para identificar necesidades clave.
