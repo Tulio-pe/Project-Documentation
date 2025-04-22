@@ -74,7 +74,28 @@ Análisis de los datos obtenidos durante las entrevistas.
 Creación de perfiles de usuario representativos.
 
 ##### 2.3.2. User Task Matrix
-Matriz de tareas de usuario para identificar necesidades clave.
+>Segmento 1: Clientes con Autos
+|Tarea| Frecuencia| Importancia|
+|-----|-----------|-------------|
+|Buscar talleres mécanicos según ubicación, reputación o servicios ofrecidos|Often|High|
+|Contactar con el taller para coordinar atención o cotizar|Often|High|
+|Comparar talleres según opiniones, precios y especialidades|Often|High|
+|Agendar una cira directamente desde la plataforma|Occasionally|High|
+|Recibir notificaciones sobre el estado del vehículo|Often|Medium|
+|Ver información clara del taller para decidir (horarios, servicios,promociones)|Often|High|
+|Confirmar y recibir recordatorios de citas|Occasionally|Medium|
+|Leer reseñas de otros clientes|Often|Medium|
+
+>Segmento 2: Talleres Mecanicos
+|Tarea| Frecuencia| Importancia|
+|-----|-----------|-------------|
+|Mostrar especialidades, promociones o precios para diferenciarse|Often|High|
+|Gestionar citas con clientes desde una plataforma digital|Often|High|
+|Responder consultas sobre precios, servicios o disponibilidad|Often|High|
+|Actualizar información sobre citas y estado de servicios|Occasionally|Medium|
+|Recibir notificaciones sobre nuevas reservas o cambios|Often|Medium|
+|Usar herramientas digitales para optimizar atención al cliente|Sometimes|Medium|
+|Enviar recordatorios automáticos a los clientes|Occasionally|Medium|
 
 ##### 2.3.3. User Journey Mapping
 Mapeo de la experiencia del usuario a través de diferentes etapas.
