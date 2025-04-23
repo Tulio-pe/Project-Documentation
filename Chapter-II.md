@@ -75,6 +75,7 @@ Creación de perfiles de usuario representativos.
 
 ##### 2.3.2. User Task Matrix
 >Segmento 1: Clientes con Autos
+
 |Tarea| Frecuencia| Importancia|
 |-----|-----------|-------------|
 |Buscar talleres mécanicos según ubicación, reputación o servicios ofrecidos|Often|High|
@@ -87,6 +88,7 @@ Creación de perfiles de usuario representativos.
 |Leer reseñas de otros clientes|Often|Medium|
 
 >Segmento 2: Talleres Mecanicos
+
 |Tarea| Frecuencia| Importancia|
 |-----|-----------|-------------|
 |Mostrar especialidades, promociones o precios para diferenciarse|Often|High|
