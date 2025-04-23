@@ -75,14 +75,14 @@ Análisis de los datos obtenidos durante las entrevistas.
 
 #### 2.3. Needfinding
 
-##### 2.3.1. User Personas
+#### 2.3.1. User Personas
 
 ### Segmento 1:
 ![User_Persona-Juan](src/User_Persona-Juan.png)
 ### Segmento 2:
 ![User_Persona_Mariana](src/User_Persona_Mariana.png)
 
-##### 2.3.2. User Task Matrix
+#### 2.3.2. User Task Matrix
 >Segmento 1: Clientes con Autos
 
 |Tarea| Frecuencia| Importancia|
@@ -108,15 +108,18 @@ Análisis de los datos obtenidos durante las entrevistas.
 |Usar herramientas digitales para optimizar atención al cliente|Sometimes|Medium|
 |Enviar recordatorios automáticos a los clientes|Occasionally|Medium|
 
-##### 2.3.3. User Journey Mapping
+#### 2.3.3. User Journey Mapping
 Mapeo de la experiencia del usuario a través de diferentes etapas.
 
-##### 2.3.4. Empathy Mapping
+#### 2.3.4. Empathy Mapping
 
 #### Segmento 1
 ![Emp1](src/Empathy1.png)
 
-##### 2.3.5. As-is Scenario Mapping
+#### Segmento 2
+![Emp2](src/Empathy2.png)
+
+#### 2.3.5. As-is Scenario Mapping
 Mapeo de escenarios actuales para identificar oportunidades de mejora.
 
 #### 2.4. Ubiquitous Language
