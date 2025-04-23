@@ -112,7 +112,9 @@ Análisis de los datos obtenidos durante las entrevistas.
 Mapeo de la experiencia del usuario a través de diferentes etapas.
 
 ##### 2.3.4. Empathy Mapping
-Mapeo de empatía para comprender mejor a los usuarios.
+
+#### Segmento 1
+![Emp1](src/Empathy1.png)
 
 ##### 2.3.5. As-is Scenario Mapping
 Mapeo de escenarios actuales para identificar oportunidades de mejora.
