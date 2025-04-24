@@ -72,4 +72,8 @@ Diccionario de clases para el diseño orientado a objetos.
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagram
-Diagrama de la base de datos.
+Diagrama de la base de datos:
+
+![Diagram data base](https://github.com/Tulio-pe/Project-Documentation/blob/main/src/Diagram%20data%20base.jpeg)
+
+Enlace del diagrama: https://editor.plantuml.com/uml/hLN1Qjmm4Bqlx3-8FRMKGDgobn12bar2IqbfboNjpIZIP2DgIOuanvXi_hrZMKvaMquRoCqpRpJpvir8FhME6bVAV3u3vOIhoJeN-4KUvZD2FZ1lP8AJ8_Br-vOS7__uTdBIG3V2M9SfAW6XgzLc_MMrURSyVDzWEPs4k1AHy-FIErbJTnHQMZ2399zRfA3MLjhmEDDX0ptEPyzzKDCrGKsgWt5l5m4fSkgWbzoNlJPKyJ5FgJdaOtSDIC1dziLqhisu4mwM6L4ueLK4VbeEc_cbpHzxgulGKHNCL5i3oLfX2A6S6x2s9twBc9AX5rtRVirBAfG3HHM3K5O-UvA2zdNkr4oHxR1-_zlptruit4bNsg5QCRUVfSQOvbJBxAwpKxmcQ7SScBOEdPTQGTtOO9sGk00yu-qQdAssvmDfWDrI9LYdIp3Vy9vCYvRYaOrdbT8XGVFYVpIQs8erPjjrzPWtNdVFdWZzQq9jxlIo6BWhSMJJmzh0lO0gq3JUU2NDbzaPN3orYw-wbCqB6bFqHSSCmrkxtnySw0V_OXsHXQwKNI26LW3YwMA00GRY7fgWftSX7OcwyTm7na0Jkzz7TyX79jDrUuuH88jSrpvNvnr4POFg-4gBdG9Ed4umUE5WgnSUlAuNOvd66-YF-2qOj1hmH-qRdYedr8qsqYPAXTN1cCe8bnIo5nLDvXGKzx_Llm00
