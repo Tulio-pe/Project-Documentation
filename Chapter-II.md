@@ -109,7 +109,13 @@ Análisis de los datos obtenidos durante las entrevistas.
 |Enviar recordatorios automáticos a los clientes|Occasionally|Medium|
 
 #### 2.3.3. User Journey Mapping
-Mapeo de la experiencia del usuario a través de diferentes etapas.
+>Segmento 1: Maria Benavides
+
+![JournetMap1](src/Maria_Journey_Map.png)
+
+>Segmento 2: Jorge Salazar
+
+![JourneyMap2](src/Jorge_Journey_Map.png)
 
 #### 2.3.4. Empathy Mapping
 
