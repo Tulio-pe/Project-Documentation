@@ -2,14 +2,14 @@
   
 ### Capítulo II: Requirements Elicitation & Analysis
 
-#### 2.1. Competidores
+## 2.1. Competidores
 App | Overview | Ventaja Competitiva
 Tallerazo | Plataforma que conecta a propietarios de vehículos con talleres, permitiendo agendar citas, seguimiento en tiempo real y comunicación directa. | Brinda experiencia digital integral con seguimiento de reparaciones, historial del vehículo y contacto directo.
 CarHelp | App que localiza talleres cercanos vía GPS y ofrece asistencia inmediata como grúas. | Ofrece ayuda rápida y localizada, ideal para emergencias en carretera.
 Autocontrol.pe | Software ERP para talleres que permite controlar vehículos, inventario y órdenes de trabajo. | Optimiza la operación de talleres con módulos administrativos completos.
 Tuulapp | App de gestión de talleres con funciones de citas, clientes y reportes. | Plataforma intuitiva que centraliza operaciones y mejora la eficiencia.
 
-##### 2.1.1. Análisis competitivo
+## 2.1.1. Análisis competitivo
 
 ### ¿Por qué tomar en cuenta este análisis?
 Con esto, identificamos fortalezas, debilidades y oportunidades frente a los principales competidores para construir un mejor posicionamiento con respecto al mercado.
