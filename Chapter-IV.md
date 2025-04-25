@@ -68,7 +68,111 @@ Diagramas de clases para el diseño orientado a objetos.
 ![Diagram class](https://github.com/Tulio-pe/Project-Documentation/blob/main/src/class%20diagram.jpeg)
 
 ### 4.7.2. Class Dictionary
-Diccionario de clases para el diseño orientado a objetos.
+<h3>Class User</h3>
+<table border="1">
+  <tr><th>Visibility</th><th>Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>private</td><td>userId</td><td>int</td><td>User ID</td></tr>
+  <tr><td>private</td><td>name</td><td>string</td><td>Full name</td></tr>
+  <tr><td>private</td><td>email</td><td>string</td><td>Email address</td></tr>
+  <tr><td>private</td><td>password</td><td>string</td><td>User password</td></tr>
+  <tr><td>private</td><td>role</td><td>UserRole</td><td>User role</td></tr>
+  <tr><td>public</td><td>login()</td><td>void</td><td>Logs the user into the system</td></tr>
+  <tr><td>public</td><td>updateProfile()</td><td>void</td><td>Updates user profile information</td></tr>
+</table>
+
+<h3>Class Client</h3>
+<table border="1">
+  <tr><th>Visibility</th><th>Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>private</td><td>dni</td><td>string</td><td>National identity document</td></tr>
+  <tr><td>private</td><td>city</td><td>string</td><td>City of residence</td></tr>
+</table>
+
+<h3>Class WorkshopAdministrator</h3>
+<table border="1">
+  <tr><th>Visibility</th><th>Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>private</td><td>workshopId</td><td>int</td><td>Workshop ID</td></tr>
+  <tr><td>private</td><td>workshopName</td><td>string</td><td>Workshop name</td></tr>
+  <tr><td>private</td><td>address</td><td>string</td><td>Workshop address</td></tr>
+</table>
+
+<h3>Class Mechanic</h3>
+<table border="1">
+  <tr><th>Visibility</th><th>Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>private</td><td>specialty</td><td>string</td><td>Mechanic specialty</td></tr>
+</table>
+
+<h3>Class Workshop</h3>
+<table border="1">
+  <tr><th>Visibility</th><th>Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>private</td><td>workshopId</td><td>int</td><td>Workshop ID</td></tr>
+  <tr><td>private</td><td>name</td><td>string</td><td>Workshop name</td></tr>
+  <tr><td>private</td><td>address</td><td>string</td><td>Workshop address</td></tr>
+  <tr><td>private</td><td>description</td><td>string</td><td>Workshop description</td></tr>
+</table>
+
+<h3>Class Appointment</h3>
+<table border="1">
+  <tr><th>Visibility</th><th>Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>private</td><td>appointmentId</td><td>int</td><td>Appointment ID</td></tr>
+  <tr><td>private</td><td>dateTime</td><td>DateTime</td><td>Date and time of the appointment</td></tr>
+  <tr><td>private</td><td>status</td><td>AppointmentStatus</td><td>Current status of the appointment</td></tr>
+</table>
+
+<h3>Class Vehicle</h3>
+<table border="1">
+  <tr><th>Visibility</th><th>Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>private</td><td>vehicleId</td><td>int</td><td>Vehicle ID</td></tr>
+  <tr><td>private</td><td>licensePlate</td><td>string</td><td>License plate number</td></tr>
+  <tr><td>private</td><td>brand</td><td>string</td><td>Vehicle brand</td></tr>
+  <tr><td>private</td><td>model</td><td>string</td><td>Vehicle model</td></tr>
+  <tr><td>private</td><td>year</td><td>int</td><td>Manufacture year</td></tr>
+  <tr><td>private</td><td>color</td><td>string</td><td>Vehicle color</td></tr>
+</table>
+
+<h3>Class Maintenance</h3>
+<table border="1">
+  <tr><th>Visibility</th><th>Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>private</td><td>maintenanceId</td><td>int</td><td>Maintenance ID</td></tr>
+  <tr><td>private</td><td>description</td><td>string</td><td>Description of the maintenance</td></tr>
+  <tr><td>private</td><td>status</td><td>string</td><td>Maintenance status</td></tr>
+  <tr><td>private</td><td>estimatedCost</td><td>float</td><td>Estimated cost</td></tr>
+</table>
+
+<h3>Class Review</h3>
+<table border="1">
+  <tr><th>Visibility</th><th>Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>private</td><td>reviewId</td><td>int</td><td>Review ID</td></tr>
+  <tr><td>private</td><td>rating</td><td>int</td><td>Rating score</td></tr>
+  <tr><td>private</td><td>comment</td><td>string</td><td>Client comment</td></tr>
+  <tr><td>private</td><td>date</td><td>Date</td><td>Date of submission</td></tr>
+</table>
+
+<h3>Class ChatMessage</h3>
+<table border="1">
+  <tr><th>Visibility</th><th>Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>private</td><td>messageId</td><td>int</td><td>Message ID</td></tr>
+  <tr><td>private</td><td>content</td><td>string</td><td>Message content</td></tr>
+  <tr><td>private</td><td>dateTime</td><td>DateTime</td><td>Date and time of sending</td></tr>
+</table>
+
+<h3>Class UserRole (Enum)</h3>
+<table border="1">
+  <tr><th>Value</th><th>Description</th></tr>
+  <tr><td>CLIENT</td><td>Client role</td></tr>
+  <tr><td>WORKSHOP_ADMIN</td><td>Workshop administrator role</td></tr>
+  <tr><td>MECHANIC</td><td>Mechanic role</td></tr>
+</table>
+
+<h3>Class AppointmentStatus (Enum)</h3>
+<table border="1">
+  <tr><th>Value</th><th>Description</th></tr>
+  <tr><td>PENDING</td><td>Pending appointment</td></tr>
+  <tr><td>CONFIRMED</td><td>Confirmed appointment</td></tr>
+  <tr><td>IN_PROGRESS</td><td>Ongoing service</td></tr>
+  <tr><td>COMPLETED</td><td>Completed service</td></tr>
+  <tr><td>CANCELLED</td><td>Cancelled appointment</td></tr>
+</table>
+
 
 ## 4.8. Database Design
 
