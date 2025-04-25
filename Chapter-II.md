@@ -1,3 +1,5 @@
+<div aling="center">
+  
 ### Capítulo II: Requirements Elicitation & Analysis
 
 #### 2.1. Competidores
@@ -25,10 +27,9 @@ Con esto, identificamos fortalezas, debilidades y oportunidades frente a los pri
 |                               | Oportunidades                                | Expansión a otras ciudades y países de la región; integración de funcionalidades como pagos digitales o recordatorios de mantenimiento. | Ampliar servicios en tiempo real como seguimiento de grúas o conexión con talleres aliados. |Ampliar su alcance a nivel regional e integrar funciones móviles o de cara al cliente. | Integración de funciones de marketing, fidelización de clientes o métricas de desempeño.|
 |                               | Amenazas                                     | Competencia creciente de plataformas similares o software ERP ya establecidos en el sector. | Posibles restricciones por cobertura geográfica y dependencia de terceros para los servicios de asistencia. | Aparición de soluciones más intuitivas y enfocadas en experiencia de usuario tanto para talleres como clientes. | Competidores con mayores recursos que pueden ofrecer soluciones más completas y escalables. |
 
-<div aling="center">
   
-#### 2.1.2. Estrategias y tácticas frente a competidores
-</div>
+## 2.1.2. Estrategias y tácticas frente a competidores
+
 Nuestra estrategia se basa en la diferenciación mediante una plataforma integral de gestión automotriz que prioriza la transparencia, la eficiencia operativa de los talleres y el control del servicio por parte del conductor. Así, nuestras tácticas son:
 
 🟩 **Digitalización del servicio automotriz**: Tallerazo transforma la experiencia tradicional del mantenimiento vehicular con funciones como reserva de citas en línea, seguimiento en tiempo real del servicio y contacto directo con el taller desde la app.
@@ -158,3 +159,5 @@ Mapeo de escenarios actuales para identificar oportunidades de mejora.
 
 #### 2.4. Ubiquitous Language
 Definición de un lenguaje común para facilitar la comunicación entre equipos.
+
+</div>
