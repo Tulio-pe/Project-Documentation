@@ -18,9 +18,12 @@ This section provides a collection of user stories that describe the functionali
     </thead>
     <tbody>
         <tr><td>US01</td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>Agendamiento de Citas en Talleres</td>
+          <td>Como propietario de un vehículo que necesita mantenimiento o reparación, quiero tener la posibilidad de buscar talleres disponibles, revisar sus horarios y agendar una cita directamente desde la 
+           plataforma, para evitar perder tiempo y asegurarme de que el taller esté disponible.</td>
+          <td>Given que el usuario ha iniciado sesión en la plataforma,
+           When accede a la sección de agendamiento,
+           Then puede buscar talleres y ver los disponibles.</td>
           <td></td>
         </tr>
         <tr><td>US02</td>
