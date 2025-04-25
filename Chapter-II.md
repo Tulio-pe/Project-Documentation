@@ -26,7 +26,18 @@ Con esto, identificamos fortalezas, debilidades y oportunidades frente a los pri
 |                               | Amenazas                                     | Competencia creciente de plataformas similares o software ERP ya establecidos en el sector. | Posibles restricciones por cobertura geográfica y dependencia de terceros para los servicios de asistencia. | Aparición de soluciones más intuitivas y enfocadas en experiencia de usuario tanto para talleres como clientes. | Competidores con mayores recursos que pueden ofrecer soluciones más completas y escalables. |
 
 ##### 2.1.2. Estrategias y tácticas frente a competidores
-Estrategias y tácticas diseñadas para superar a los competidores.
+
+Nuestra estrategia se basa en la diferenciación mediante una plataforma integral de gestión automotriz que prioriza la transparencia, la eficiencia operativa de los talleres y el control del servicio por parte del conductor. Así, nuestras tácticas son:
+
+🟩 **Digitalización del servicio automotriz**: Tallerazo transforma la experiencia tradicional del mantenimiento vehicular con funciones como reserva de citas en línea, seguimiento en tiempo real del servicio y contacto directo con el taller desde la app.
+
+🟩 **Educación y confianza para el usuario**: Se incluirán recursos educativos sobre mantenimiento automotriz, alertas preventivas (SOAT, revisiones, etc.) y consejos prácticos para fomentar una relación de confianza entre cliente y taller.
+
+🟩 **Modelo Freemium con enfoque B2B y B2C**: Los conductores acceden gratuitamente a la plataforma. Los talleres pueden usar funciones básicas sin costo, con planes de suscripción para acceder a módulos de gestión avanzados, métricas, CRM, y reportes.
+
+🟩 **Multiplataforma e integración con talleres**: Disponible vía app móvil y web, con sincronización del historial del vehículo, notificaciones automáticas, y herramientas para el taller como control de citas, servicios y atención al cliente.
+
+🟩 **Mejoras constantes y soporte activo**: Tallerazo se actualizará con nuevas funcionalidades orientadas a la eficiencia operativa de los talleres y la experiencia del usuario. Habrá soporte técnico, centro de ayuda y comunidad activa para retroalimentación.
 
 #### 2.2. Entrevistas
 
