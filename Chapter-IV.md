@@ -65,6 +65,7 @@ Diagramas de componentes de la arquitectura de software.
 
 ### 4.7.1. Class Diagrams
 Diagramas de clases para el diseño orientado a objetos.
+![Diagram class](https://github.com/Tulio-pe/Project-Documentation/blob/main/src/class%20diagram.jpeg)
 
 ### 4.7.2. Class Dictionary
 Diccionario de clases para el diseño orientado a objetos.
