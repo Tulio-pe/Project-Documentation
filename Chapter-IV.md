@@ -40,12 +40,18 @@ Fondo:
 
 
 ### 4.1.2. Web Style Guidelines
-Especificaciones de estilo aplicables al diseño web.
 
-## 4.2. Information Architecture
+Dado que Tallerazo está enfocado en facilitar el acceso a servicios automotrices de manera ágil, la interfaz web ha sido diseñada para ofrecer una navegación limpia y sin distracciones. Se prioriza la simplicidad, evitando el exceso de botones o elementos saturados. La landing page cumple una función de recepción, informando de forma clara las ventajas de la plataforma y guiando al usuario rápidamente a la acción deseada: registrarse y agendar su primera cita. El uso de fondos blancos, degradados suaves en azul y verde, y botones destacados en azul intenso, permite un entorno visualmente agradable, moderno y fácil de usar tanto en computadoras como en móviles.
 
-### 4.2.1. Organization Systems
-Definición y estructura de los sistemas de organización.
+![landing](https://github.com/user-attachments/assets/20d49669-5b8e-4fc0-8251-c8c6803850de)
+
+
+## 4.2. Information Architecture:
+
+La arquitectura de la información de Tallerazo ha sido diseñada para ofrecer una experiencia simple, intuitiva y confiable, enfocada en conectar a propietarios de vehículos con talleres automotrices de manera eficiente y transparente. La organización y etiquetado del contenido permiten a los usuarios identificar rápidamente los servicios, agendar citas y seguir el estado de sus reparaciones, priorizando la facilidad de uso, el control del proceso y la confianza. Esta arquitectura se implementa mediante jerarquías visuales claras, categorización por funciones específicas, acciones directas y navegación centrada en el usuario.
+
+### 4.2.1. Organization Systems:
+
 
 ### 4.2.2. Labeling Systems
 Lineamientos para los sistemas de etiquetado.
