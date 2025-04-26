@@ -6,9 +6,38 @@ Nuestra plataforma Tallerazo tiene como objetivo principal transformar la experi
 
 ### 4.1.1. General Style Guidelines:
 
-### Typography:
+### 🟩Typography:
 Se hará uso de la tipografía Inter. Este tipo de letra es moderna, profesional y altamente legible, diseñada especialmente para pantallas digitales. Inter ofrece una excelente lectura en diferentes dispositivos y resoluciones, gracias a su estructura limpia, sus proporciones equilibradas y su optimización para contenido web y móvil. Es ideal para títulos, subtítulos y cuerpos de texto, permitiendo transmitir un tono confiable y accesible.
+
 ![inter](https://github.com/user-attachments/assets/b92b18bf-d88f-4018-ae2e-67b2edbbcd60)
+
+### 🟩Colors:
+La paleta de colores de Tallerazo está basada en tonos de azul y verde, transmitiendo modernidad, confianza y tecnología. El fondo blanco y los acentos en azul y verde permiten una navegación ligera y placentera, evitando la saturación visual.
+## Principal:
+
+#1D4ED8 – Azul intenso: Para botones principales y llamadas a la acción.
+
+#22C55E – Verde brillante: Para destacar acciones positivas o confirmaciones.
+
+Fondo:
+
+#FFFFFF – Blanco: Color de fondo predominante para mantener una sensación de limpieza.
+
+![color](https://github.com/user-attachments/assets/c358631c-53cb-4a4e-9d5c-6fadff203dcd) ![color2](https://github.com/user-attachments/assets/8a3796eb-d827-4fb9-969e-4c25b1efc32e) ![color3](https://github.com/user-attachments/assets/4d3842c5-7cd2-4888-b6ff-7db196b3222a) ![color4](https://github.com/user-attachments/assets/5aa18b36-34d3-46a6-8d65-1f3e7a6f9476) 
+
+### Tone of Communication:
+
+✅Confiable: Se priorizará un lenguaje que transmita seguridad, respaldando cada interacción entre usuario y taller.
+
+✅Ágil: El tono será claro y directo, permitiendo a los usuarios encontrar soluciones o acciones rápidamente.
+
+✅Humano: El estilo será cercano y accesible, buscando generar una conexión genuina.
+
+✅Profesional: Se mantendrá siempre un enfoque formal y técnico en secciones como condiciones de servicio, políticas y soporte.
+
+✅Motivador: Se destacarán logros como el seguimiento exitoso de un servicio o el cumplimiento de citas.
+
+
 
 ### 4.1.2. Web Style Guidelines
 Especificaciones de estilo aplicables al diseño web.
