@@ -1,10 +1,17 @@
-![image](https://github.com/user-attachments/assets/0146addf-c6f1-40ef-ab42-18f8aa831217)# Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
 
 Nuestra plataforma Tallerazo tiene como objetivo principal transformar la experiencia del servicio automotriz, conectando a conductores y talleres de manera eficiente, confiable y digitalizada. A través de una interfaz moderna y simple e intuitiva, Tallerazo permite agendar citas, realizar seguimientos en tiempo real y mantener una comunicación directa entre ambas partes. El diseño visual de nuestro sistema está centrado en generar confianza, facilitar la navegación y transmitir innovación tecnológica. Se busca ofrecer a los usuarios una experiencia intuitiva, accesible y profesional, entregándoles transparencia y la interacción fluida en cada punto de contacto. Nuestra línea visual apunta a mantener una identidad limpia, clara y moderna, utilizando colores que transmiten frescura y profesionalismo, tipografías fácilmente entendibles y una estructura de contenidos optimizada para diferentes dispositivos.
 
 ### 4.1.1. General Style Guidelines:
+
+###🟩Branding:
+
+Tallerazo es una plataforma que conecta a propietarios de vehículos con talleres automotrices de confianza, ofreciendo una experiencia digital moderna y segura. Su identidad visual refleja los valores de eficiencia, transparencia y profesionalismo.
+El diseño busca transmitir confianza y dinamismo, utilizando una interfaz limpia, moderna y enfocada en la acción rápida. Con una paleta de colores frescos en azul y verde, combinada con elementos gráficos claros como el automóvil y la llave inglesa, la aplicación facilita la navegación, la gestión de servicios y la conexión directa entre conductor y taller.
+
+![Tallerazo logo](https://github.com/user-attachments/assets/d74f5970-bed6-4bdc-b806-03d5555758fe)
+
 
 ### 🟩Typography:
 Se hará uso de la tipografía Inter. Este tipo de letra es moderna, profesional y altamente legible, diseñada especialmente para pantallas digitales. Inter ofrece una excelente lectura en diferentes dispositivos y resoluciones, gracias a su estructura limpia, sus proporciones equilibradas y su optimización para contenido web y móvil. Es ideal para títulos, subtítulos y cuerpos de texto, permitiendo transmitir un tono confiable y accesible.
