@@ -1,4 +1,4 @@
-# Capítulo IV: Product Design
+![image](https://github.com/user-attachments/assets/0146addf-c6f1-40ef-ab42-18f8aa831217)# Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
 
@@ -137,12 +137,59 @@ Las etiquetas utilizadas en la plataforma Tallerazo priorizan la claridad, simpl
 
 🟩Keywords: seguimiento de reparaciones, control de servicio automotriz, avance reparación taller, servicio transparente, Tallerazo
 
+### 4.2.4. Searching Systems:
 
-### 4.2.4. Searching Systems
-Diseño y funcionalidad de los sistemas de búsqueda.
+| Filtro            | Descripción                                                                 |
+|-------------------|------------------------------------------------------------------------------|
+| Buscar en FAQ     | Permite ingresar palabras clave relacionadas a citas, reparaciones, seguimiento de vehículos o problemas frecuentes en la plataforma. |
+| Filtrar por Plan  | Permite ver únicamente los servicios según su estado actual (En diagnóstico, En reparación, Listo para entrega). |
+| Buscar Servicio   | Navegación rápida para encontrar talleres disponibles según ubicación, tipo de servicio o reputación. |
 
-### 4.2.5. Navigation Systems
-Estructura y diseño de los sistemas de navegación.
+### 4.2.5. Navigation Systems:
+
+El sistema de navegación de Tallerazo ha sido diseñado para facilitar el recorrido del usuario tanto en la landing page como dentro de la aplicación, garantizando una experiencia fluida, clara y enfocada en el cumplimiento de objetivos. La navegación se basa en principios de diseño centrado en el usuario, utilizando estructuras modernas que aseguran accesibilidad, claridad y bajo esfuerzo cognitivo.
+
+## Landing Page
+
+Estructura: Presentación general de MascotaMatch con llamada a la acción visible, acceso a servicios, planes, preguntas frecuentes y contacto.
+
+- **Estructura:** Presentación general de Tallerazo con llamado a la acción visible, acceso a servicios, gestión de citas, seguimiento de reparaciones y contacto.
+- **Incluye acceso rápido a:**
+  - Registro / Inicio de sesión
+  - Agendar cita
+  - Seguir reparación
+  - Servicios destacados
+  - Contactar taller
+- **Acción del Usuario:** Explorar contenido, agendar servicios, seguir el avance de su vehículo, contactar con talleres y resolver dudas operativas.
+
+#### Aplicación Web – Clientes
+
+- **Inicio:**
+  - Muestra citas activas, próximos seguimientos y acceso directo a historial de servicios.
+  - Organización matricial con bloques de acción rápida.
+- **Agenda de citas:**
+  - Visualización de citas programadas en formato calendario.
+  - Botones rápidos para reprogramar o cancelar.
+- **Seguimiento de Servicio:**
+  - Vista secuencial del avance de la reparación.
+  - Indicadores de progreso por fases (Diagnóstico, Reparación, Entrega).
+- **Historial del Vehículo:**
+  - Listado cronológico de servicios anteriores, incluyendo cotizaciones y documentos adjuntos.
+- **Soporte:**
+- Acceso directo a FAQs y contacto con soporte desde el menú principal.
+  
+#### Aplicación Web – Talleres
+
+- **Inicio:**
+  - Vista resumida de citas próximas, servicios activos y alertas de seguimiento.
+- **Agenda de trabajo:**
+  - Calendario organizado por hora y tipo de servicio.
+- **Clientes asignados:**
+  - Listado diario de propietarios con acceso a la ficha de servicio e historial del vehículo.
+- **Perfil del taller:**
+  - Sección para administrar información pública, servicios disponibles, precios y reputación recibida.
+- **Capacitación / Recursos:**
+  - Acceso a materiales de actualización profesional y mejores prácticas de atención automotriz.
 
 ## 4.3. Landing Page UI Design
 
