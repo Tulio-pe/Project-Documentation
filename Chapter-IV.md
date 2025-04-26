@@ -82,13 +82,25 @@ El módulo para talleres está orientado a la gestión operativa de servicios, s
 
 🟩Capacitación y Actualización: Acceso a módulos de formación y guías prácticas orientadas a mejorar la calidad del servicio ofrecido y fomentar buenas prácticas operativas.
 
-
-
-
-
-
 ### 4.2.2. Labeling Systems
-Lineamientos para los sistemas de etiquetado.
+
+Las etiquetas utilizadas en la plataforma Tallerazo priorizan la claridad, simplicidad y orientación a la acción. Se evita el uso de términos técnicos complejos, optando por palabras clave comprensibles y directas, que guíen al usuario de manera intuitiva a través de las funcionalidades principales.
+
+### Landing Page:
+
+| Etiqueta             | Descripción                                                                  |
+|----------------------|------------------------------------------------------------------------------|
+| Home                 | PPresenta el mensaje principal de la plataforma y acceso a los servicios destacados.                  |
+| Servicios            | Acceso directo a las funciones principales: gestión de citas, seguimiento en tiempo real y comunicación.                  |
+| Nosotros             | Sección informativa sobre la misión, visión y valores de Tallerazo.   |
+| Empezar              | Botón CTA para iniciar el proceso de registro o navegación en los servicios.                    |
+| Agendar Cita         | Botón para acceder directamente a la agenda de citas disponibles en talleres.                             |
+| Seguir Reparación    | Botón que permite al usuario visualizar el estado actual de su servicio automotriz.                              |
+| Contact Support      | Campo para ingresar correo y enviar consulta                                 |
+| Contactar Taller     | Enlace directo para iniciar comunicación con el taller asignado.                           |
+
+
+
 
 ### 4.2.3. SEO Tags and Meta Tags
 Uso de etiquetas SEO y metaetiquetas para optimización.
