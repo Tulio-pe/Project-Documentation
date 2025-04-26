@@ -5,7 +5,7 @@ Nuestra plataforma Tallerazo tiene como objetivo principal transformar la experi
 
 ### 4.1.1. General Style Guidelines:
 
-###🟩Branding:
+### 🟩Branding:
 
 Tallerazo es una plataforma que conecta a propietarios de vehículos con talleres automotrices de confianza, ofreciendo una experiencia digital moderna y segura. Su identidad visual refleja los valores de eficiencia, transparencia y profesionalismo.
 El diseño busca transmitir confianza y dinamismo, utilizando una interfaz limpia, moderna y enfocada en la acción rápida. Con una paleta de colores frescos en azul y verde, combinada con elementos gráficos claros como el automóvil y la llave inglesa, la aplicación facilita la navegación, la gestión de servicios y la conexión directa entre conductor y taller.
