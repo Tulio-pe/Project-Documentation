@@ -26,30 +26,41 @@ This section provides a collection of user stories that describe the functionali
            Then puede buscar talleres y ver los disponibles.</td>
           <td></td>
         </tr>
-        <tr><td>US02</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr><td>US03</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr><td>US04</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr><td>US05</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
+     <tr><td>US02</td>
+  <td>Notificaciones de Mantenimiento</td>
+  <td>Como propietario de un vehículo, quiero recibir notificaciones automáticas cuando se acerque la fecha de mantenimiento sugerida, para poder mantener mi vehículo en buen estado.</td>
+  <td>Given que el vehículo tiene una fecha programada de mantenimiento,<br>
+      When se acerque dicha fecha,<br>
+      Then el usuario recibirá una notificación en la plataforma o por correo electrónico.</td>
+  <td></td>
+</tr>
+
+<tr><td>US03</td>
+  <td>Historial de Servicios</td>
+  <td>Como usuario de la plataforma, quiero poder ver el historial de servicios realizados a mi vehículo, para tener un registro detallado de mantenimientos y reparaciones.</td>
+  <td>Given que el usuario accede a su perfil de vehículo,<br>
+      When consulta el historial,<br>
+      Then puede ver una lista con fechas, talleres y detalles de cada servicio realizado.</td>
+  <td></td>
+</tr>
+
+<tr><td>US04</td>
+  <td>Evaluación de Talleres</td>
+  <td>Como usuario, quiero poder calificar y dejar comentarios sobre los talleres que he utilizado, para ayudar a otros a tomar decisiones informadas.</td>
+  <td>Given que el usuario ha completado una cita en un taller,<br>
+      When accede a la sección de evaluación,<br>
+      Then puede dejar una calificación de 1 a 5 estrellas y un comentario.</td>
+  <td></td>
+</tr>
+
+<tr><td>US05</td>
+  <td>Gestión de Múltiples Vehículos</td>
+  <td>Como usuario que posee más de un vehículo, quiero poder registrar y gestionar varios vehículos en una misma cuenta, para administrarlos fácilmente desde un solo lugar.</td>
+  <td>Given que el usuario accede a su cuenta,<br>
+      When entra a la sección de "Mis Vehículos",<br>
+      Then puede añadir, editar o eliminar información de múltiples vehículos.</td>
+  <td></td>
+</tr>
         <tr><td>US06</td>
           <td></td>
           <td></td>
