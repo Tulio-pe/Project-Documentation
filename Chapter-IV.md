@@ -99,6 +99,15 @@ Las etiquetas utilizadas en la plataforma Tallerazo priorizan la claridad, simpl
 | Contact Support      | Campo para ingresar correo y enviar consulta                                 |
 | Contactar Taller     | Enlace directo para iniciar comunicación con el taller asignado.                           |
 
+### Interfaces de Login / Registro:
+
+| Etiqueta     | Descripción                                     |
+|--------------|--------------------------------------------------|
+| Email        | Campo de ingreso para correo electrónico         |
+| Password     | Campo de ingreso para contraseña                 |
+| Iniciar sesión	        | Botón para usuarios registrados que desean acceder a su cuenta.        |
+| Crear cuenta	     |Botón para nuevos usuarios que desean registrarse en la plataforma.                       |
+| ¿Ya tienes cuenta? Inicia sesión | Enlace alternativo para cambiar entre registro e inicio de sesión. |
 
 
 
