@@ -549,7 +549,7 @@ Después de finalizar el Sprint 1, hemos logrado implementar algunas de las secc
 ![form](./src/Misión.png)
 
 *Calls*: sección donde se encuentra otro call to action
-![form](./src/Preguntas.png)
+![form](./src/Call.png)
 
 *footer*: contenido extra, como telefono,correo y redes para que puedan comunicarse con la empresa.
 ![footer](./src/Footer.png)
