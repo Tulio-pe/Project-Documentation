@@ -374,7 +374,7 @@ flowchart TD
     G2 --> G2b[Seleccionar franjas horarias]
     G2 --> G2c[Guardar horario]
 
-    G3 --> G3a[Activar canales (email/SMS)]
+    G3 --> G3a[Activar canales email/SMS]
     G3 --> G3b[Activar tipos de notificación]
     G3 --> G3c[Guardar configuración]
 ```
