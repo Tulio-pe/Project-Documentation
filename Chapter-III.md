@@ -7,7 +7,7 @@
 
 >Segmento 2
 
-<img src="./src/To-Be_segmento2.png " alt="To-Be_segmento2" style="display: block; margin: 50px auto 0 auto;"/> 
+<img src="./src/To-be_segmento2.png " alt="To-be_segmento2" style="display: block; margin: 50px auto 0 auto;"/> 
 
 ## 3.2. User Stories
 This section provides a collection of user stories that describe the functionalities and features from the end-user perspective.
