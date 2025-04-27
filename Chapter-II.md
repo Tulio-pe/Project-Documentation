@@ -98,83 +98,85 @@ Nuestra estrategia se basa en la diferenciación mediante una plataforma integra
 
 ##### 2.2.2. Registro de entrevistas
 
-#### Entrevista N°1 – Segmento 1
+#### Entrevista N°1 – Segmento 1(clientes)
 ![entrevista_segmento1](src/.jpg) 
-- Nombres: 
-- Apellidos: 
-- Edad: 
-- Ciudad: 
-- URL Entrevista:
-- Duración: 00:08:46 minutos 
-- Resumen:<br>
+- Nombres: Miguel Angel
+- Apellidos:  Junior Lopez  
+- Edad: 20
+- Ciudad: Lima
+- URL Entrevista:https://upcedupe-my.sharepoint.com/:f:/g/personal/u202217053_upc_edu_pe/EoOTRjC0yT5Ig34NmcoFjh0BpYcBQOBn9QYtt8qKN8v-Wg?e=EFeDzE
+- Duración: 5 minutos  y 55 segundos 
+- Resumen:  Miguel Angel Ramirez es un estudiante de la carrera de ingenieria de software de la upc que usualmente usa el carro de su papa para transportarse. Nos dice que no usa plataformas web para buscar talleres y eso se debe a que los talleres en Chorrillos no tienen y lo cual se le hace complicado encontrar talleres de coonfianza por donde vivi. Los factores que el considera que valora es el costo calidad además de la infestructura adecuada para tener un buen mantenimiento.Tambien indica que tiene que ir presencialmente para agendar cita pero a veces los llama pero no es satifactorio.Le gustaria ver los años de experiencia de los talleres,reseñas y que servicios brindan además estaria gustoso de tener una plataforma como la nuestra para agendar cita y poder tener notificaciones por whatsApp<br>
    
 
 ---
 
-#### Entrevistado N°2 - Segmento 1
+#### Entrevistado N°2 - Segmento 1(clientes)
 ![entrevista_segmento1](src/.jpg) 
-- Nombres: 
-- Apellidos: 
-- Edad: 
-- Ciudad: 
-- URL Entrevista:
-- Duración: 00:08:46 minutos 
-- Resumen:<br>
-   
-
+- Nombres: Angel 
+- Apellidos: Ramirez
+- Edad: 25
+- Ciudad: Lima
+- URL Entrevista:https://upcedupe-my.sharepoint.com/:f:/g/personal/u202217053_upc_edu_pe/EoOTRjC0yT5Ig34NmcoFjh0BpYcBQOBn9QYtt8qKN8v-Wg?e=EFeDzE
+- Duración: 3 minutos 
+- Resumen: Angel Ramirez nos indica que cuando ocurre fallas con su carro prefiere ir presencialmente a ver los talleres y no  buscca por internet.Tambien nos indica que para contactar con un taller los llama por telefono o busca por google si estan disponibles o no, se suele fijar en la confianza y la caliad.Por otro lado nos indica que le gustaria tener notificaciones por cada cambio importante que le hacen a su carro y saber quien es el tecnico,precios,servicios que brinda el taller.Para confirmar cita para su mantenimiento de carro le gustaria recibir un mensaje por whatsApp.<br>
+  
   
 ---
 
-#### Entrevistado N°3 - Segmento 1
+#### Entrevistado N°3 - Segmento 2(Talleres)
 ![entrevista_segmento1](src/.jpg) 
-- Nombres: 
-- Apellidos: 
-- Edad: 
-- Ciudad: 
-- URL Entrevista:
-- Duración: 00:08:46 minutos 
-- Resumen:<br>
+- Nombres: Cristian 
+- Apellidos: Valencia 
+- Edad: 19
+- Ciudad: Lima
+- URL Entrevista:https://upcedupe-my.sharepoint.com/:f:/g/personal/u202217053_upc_edu_pe/EoOTRjC0yT5Ig34NmcoFjh0BpYcBQOBn9QYtt8qKN8v-Wg?e=EFeDzE
+- Duración: 3 minutos 
+- Resumen: Cristian es un estudiante de ingenira mecratonica de cuarto ciclo que trabaja en un taller mecanico.El considera que su taller a diferencia de otras es la transparencia y el profesionalismo. El usa whatsApp y calendario para agendar sus citas y tener recordatio, tambien usa de 1 a 2 horas al dia para responder llamadas o dudas.Su principal inconveniente seria para el que los clientes lo usen pero con un
+buen marketing lo puede lograr.Le gustaria que se moestrara sus especialidades y precios a sus clientes además valora que puedan llegarle notificaciones a sus clientes acerca de ello.El prefiere usar whatsApp como medio de notifiaciones junto a gmail <br>
    
 
 ---
 
-#### Entrevistado N°4 - Segmento 2
+#### Entrevistado N°4 - Segmento 2(Talleres)
 ![entrevista_segmento1](src/.jpg) 
-- Nombres: 
-- Apellidos: 
-- Edad: 
-- Ciudad: 
-- URL Entrevista:
-- Duración: 00:08:46 minutos 
-- Resumen:<br>
-   
-
-
----
-
-#### Entrevistado N°5 - Segmento 2
-![entrevista_segmento1](src/.jpg) 
-- Nombres: 
-- Apellidos: 
-- Edad: 
-- Ciudad: 
-- URL Entrevista:
-- Duración: 00:08:46 minutos 
-- Resumen:<br>
+- Nombres: Oscar
+- Apellidos: Carmas Sanchez
+- Edad: 24 
+- Ciudad: Lima
+- URL Entrevista:https://upcedupe-my.sharepoint.com/:f:/g/personal/u202217053_upc_edu_pe/EoOTRjC0yT5Ig34NmcoFjh0BpYcBQOBn9QYtt8qKN8v-Wg?e=EFeDzE
+- Duración: 5 minutos 
+- Resumen: Oscar nos indica que trabaja en el area de mecanica automotriz que se dedica al mantenimiento de motocicletas.Su principal diferencia es su puntualidad y la confiabilidad que ellos pueden brindan con respecto a otros talleres aparte nos indica que a usado aplicaciones como whatsApp para agendar citas con los que tiene mas confianza.El nos indica que invierte 30 minutos hasta 1 hora por cliente. Le gustaria mostrar en la plataforma sus servicios,reseñas,etc.<br>
    
 
 
 ---
 
-#### Entrevistado N°6 - Segmento 2
+#### Entrevistado N°5 - Segmento 1(clientes)
 ![entrevista_segmento1](src/.jpg) 
-- Nombres: 
-- Apellidos: 
-- Edad: 
-- Ciudad: 
-- URL Entrevista:
-- Duración: 00:08:46 minutos 
-- Resumen:<br>
+- Nombres: Renzo 
+- Apellidos: Calvo Yalan
+- Edad: 32
+- Ciudad: Lima
+- URL Entrevista:https://upcedupe-my.sharepoint.com/:f:/g/personal/u202217053_upc_edu_pe/EoOTRjC0yT5Ig34NmcoFjh0BpYcBQOBn9QYtt8qKN8v-Wg?e=EFeDzE
+- Duración: 15 minutos 
+- Resumen:Renzo Calvo es un medico y nos menciona que si bien tiene un taller mecanico de confianza nos dice que algunas veces se a quedado varado lejos de su casa y tuvo que buscar donde poder reparar su auto 
+  pero que no le permitieron ver que piezas le cambian a su carro y cuales le ponen.Ademas nos indica que varias veces le han incumplido en la fecha de entrega por ello si quisiera tener una aplicacion como la 
+  nuestra para serntirse mas seguro y tener mas confianza en los talleres.<br>
+   
+
+
+---
+
+#### Entrevistado N°6 - Segmento 2(Talleres)
+![entrevista_segmento1](src/.jpg) 
+- Nombres:Diego 
+- Apellidos: Ramirez 
+- Edad: 20
+- Ciudad: Lima
+- URL Entrevista:https://upcedupe-my.sharepoint.com/:f:/g/personal/u202217053_upc_edu_pe/EoOTRjC0yT5Ig34NmcoFjh0BpYcBQOBn9QYtt8qKN8v-Wg?e=EFeDzE
+- Duración: 4 minutos 
+- Resumen:Diego Ramirez es un practicante de mecanica que esta en un taller mecanico.El considera que respecto a otros talleres mecanicos lo que los diferencia es que se especializan en reparaciones rapidas y en ser honestos.Acualmente ellos no usan herramientas solo whatsApp y llamadas además usan una agente para anotar mantenimientos. Puede usar 2 horas diarias para atender las llamadas entre otras cosas.Su princiapl dificultad seria aprender a usarlo y tambien el costo.Le gustaria mostrar en la plataforma los precios base,percios y especializados en que sectores. <br>
    
 
 
