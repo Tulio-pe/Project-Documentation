@@ -505,7 +505,21 @@ Para el primer sprint el equipo establecio que el desarrollo de las tareas seria
 
 
 #### 5.2.1.3. Sprint Backlog 1
-This subsection lists the tasks and deliverables planned for Sprint 1.
+
+| User Story | Work-Item / Task | Title | Description | Estimation (Hours) | Assigned To |
+|------------|------------------|-------|-------------|--------------------|-------------|
+| US07 | T01 | Crear sección "Quiénes Somos" | Diseñar y estructurar una sección que explique la misión y visión de la plataforma en la landing. | 3 | Gianfranco Durand |
+| US08 | T02 | Implementar Botón "Ver Más" | Crear un botón visible que redirija del Landing hacia la Aplicación Web Principal. | 2 | Renato Calvo |
+| US09 | T03 | Crear Sección de Planes | Desarrollar la sección donde se muestran los diferentes planes o paquetes de servicios. | 4 | Yasser Rentería |
+| US10 | T04 | Crear Sección de Beneficios | Estructurar una sección en la landing que destaque los beneficios de usar la plataforma. | 3 | Jesús Castillo |
+| US11 | T05 | Crear Sección de Contacto | Implementar un formulario de contacto simple (Nombre, Email, Mensaje) en la landing page. | 4 | Raúl Medina |
+| US12 | T06 | Crear Sección "Cómo Funciona" | Desarrollar una explicación paso a paso del servicio en la landing. | 3 | Gianfranco Durand |
+| US13 | T07 | Implementar Sección de FAQ | Crear y estructurar una sección de Preguntas Frecuentes en la landing page. | 4 | Renato Calvo |
+| US14 | T08 | Mejorar Responsividad de la Landing | Asegurar que la landing page sea responsive en dispositivos móviles y tabletas. | 5 | Yasser Rentería |
+| US15 | T09 | Mejorar Estética de la Landing (Colores e Imágenes) | Ajustar los colores, tipografías e imágenes para hacer la landing más atractiva visualmente. | 3 | Jesús Castillo |
+| US16 | T10 | Agregar Footer con Información Legal | Crear un footer que incluya enlaces a Términos y Condiciones, Política de Privacidad y redes sociales. | 2 | Raúl Medina |
+
+
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 This subsection showcases the evidence of development work completed during Sprint 1 for review purposes.
