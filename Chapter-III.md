@@ -1,7 +1,13 @@
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
-This section outlines the future state scenarios that the project aims to achieve, detailing the desired workflows and processes.
+>Segmento 1
+
+<img src="./src/To-Be_segmento1.png " alt="To-Be_segmento1" style="display: block; margin: 50px auto 0 auto;"/> 
+
+>Segmento 2
+
+<img src="./src/To-Be_segmento2.png " alt="To-Be_segmento2" style="display: block; margin: 50px auto 0 auto;"/> 
 
 ## 3.2. User Stories
 This section provides a collection of user stories that describe the functionalities and features from the end-user perspective.
@@ -28,55 +34,8 @@ This section provides a collection of user stories that describe the functionali
 
 
 ## 3.3. Impact Mapping
-This section presents an impact map to align deliverables with business goals and identify key stakeholders and their needs.
-<table border="1" cellpadding="5" cellspacing="0">
-    <thead>
-        <tr>
-            <th>Business Goal (SMART)</th>
-            <th>Actor / Persona</th>
-            <th>Impact (Cambio de comportamiento)</th>
-            <th>Deliverables (Propuesta funcional)</th>
-            <th>User Stories Relacionadas</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-    </tbody>
-</table>
+
+<img src="./src/Impact map 1.png " alt="Impact map 1" style="display: block; margin: 50px auto 0 auto;"/> 
 
 
 ## 3.4. Product Backlog
