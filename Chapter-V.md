@@ -522,7 +522,18 @@ Para el primer sprint el equipo establecio que el desarrollo de las tareas seria
 
 
 #### 5.2.1.4. Development Evidence for Sprint Review
-This subsection showcases the evidence of development work completed during Sprint 1 for review purposes.
+
+En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: Landing Page y Reporte. La sección inicia con una introducción que resume los principales avances en la implementación. A continuación se presenta la tabla que incluye, para cada repositorio, los commits relacionados con la implementación.
+
+| Repository  | Branch | Commit Id | Commit Message | Commit Message Body | Committed |
+|:-----------:|:------:|:---------:|:--------------:|:-------------------:|:---------:|
+| LandngTaller | main  | 1bef650   | first commit   | Estructura inicial del proyecto: archivos `.html`, `.css` e imágenes. | 27/04/2025 |
+| Report       | main  | af39b2e   | docs(chapter04): fix image | Corrección de la imagen en el capítulo 4. | 01/04/25 |
+| Report       | main  | cf59361   | Update README.md | Actualización menor del archivo README.md. | 01/04/25 |
+| Report       | main  | 9c6b029   | docs(Content): added the project mask | Añadido contenido inicial de la máscara del proyecto. | 01/04/25 |
+| Report       | main  | 935eb16   | feat: add new assets files | Añadido nuevos archivos en la carpeta de assets. | 01/04/25 |
+| Report       | main  |  
+9781326 | Initial commit | Commit inicial del repositorio Report. | 06/04/25 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 This subsection highlights the execution evidence, including completed tasks and milestones achieved during Sprint 1.
