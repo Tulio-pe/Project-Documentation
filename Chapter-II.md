@@ -97,7 +97,87 @@ Nuestra estrategia se basa en la diferenciación mediante una plataforma integra
 - ¿Qué canales prefieres para recibir notificaciones sobre nuevas reservas o modificaciones en citas (SMS, WhatsApp, email)?
 
 ##### 2.2.2. Registro de entrevistas
-Métodos y herramientas para registrar las entrevistas realizadas.
+
+#### Entrevista N°1 – Segmento 1
+![entrevista_segmento1](src/.jpg) 
+- Nombres: 
+- Apellidos: 
+- Edad: 
+- Ciudad: 
+- URL Entrevista:
+- Duración: 00:08:46 minutos 
+- Resumen:<br>
+   
+
+---
+
+#### Entrevistado N°2 - Segmento 1
+![entrevista_segmento1](src/.jpg) 
+- Nombres: 
+- Apellidos: 
+- Edad: 
+- Ciudad: 
+- URL Entrevista:
+- Duración: 00:08:46 minutos 
+- Resumen:<br>
+   
+
+  
+---
+
+#### Entrevistado N°3 - Segmento 1
+![entrevista_segmento1](src/.jpg) 
+- Nombres: 
+- Apellidos: 
+- Edad: 
+- Ciudad: 
+- URL Entrevista:
+- Duración: 00:08:46 minutos 
+- Resumen:<br>
+   
+
+---
+
+#### Entrevistado N°4 - Segmento 2
+![entrevista_segmento1](src/.jpg) 
+- Nombres: 
+- Apellidos: 
+- Edad: 
+- Ciudad: 
+- URL Entrevista:
+- Duración: 00:08:46 minutos 
+- Resumen:<br>
+   
+
+
+---
+
+#### Entrevistado N°5 - Segmento 2
+![entrevista_segmento1](src/.jpg) 
+- Nombres: 
+- Apellidos: 
+- Edad: 
+- Ciudad: 
+- URL Entrevista:
+- Duración: 00:08:46 minutos 
+- Resumen:<br>
+   
+
+
+---
+
+#### Entrevistado N°6 - Segmento 2
+![entrevista_segmento1](src/.jpg) 
+- Nombres: 
+- Apellidos: 
+- Edad: 
+- Ciudad: 
+- URL Entrevista:
+- Duración: 00:08:46 minutos 
+- Resumen:<br>
+   
+
+
 
 ##### 2.2.3. Análisis de entrevistas
 Análisis de los datos obtenidos durante las entrevistas.
