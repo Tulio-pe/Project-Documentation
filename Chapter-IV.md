@@ -303,11 +303,81 @@ Prototipos visuales para aplicaciones web.
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
-Diagramas de flujo de usuario para aplicaciones web.
+#### USUARIO
 
-## 4.5. Web Applications Prototyping
+```
+flowchart TD
+    A[Inicio de sesión] --> B[Dashboard Usuario]
 
-Proceso de creación de prototipos para aplicaciones web.
+    B --> C[Encontrar taller]
+    C --> C1[Seleccionar región/provincia/distrito/localidad]
+    C1 --> C2[Ver lista de talleres]
+    C2 --> C3[Seleccionar taller]
+    C3 --> C4[Ver detalles del taller]
+    C4 --> C5[Solicitar cita]
+    C5 --> C6[Completar formulario de cita]
+    C6 --> C7[Confirmación de cita]
+
+    B --> D[Mis citas y reparaciones]
+    D --> D1[Ver Mis Citas]
+    D1 --> D1a[Seleccionar cita]
+    D1a --> D1b[Ver detalles de la cita]
+    D1b --> D1c[Abrir seguimiento de cita]
+
+    D --> D2[Ver Mis Reparaciones]
+    D2 --> D2a[Seleccionar reparación]
+    D2a --> D2b[Ver detalles de reparación]
+    D2b --> D2c[Abrir seguimiento de reparación]
+
+    B --> E[Historial de mantenimientos]
+    E --> E1[Ver lista de mantenimientos]
+    E1 --> E1a[Seleccionar registro]
+    E1a --> E1b[Ver detalles de mantenimiento]
+```
+
+#### TALLER
+
+```mermaid
+flowchart TD
+    A[Inicio de sesión] --> B[Panel de Administración]
+
+    B --> C[Dashboard Principal]
+    C --> C1[Ver próximas citas]
+    C --> C2[Gestionar cita<br/>→ Crear reparación]
+
+    B --> D[Gestión de Citas]
+    D --> D1[Ver lista / Calendario]
+    D1 --> D1a[Buscar / Filtrar]
+    D1 --> D1b[Crear nueva cita]
+    D1 --> D1c[Actualizar estado]
+
+    B --> E[Gestión de Reparaciones]
+    E --> E1[Ver Activas / Completadas / Canceladas]
+    E1 --> E1a[Nueva reparación]
+    E1 --> E1b[Actualizar estado]
+
+    B --> F[Gestión de Servicios]
+    F --> F1[Buscar / Filtrar por categoría]
+    F1 --> F1a[Nuevo servicio]
+    F1 --> F1b[Editar / Eliminar servicio]
+
+    B --> G[Configuración]
+    G --> G1[Perfil]
+    G --> G2[Horario]
+    G --> G3[Notificaciones]
+
+    G1 --> G1a[Editar info del taller]
+    G1 --> G1b[Cambiar logo]
+    G1 --> G1c[Guardar cambios]
+
+    G2 --> G2a[Activar/desactivar días]
+    G2 --> G2b[Seleccionar franjas horarias]
+    G2 --> G2c[Guardar horario]
+
+    G3 --> G3a[Activar canales (email/SMS)]
+    G3 --> G3b[Activar tipos de notificación]
+    G3 --> G3c[Guardar configuración]
+```
 
 ## 4.6. Domain-Driven Software Architecture
 
