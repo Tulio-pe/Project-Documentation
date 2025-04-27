@@ -200,15 +200,38 @@ Estructura: Presentación general de MascotaMatch con llamada a la acción visib
 
 Esquema inicial de la página de aterrizaje.
 
+![full landing page wireframe](./src/chapter-4/landing/wireframe_full-landing.png)
+
 ### 4.3.2. Landing Page Mock-up
 
 Prototipo visual de la página de aterrizaje.
+
+![full landing page design](./src/chapter-4/landing/design_full-landing.png)
 
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
 
 Esquemas iniciales para aplicaciones web.
+
+### VISTA DEL USUARIO
+
+#### Dashboard principal
+
+![dashboard principal](./src/chapter-4/web-app/wireframe/wireframe_dashboard-principal.png)
+
+#### Detalles del taller
+
+![detalles del taller](./src/chapter-4/web-app/wireframe/wireframe_detalles-del-taller.png)
+
+#### Agendar cita en el taller
+
+![agendar cita](./src/chapter-4/web-app/wireframe/wireframe_agendar-cita-con-el-taller.png)
+
+### VISTA DEL TALLER
+
+![Agendar cita management](./src/chapter-4/web-app/wireframe/wireframe_dashboard_admin.png)
+![Agendar cita calendar](./src/chapter-4/web-app/wireframe/wireframe_dashboard_admin_agenda.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
@@ -217,6 +240,66 @@ Diagramas de flujo de interacción para aplicaciones web.
 ### 4.4.3. Web Applications Mock-ups
 
 Prototipos visuales para aplicaciones web.
+
+### VISTA DEL USUARIO
+
+#### Dashboard principal
+
+![Dashboard principal](./src/chapter-4/web-app/design/design_user_dashboard-principal.png)
+
+#### Detalles de un taller
+
+![Detalles del taller](./src/chapter-4/web-app/design/design_detalles_taller.png)
+
+#### Agendar Cita
+
+![Agendar cita](./src/chapter-4/web-app/design/design_agendar_cita.png)
+
+#### Seguimiento de citas
+
+![Seguimiento de citas](./src/chapter-4/web-app/design/design_seguimiento-de-citas.png)
+
+#### Detalles de la cita
+
+![Detalles de la cita](./src/chapter-4/web-app/design/design_detalles_cita.png)
+
+#### Seguimiento de reparaciones users
+
+![Seguimiento de reparaciones](./src/chapter-4/web-app/design/design_reparaciones.png)
+
+#### Detalles de las repaciones
+
+![Seguimiento de reparaciones](./src/chapter-4/web-app/design/design_detalles_reparaciones.png)
+
+### VISTA DEL TALLER
+
+#### Dashboard Principal
+
+![Dashboard principal del taller](./src/chapter-4/web-app/design/design_admin_dashboard-principal.png)
+
+#### Gestión de citas del taller
+
+![Gestión de citas del taller](./src/chapter-4/web-app/design/design_admin_gestion-de-citas.png)
+
+### Gestión de las reparaciones
+
+![Gestión de las reparaciones](./src/chapter-4/web-app/design/design_admin_gestión-de-reparaciones.png)
+
+### Configuración de los servicios
+
+![Gestión de los servicios](./src/chapter-4/web-app/design/design_admin_gestion-de-servicios.png)
+
+### Configuración del perfil de taller
+
+![Configuración del perfil](./src/chapter-4/web-app/design/design_admin_configuracion-perfil.png)
+
+### Configuración de los horarios
+
+![Configuración de horarios](./src/chapter-4/web-app/design/design_admin_configuracion-horario.png)
+
+### Configuración de Notificaciones
+
+![Configuración de horarios](./src/chapter-4/web-app/design/design_admin_configuracion-notificaciones.png)
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
