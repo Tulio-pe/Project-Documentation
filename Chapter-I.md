@@ -16,17 +16,14 @@ En **Tallerazo.pe**, redefinimos la manera en que las personas se relacionan con
  | 
 
 ### 1.1.2. Perfiles de integrantes del equipo
-
 | Integrante | Carrera | Descripción | Foto |
 |--|--|--|--|
-| A | A | A | **** |
-| Rodrigo Marcelo Torres Guillén **(U20181G760)** | Ingeniería de Software | Como estudiante de la carrera de Ing. de Software y apasionado por la ciberseguridad, me motiva conocer las estapas del desarrolo de un software para entender cómo cada decisión en el desarrollo impacta en la seguridad y el valor del producto final. Espero adquirir mayores conocimientos junto a mi equipo y trabajar colaborativamente para destacar. | |
-|   |  |  |
+| Yasser Renteria Palacios **(u202214130)**| Ingenieria de Software| Estudio en la carrera de Ingeniería de Software en la UPC. Tengo conocimientos en C++, Python, Angular, Vue, C#, Unity, Soy una persona que ama la tecnología y crecí en un ambiente de pura tecnología y videojuegos desde pequeño. Siempre he deseado con desarollar mi propio videojuegos. Considero que la comunicación y el aprendizaje constante son las claves que me permitirán progresar en el estudio y el trabajo en equipo. | **** |
+| Jesus Ivan Castillo Vidal  **(u202322952)**|Ingenieria de Software. | Estudio Ingeniería de Software porque me apasiona la tecnología y programar. Siempre busco innovar y aprender cosas nuevas. También he liderado equipos, lo que me ayudó a fortalecer mis habilidades de comunicación y trabajo en grupo. Mi objetivo es seguir creciendo profesionalmente y crear soluciones que marquen la diferencia.|      
 |Renato Guillermo Calvo Yalan **(U202217053)**|Ingeniería de Software| Como estudiante de la carrera me gusta investigar sobre temas de tecnologia y avances así mismo me gusta ver temas relacionados con la ia y las mejores.Espero seguir aprendiendo mas con mis compañeros de equipo y trabajar de manera colaborativa. |<img src="./src/Renato Calvo.jpeg" alt="Renato Calvo Photo" style="display: block; margin: 50px auto 0 auto;"/> |
-| D | D | D | **** |
+| Gianfranco Jared Durand Vega  **(u202312614)**|Ingenieria de Software  | Soy estudiante de Ingeniería de Software y desde siempre me ha apasionado la tecnología y la programación. Me gusta buscar nuevas formas de crear soluciones que hagan la diferencia y aportar ideas innovadoras a los proyectos en los que participo. Además de enfocarme en lo técnico, he tenido la oportunidad de liderar equipos, lo cual me ha enseñado la importancia de trabajar en conjunto, escuchar diferentes perspectivas y sacar lo mejor de cada uno. Mi meta es seguir creciendo, aprender todo lo que pueda y usar mis conocimientos para desarrollar proyectos que realmente aporten valor. | **** |
 |Raúl Adrian Medina Cruzado **(U202210938)**|Ingenieria de Software|Como estudiante de la carrera de Ingeniería de Software, soy apasionado por la ciencia de datos. Me motiva descubrir cómo el análisis y la interpretación de grandes volúmenes de información pueden generar soluciones innovadoras dentro del desarrollo de software. Me interesa explorar cómo los datos pueden optimizar procesos, anticipar errores y mejorar la toma de decisiones. Confío en que, junto a mi equipo, podré seguir fortaleciendo mis habilidades y contribuir de manera significativa en cada etapa del proyecto.| <img src="./src/Raúl Medina_Foto.png " alt="Raúl Medina_Foto" style="display: block; margin: 50px auto 0 auto;"/>|
-| E | E | E | **** |
-| F | F | F | **** |
+
 
 ## 1.2. Solution Profile
 
