@@ -228,11 +228,17 @@ Proceso de creación de prototipos para aplicaciones web.
 ### 4.6.1. Software Architecture Context Diagram
 Diagrama de contexto de la arquitectura de software.
 
+![Context](./src/Context.png)
+
 ### 4.6.2. Software Architecture Container Diagrams
 Diagramas de contenedores de la arquitectura de software.
 
+![Container](./src/Container.png)
+
 ### 4.6.3. Software Architecture Components Diagrams
 Diagramas de componentes de la arquitectura de software.
+
+![Components](./src/Components.png)
 
 ## 4.7. Software Object-Oriented Design
 
