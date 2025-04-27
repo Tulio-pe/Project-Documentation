@@ -528,21 +528,62 @@ En esta sección se explica y presenta los avances en implementación con relaci
 | Repository  | Branch | Commit Id | Commit Message | Commit Message Body | Committed |
 |:-----------:|:------:|:---------:|:--------------:|:-------------------:|:---------:|
 | LandngTaller | main  | 1bef650   | first commit   | Estructura inicial del proyecto: archivos `.html`, `.css` e imágenes. | 27/04/2025 |
-| Report       | main  | af39b2e   | docs(chapter04): fix image | Corrección de la imagen en el capítulo 4. | 01/04/25 |
-| Report       | main  | cf59361   | Update README.md | Actualización menor del archivo README.md. | 01/04/25 |
-| Report       | main  | 9c6b029   | docs(Content): added the project mask | Añadido contenido inicial de la máscara del proyecto. | 01/04/25 |
-| Report       | main  | 935eb16   | feat: add new assets files | Añadido nuevos archivos en la carpeta de assets. | 01/04/25 |
-| Report       | main  |  
+| Project-Documentation       | Azucarita-patch-1  | 
+857ecc3   | docs(chapter04): fix image | Corrección de la imagen en el capítulo 4. | 01/04/25 |
+| Project-Documentation       | Chapter-II  | 
+b0bbb04   | Update Chapter-II.md | Actualización menor del archivo chapter02 | 01/04/25 |
+| Project-Documentation       | main  | 9c6b029   | docs(Content): added the project mask | Añadido contenido inicial de la máscara del proyecto. | 01/04/25 |
+| Project-Documentation       | main  | 935eb16   | feat: add new assets files | Añadido nuevos archivos en la carpeta de assets. | 01/04/25 |
+| Project-Documentation       | main  |  
 9781326 | Initial commit | Commit inicial del repositorio Report. | 06/04/25 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
-This subsection highlights the execution evidence, including completed tasks and milestones achieved during Sprint 1.
+
+Después de finalizar el Sprint 1, hemos logrado implementar algunas de las secciones de nuestra Landing Page, aunque con algunos desperfectos en cuanto a diseño. A continuación, te invitamos a explorar nuestros avances a través de imágenes que muestran el resultado obtenido.
+
+*Seccion de navegacion* : Nos ayudara a redirigirnos a secciones especificas de la lading page y Banner que contendra un boton (Call to Action) que te llevara a registrarte a nuestra aplicación.
+![hero](./src/Navegación.PNG)
+
+*Funcionality*: Seccion donde los visitantes de la lading page podrán ver como es que funciona nuestra aplicacion y que les ofrece.
+![funcionality](./src/Funcionalidad.png)
+
+*Misión y Visión*: sección donde se encuentra nuestra misión y visión como empresa
+![form](./src/Misión.png)
+
+*Calls*: sección donde se encuentra otro call to action
+![form](./src/Call.png)
+
+*footer*: contenido extra, como telefono,correo y redes para que puedan comunicarse con la empresa.
+![footer](./src/Footer.png)
+
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
-This subsection provides documentation evidence related to services implemented during Sprint 1.
+
+En el primer sprint, hemos realizado el diseño, la programación y el despligue de la Landing Page que presentará nuesta apliación web "Tallerazo"
+
+<table> 
+  <tr>
+    <td> <strong>End Point </strong></td>
+    <td align="center"> <strong>Funciones</strong> </td>
+  </tr>
+
+  <tr>
+    <td> https://github.com/Tulio-pe/LandingTaller </td>
+    <td> Desplegar Landing Page de Tallerazo</td>
+  </tr>
+</table>
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
-This subsection includes evidence of successful software deployment during Sprint 1.
+
+Para el despliegue de nuestra Landing Page hemos utilizado GitHub Pages. Para hacer esto, hemos trabajado en un repositorio de GitHub donde divimos el trabajo en ramas. En la sección de configuración y Pages, seleccionamos la rama main para desplegar nuestra web. 
+
+**Link de la landing page desplegada:** https://github.com/Tulio-pe/LandingTaller
+
+![GitHub-Pages](./src/LandingDeploy.png)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
-This subsection reflects on the team's collaboration, challenges, and lessons learned during Sprint 1.
+
+La meta de este sprint fue la implementación de la primera versión de la Landing Page y el informe. Para llevar a cabo este objetivo, hicimos uso de diversas herramientas como GitHub, Visual Studio Code, HTML, CSS. Como evidencias del trabajo realizado tenemos los diagramas de flujo que representan los commits realizados por cada miembro del equipo FROCK.
+
+![Commits-landing](./src/Insight.png)
+La imagen muestra un gráfico de barras donde se refleja la cantidad de commits hechos por cada miembro del equipo en la Landing Page.
