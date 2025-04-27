@@ -1,4 +1,3 @@
-
 ## 4.1. Style Guidelines
 
 Nuestra plataforma Tallerazo tiene como objetivo principal transformar la experiencia del servicio automotriz, conectando a conductores y talleres de manera eficiente, confiable y digitalizada. A través de una interfaz moderna y simple e intuitiva, Tallerazo permite agendar citas, realizar seguimientos en tiempo real y mantener una comunicación directa entre ambas partes. El diseño visual de nuestro sistema está centrado en generar confianza, facilitar la navegación y transmitir innovación tecnológica. Se busca ofrecer a los usuarios una experiencia intuitiva, accesible y profesional, entregándoles transparencia y la interacción fluida en cada punto de contacto. Nuestra línea visual apunta a mantener una identidad limpia, clara y moderna, utilizando colores que transmiten frescura y profesionalismo, tipografías fácilmente entendibles y una estructura de contenidos optimizada para diferentes dispositivos.
@@ -12,14 +11,16 @@ El diseño busca transmitir confianza y dinamismo, utilizando una interfaz limpi
 
 ![Tallerazo logo](https://github.com/user-attachments/assets/d74f5970-bed6-4bdc-b806-03d5555758fe)
 
-
 ### 🟩Typography:
+
 Se hará uso de la tipografía Inter. Este tipo de letra es moderna, profesional y altamente legible, diseñada especialmente para pantallas digitales. Inter ofrece una excelente lectura en diferentes dispositivos y resoluciones, gracias a su estructura limpia, sus proporciones equilibradas y su optimización para contenido web y móvil. Es ideal para títulos, subtítulos y cuerpos de texto, permitiendo transmitir un tono confiable y accesible.
 
 ![inter](https://github.com/user-attachments/assets/b92b18bf-d88f-4018-ae2e-67b2edbbcd60)
 
 ### 🟩Colors:
+
 La paleta de colores de Tallerazo está basada en tonos de azul y verde, transmitiendo modernidad, confianza y tecnología. El fondo blanco y los acentos en azul y verde permiten una navegación ligera y placentera, evitando la saturación visual.
+
 ## Principal:
 
 #1D4ED8 – Azul intenso: Para botones principales y llamadas a la acción.
@@ -30,7 +31,7 @@ Fondo:
 
 #FFFFFF – Blanco: Color de fondo predominante para mantener una sensación de limpieza.
 
-![color](https://github.com/user-attachments/assets/c358631c-53cb-4a4e-9d5c-6fadff203dcd) ![color2](https://github.com/user-attachments/assets/8a3796eb-d827-4fb9-969e-4c25b1efc32e) ![color3](https://github.com/user-attachments/assets/4d3842c5-7cd2-4888-b6ff-7db196b3222a) ![color4](https://github.com/user-attachments/assets/5aa18b36-34d3-46a6-8d65-1f3e7a6f9476) 
+![color](https://github.com/user-attachments/assets/c358631c-53cb-4a4e-9d5c-6fadff203dcd) ![color2](https://github.com/user-attachments/assets/8a3796eb-d827-4fb9-969e-4c25b1efc32e) ![color3](https://github.com/user-attachments/assets/4d3842c5-7cd2-4888-b6ff-7db196b3222a) ![color4](https://github.com/user-attachments/assets/5aa18b36-34d3-46a6-8d65-1f3e7a6f9476)
 
 ### Tone of Communication:
 
@@ -44,14 +45,11 @@ Fondo:
 
 ✅Motivador: Se destacarán logros como el seguimiento exitoso de un servicio o el cumplimiento de citas.
 
-
-
 ### 4.1.2. Web Style Guidelines
 
 Dado que Tallerazo está enfocado en facilitar el acceso a servicios automotrices de manera ágil, la interfaz web ha sido diseñada para ofrecer una navegación limpia y sin distracciones. Se prioriza la simplicidad, evitando el exceso de botones o elementos saturados. La landing page cumple una función de recepción, informando de forma clara las ventajas de la plataforma y guiando al usuario rápidamente a la acción deseada: registrarse y agendar su primera cita. El uso de fondos blancos, degradados suaves en azul y verde, y botones destacados en azul intenso, permite un entorno visualmente agradable, moderno y fácil de usar tanto en computadoras como en móviles.
 
-![landing](https://github.com/user-attachments/assets/20d49669-5b8e-4fc0-8251-c8c6803850de)
-
+![landing](./src/chapter-4/landing/design_hero-section.png)
 
 ## 4.2. Information Architecture:
 
@@ -95,28 +93,26 @@ Las etiquetas utilizadas en la plataforma Tallerazo priorizan la claridad, simpl
 
 ### Landing Page:
 
-| Etiqueta             | Descripción                                                                  |
-|----------------------|------------------------------------------------------------------------------|
-| Home                 | PPresenta el mensaje principal de la plataforma y acceso a los servicios destacados.                  |
-| Servicios            | Acceso directo a las funciones principales: gestión de citas, seguimiento en tiempo real y comunicación.                  |
-| Nosotros             | Sección informativa sobre la misión, visión y valores de Tallerazo.   |
-| Empezar              | Botón CTA para iniciar el proceso de registro o navegación en los servicios.                    |
-| Agendar Cita         | Botón para acceder directamente a la agenda de citas disponibles en talleres.                             |
-| Seguir Reparación    | Botón que permite al usuario visualizar el estado actual de su servicio automotriz.                              |
-| Contact Support      | Campo para ingresar correo y enviar consulta                                 |
-| Contactar Taller     | Enlace directo para iniciar comunicación con el taller asignado.                           |
+| Etiqueta          | Descripción                                                                                              |
+| ----------------- | -------------------------------------------------------------------------------------------------------- |
+| Home              | PPresenta el mensaje principal de la plataforma y acceso a los servicios destacados.                     |
+| Servicios         | Acceso directo a las funciones principales: gestión de citas, seguimiento en tiempo real y comunicación. |
+| Nosotros          | Sección informativa sobre la misión, visión y valores de Tallerazo.                                      |
+| Empezar           | Botón CTA para iniciar el proceso de registro o navegación en los servicios.                             |
+| Agendar Cita      | Botón para acceder directamente a la agenda de citas disponibles en talleres.                            |
+| Seguir Reparación | Botón que permite al usuario visualizar el estado actual de su servicio automotriz.                      |
+| Contact Support   | Campo para ingresar correo y enviar consulta                                                             |
+| Contactar Taller  | Enlace directo para iniciar comunicación con el taller asignado.                                         |
 
 ### Interfaces de Login / Registro:
 
-| Etiqueta     | Descripción                                     |
-|--------------|--------------------------------------------------|
-| Email        | Campo de ingreso para correo electrónico         |
-| Password     | Campo de ingreso para contraseña                 |
-| Iniciar sesión	        | Botón para usuarios registrados que desean acceder a su cuenta.        |
-| Crear cuenta	     |Botón para nuevos usuarios que desean registrarse en la plataforma.                       |
-| ¿Ya tienes cuenta? Inicia sesión | Enlace alternativo para cambiar entre registro e inicio de sesión. |
-
-
+| Etiqueta                         | Descripción                                                         |
+| -------------------------------- | ------------------------------------------------------------------- |
+| Email                            | Campo de ingreso para correo electrónico                            |
+| Password                         | Campo de ingreso para contraseña                                    |
+| Iniciar sesión                   | Botón para usuarios registrados que desean acceder a su cuenta.     |
+| Crear cuenta                     | Botón para nuevos usuarios que desean registrarse en la plataforma. |
+| ¿Ya tienes cuenta? Inicia sesión | Enlace alternativo para cambiar entre registro e inicio de sesión.  |
 
 ### 4.2.3. SEO Tags and Meta Tags:
 
@@ -146,11 +142,11 @@ Las etiquetas utilizadas en la plataforma Tallerazo priorizan la claridad, simpl
 
 ### 4.2.4. Searching Systems:
 
-| Filtro            | Descripción                                                                 |
-|-------------------|------------------------------------------------------------------------------|
-| Buscar en FAQ     | Permite ingresar palabras clave relacionadas a citas, reparaciones, seguimiento de vehículos o problemas frecuentes en la plataforma. |
-| Filtrar por Plan  | Permite ver únicamente los servicios según su estado actual (En diagnóstico, En reparación, Listo para entrega). |
-| Buscar Servicio   | Navegación rápida para encontrar talleres disponibles según ubicación, tipo de servicio o reputación. |
+| Filtro           | Descripción                                                                                                                           |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| Buscar en FAQ    | Permite ingresar palabras clave relacionadas a citas, reparaciones, seguimiento de vehículos o problemas frecuentes en la plataforma. |
+| Filtrar por Plan | Permite ver únicamente los servicios según su estado actual (En diagnóstico, En reparación, Listo para entrega).                      |
+| Buscar Servicio  | Navegación rápida para encontrar talleres disponibles según ubicación, tipo de servicio o reputación.                                 |
 
 ### 4.2.5. Navigation Systems:
 
@@ -184,7 +180,7 @@ Estructura: Presentación general de MascotaMatch con llamada a la acción visib
   - Listado cronológico de servicios anteriores, incluyendo cotizaciones y documentos adjuntos.
 - **Soporte:**
 - Acceso directo a FAQs y contacto con soporte desde el menú principal.
-  
+
 #### Aplicación Web – Talleres
 
 - **Inicio:**
@@ -201,41 +197,51 @@ Estructura: Presentación general de MascotaMatch con llamada a la acción visib
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
+
 Esquema inicial de la página de aterrizaje.
 
 ### 4.3.2. Landing Page Mock-up
+
 Prototipo visual de la página de aterrizaje.
 
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
+
 Esquemas iniciales para aplicaciones web.
 
 ### 4.4.2. Web Applications Wireflow Diagrams
+
 Diagramas de flujo de interacción para aplicaciones web.
 
 ### 4.4.3. Web Applications Mock-ups
+
 Prototipos visuales para aplicaciones web.
 
 ### 4.4.4. Web Applications User Flow Diagrams
+
 Diagramas de flujo de usuario para aplicaciones web.
 
 ## 4.5. Web Applications Prototyping
+
 Proceso de creación de prototipos para aplicaciones web.
 
 ## 4.6. Domain-Driven Software Architecture
 
 ### 4.6.1. Software Architecture Context Diagram
+
 Diagrama de contexto de la arquitectura de software.
 
 ![Context](./src/Context.png)
 
 ### 4.6.2. Software Architecture Container Diagrams
+
 Diagramas de contenedores de la arquitectura de software.
 
 ![Container](./src/Container.png)
 
 ### 4.6.3. Software Architecture Components Diagrams
+
 Diagramas de componentes de la arquitectura de software.
 
 ![Components](./src/Components.png)
@@ -243,10 +249,12 @@ Diagramas de componentes de la arquitectura de software.
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
+
 Diagramas de clases para el diseño orientado a objetos.
 ![Diagram class](https://github.com/Tulio-pe/Project-Documentation/blob/main/src/class%20diagram.jpeg)
 
 ### 4.7.2. Class Dictionary
+
 <h3>Class User</h3>
 <table border="1">
   <tr><th>Visibility</th><th>Name</th><th>Type</th><th>Description</th></tr>
@@ -352,10 +360,10 @@ Diagramas de clases para el diseño orientado a objetos.
   <tr><td>CANCELLED</td><td>Cancelled appointment</td></tr>
 </table>
 
-
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagram
+
 Diagrama de la base de datos:
 
 ![Diagram data base](https://github.com/Tulio-pe/Project-Documentation/blob/main/src/Diagram%20data%20base.jpeg)
