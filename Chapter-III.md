@@ -81,36 +81,24 @@ This section presents an impact map to align deliverables with business goals an
 
 ## 3.4. Product Backlog
 This section lists the prioritized product backlog items, including features, enhancements, and technical tasks.
-<table border="1" cellpadding="5" cellspacing="0">
-    <thead>
-        <tr>
-            <th>#Orden</th>
-            <th>User Story ID</th>
-            <th>Título</th>
-            <th>Descripción</th>
-            <th>Story Points</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr><td>1</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>2</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>3</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>4</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>5</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>6</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>7</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>8</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>9</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>10</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>11</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>12</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>13</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>14</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>15</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>16</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>17</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>18</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>19</td><td></td><td></td><td></td><td></td></tr>
-        <tr><td>20</td><td></td><td></td><td></td><td></td></tr>
-    </tbody>
-</table>
+
+## Product Backlog
+
+| #Orden | User Story ID | Título | Descripción | Story Points |
+|--------|---------------|--------|-------------|--------------|
+| 1 | US01 | Agendamiento de Citas en Talleres | Agendar citas en talleres disponibles. | 8 |
+| 2 | US02 | Notificaciones de Mantenimiento | Recibir alertas de mantenimiento de vehículo. | 5 |
+| 3 | US03 | Historial de Servicios | Consultar historial de servicios de un vehículo. | 5 |
+| 4 | US04 | Evaluación de Talleres | Dejar calificaciones y comentarios sobre talleres. | 5 |
+| 5 | US05 | Gestión de Múltiples Vehículos | Registrar y administrar varios vehículos. | 8 |
+| 6 | US06 | Visualización en Tiempo Real del Servicio | Ver en tiempo real qué se le está haciendo al vehículo. | 13 |
+| 7 | US07 | Acceso Rápido desde Landing | Botón "Ver Más" que redirige a la app. | 3 |
+| 8 | US08 | Información sobre los Planes Disponibles | Mostrar y comparar planes de servicio en la landing. | 5 |
+| 9 | US09 | Conocer al Equipo de Desarrollo | Sección en landing con información del equipo. | 3 |
+| 10 | US10 | Crear Cuenta como Cliente | Registro de nuevos usuarios y vehículos. | 8 |
+| 11 | US11 | Recuperar Contraseña | Sistema de recuperación de contraseñas olvidadas. | 5 |
+| 12 | US12 | Filtrar Talleres por Especialidad | Filtros de búsqueda por tipo de servicio. | 5 |
+| 13 | US13 | Ver Detalles del Taller | Vista completa de información de talleres. | 5 |
+| 14 | US14 | Notificación de Finalización de Servicio | Notificación de término de servicio del vehículo. | 5 |
+| 15 | US15 | Landing Page Responsiva | Diseño adaptable a computadoras y móviles. | 5 |
+
