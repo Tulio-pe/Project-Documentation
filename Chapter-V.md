@@ -395,7 +395,7 @@ Dado que hemos mencionado anteriormente, la administración de nuestro código f
 
 En cuanto al desarrollo del landing page, estamos utilizando el repositorio ubicado en el siguiente URL: https://github.com/orgs/Tulio-pe/repositories
 
-![Tulio-Repositories](./src/Repositorio.png)
+![Tulio-Repositories](./src/Repositorio.PNG)
 
 Para desplegar la Landing Page de manera local descargamos el zip, o podemos clonar el repositorio con la herramienta git y el comando: 
 
