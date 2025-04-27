@@ -158,6 +158,25 @@ Análisis de los datos obtenidos durante las entrevistas.
 Mapeo de escenarios actuales para identificar oportunidades de mejora.
 
 #### 2.4. Ubiquitous Language
-Definición de un lenguaje común para facilitar la comunicación entre equipos.
+En este proyecto, cuyo objetivo principal es permitir a los usuarios visualizar en tiempo real los servicios realizados a su vehículo en talleres, se ha definido el siguiente lenguaje ubicuo para garantizar la claridad y consistencia entre usuarios, desarrolladores y stakeholders:
+
+| **Término**               | **Definición** |
+|----------------------------|----------------|
+| **Taller**                 | Establecimiento donde se realizan servicios de mantenimiento, reparación o revisión de vehículos. |
+| **Servicio**               | Trabajo específico que ofrece un taller, como cambio de aceite, alineación, revisión de frenos, etc. |
+| **Orden de Servicio**      | Documento o registro que detalla los servicios que se realizarán a un vehículo en una visita específica. |
+| **Cliente**                | Persona que solicita servicios para su vehículo. |
+| **Vehículo**               | Automóvil del cliente que recibe los servicios en el taller. |
+| **Estado del Servicio**    | Representa el progreso de los trabajos en el vehículo (por ejemplo: "En espera", "En proceso", "Finalizado"). |
+| **Seguimiento en Tiempo Real** | Funcionalidad que permite al cliente visualizar el estado y avances del servicio en su vehículo en tiempo real. |
+| **Técnico**                | Persona que ejecuta los servicios sobre el vehículo. |
+| **Diagnóstico**            | Evaluación inicial que determina qué problemas presenta el vehículo. |
+| **Notificación**           | Mensaje enviado al cliente informándole sobre actualizaciones del servicio. |
+
+### Beneficios esperados del lenguaje ubicuo:
+- Facilita la comunicación entre usuarios, desarrolladores y administradores del sistema.
+- Aumenta la comprensión de las funcionalidades principales del sistema.
+- Mejora la experiencia de usuario al emplear términos intuitivos y conocidos.
+- Disminuye los errores de interpretación en el desarrollo y documentación.
 
 </div>
