@@ -237,7 +237,13 @@ Análisis de los datos obtenidos durante las entrevistas.
 ![Emp2](src/Empathy2.png)
 
 #### 2.3.5. As-is Scenario Mapping
-Mapeo de escenarios actuales para identificar oportunidades de mejora.
+>Segmento 1
+
+<img src="./src/A-is_segmento1.png " alt="A-is_segmento1" style="display: block; margin: 50px auto 0 auto;"/> 
+
+>Segmento 2
+
+<img src="./src/As-is_segmento2.png " alt="As-is_segmento2" style="display: block; margin: 50px auto 0 auto;"/> 
 
 #### 2.4. Ubiquitous Language
 En este proyecto, cuyo objetivo principal es permitir a los usuarios visualizar en tiempo real los servicios realizados a su vehículo en talleres, se ha definido el siguiente lenguaje ubicuo para garantizar la claridad y consistencia entre usuarios, desarrolladores y stakeholders:
