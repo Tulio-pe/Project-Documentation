@@ -10,26 +10,27 @@ A través de nuestra aplicación, buscamos mejorar la experiencia del usuario, b
 
 En **Tallerazo.pe**, redefinimos la manera en que las personas se relacionan con el servicio automotriz: una experiencia más conectada, más transparente y respaldada por tecnología inteligente.
 
-| Misión | Visión | Valores
-|--|--|--|
+| Misión                                                                                                                                                                | Visión                                                                                                                                                                                                                                                                  | Valores                                                                                                                                                                                                                                             |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Impulsar la transformación digital del sector automotriz, facilitando herramientas que mejoren la experiencia, confianza y comunicación entre talleres y conductores. | Ser la plataforma líder en Latinoamérica en soluciones tecnológicas para la gestión de servicios mecánicos, posicionándonos como el principal puente entre talleres modernos y propietarios de vehículos que buscan un servicio confiable, transparente y digitalizado. | Promovemos la transparencia, la innovación y la eficiencia en el sector automotriz. Creemos en la importancia de construir relaciones de confianza entre talleres y clientes, cultivando relaciones basadas en la confianza y el crecimiento mutuo. |
- | 
+|                                                                                                                                                                       |
 
 ### 1.1.2. Perfiles de integrantes del equipo
-| Integrante | Carrera | Descripción | Foto |
-|--|--|--|--|
-| Yasser Renteria Palacios **(u202214130)**| Ingenieria de Software| Estudio en la carrera de Ingeniería de Software en la UPC. Tengo conocimientos en C++, Python, Angular, Vue, C#, Unity, Soy una persona que ama la tecnología y crecí en un ambiente de pura tecnología y videojuegos desde pequeño. Siempre he deseado con desarollar mi propio videojuegos. Considero que la comunicación y el aprendizaje constante son las claves que me permitirán progresar en el estudio y el trabajo en equipo. | <img src="./src/yasser.jpeg " alt="Yasser Renteria" style="display: block; margin: 50px auto 0 auto;"/> |
-| Jesus Ivan Castillo Vidal  **(u202322952)**|Ingenieria de Software. | Estudio Ingeniería de Software porque me apasiona la tecnología y programar. Siempre busco innovar y aprender cosas nuevas. También he liderado equipos, lo que me ayudó a fortalecer mis habilidades de comunicación y trabajo en grupo. Mi objetivo es seguir creciendo profesionalmente y crear soluciones que marquen la diferencia.|      
-|Renato Guillermo Calvo Yalan **(U202217053)**|Ingeniería de Software| Como estudiante de la carrera me gusta investigar sobre temas de tecnologia y avances así mismo me gusta ver temas relacionados con la ia y las mejores.Espero seguir aprendiendo mas con mis compañeros de equipo y trabajar de manera colaborativa. |<img src="./src/Renato Calvo.jpeg" alt="Renato Calvo Photo" style="display: block; margin: 50px auto 0 auto;"/> |
-| Gianfranco Jared Durand Vega  **(u202312614)**|Ingenieria de Software  | Soy estudiante de Ingeniería de Software y desde siempre me ha apasionado la tecnología y la programación. Me gusta buscar nuevas formas de crear soluciones que hagan la diferencia y aportar ideas innovadoras a los proyectos en los que participo. Además de enfocarme en lo técnico, he tenido la oportunidad de liderar equipos, lo cual me ha enseñado la importancia de trabajar en conjunto, escuchar diferentes perspectivas y sacar lo mejor de cada uno. Mi meta es seguir creciendo, aprender todo lo que pueda y usar mis conocimientos para desarrollar proyectos que realmente aporten valor. | **** |
-|Raúl Adrian Medina Cruzado **(U202210938)**|Ingenieria de Software|Como estudiante de la carrera de Ingeniería de Software, soy apasionado por la ciencia de datos. Me motiva descubrir cómo el análisis y la interpretación de grandes volúmenes de información pueden generar soluciones innovadoras dentro del desarrollo de software. Me interesa explorar cómo los datos pueden optimizar procesos, anticipar errores y mejorar la toma de decisiones. Confío en que, junto a mi equipo, podré seguir fortaleciendo mis habilidades y contribuir de manera significativa en cada etapa del proyecto.| <img src="./src/Raúl Medina_Foto.png " alt="Raúl Medina_Foto" style="display: block; margin: 50px auto 0 auto;"/>|
 
+| Integrante                                    | Carrera                 | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Foto                                                                                                                          |
+| --------------------------------------------- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Yasser Renteria Palacios **(u202214130)**     | Ingenieria de Software  | Estudio en la carrera de Ingeniería de Software en la UPC. Tengo conocimientos en C++, Python, Angular, Vue, C#, Unity, Soy una persona que ama la tecnología y crecí en un ambiente de pura tecnología y videojuegos desde pequeño. Siempre he deseado con desarollar mi propio videojuegos. Considero que la comunicación y el aprendizaje constante son las claves que me permitirán progresar en el estudio y el trabajo en equipo.                                                                                                                                                                       | <img src="./src/yasser.jpeg " alt="Yasser Renteria" style="display: block; margin: 50px auto 0 auto;"/>                       |
+| Jesus Ivan Castillo Vidal **(u202322952)**    | Ingenieria de Software. | Estudio Ingeniería de Software porque me apasiona la tecnología y programar. Siempre busco innovar y aprender cosas nuevas. También he liderado equipos, lo que me ayudó a fortalecer mis habilidades de comunicación y trabajo en grupo. Mi objetivo es seguir creciendo profesionalmente y crear soluciones que marquen la diferencia.                                                                                                                                                                                                                                                                      | <img src="./src/chapter-1/jesus_castillo_foto.png " alt="Yasser Renteria" style="display: block; margin: 50px auto 0 auto;"/> |
+| Renato Guillermo Calvo Yalan **(U202217053)** | Ingeniería de Software  | Como estudiante de la carrera me gusta investigar sobre temas de tecnologia y avances así mismo me gusta ver temas relacionados con la ia y las mejores.Espero seguir aprendiendo mas con mis compañeros de equipo y trabajar de manera colaborativa.                                                                                                                                                                                                                                                                                                                                                         | <img src="./src/Renato Calvo.jpeg" alt="Renato Calvo Photo" style="display: block; margin: 50px auto 0 auto;"/>               |
+| Gianfranco Jared Durand Vega **(u202312614)** | Ingenieria de Software  | Soy estudiante de Ingeniería de Software y desde siempre me ha apasionado la tecnología y la programación. Me gusta buscar nuevas formas de crear soluciones que hagan la diferencia y aportar ideas innovadoras a los proyectos en los que participo. Además de enfocarme en lo técnico, he tenido la oportunidad de liderar equipos, lo cual me ha enseñado la importancia de trabajar en conjunto, escuchar diferentes perspectivas y sacar lo mejor de cada uno. Mi meta es seguir creciendo, aprender todo lo que pueda y usar mis conocimientos para desarrollar proyectos que realmente aporten valor. | \*\*\*\*                                                                                                                      |
+| Raúl Adrian Medina Cruzado **(U202210938)**   | Ingenieria de Software  | Como estudiante de la carrera de Ingeniería de Software, soy apasionado por la ciencia de datos. Me motiva descubrir cómo el análisis y la interpretación de grandes volúmenes de información pueden generar soluciones innovadoras dentro del desarrollo de software. Me interesa explorar cómo los datos pueden optimizar procesos, anticipar errores y mejorar la toma de decisiones. Confío en que, junto a mi equipo, podré seguir fortaleciendo mis habilidades y contribuir de manera significativa en cada etapa del proyecto.                                                                        | <img src="./src/Raúl Medina_Foto.png " alt="Raúl Medina_Foto" style="display: block; margin: 50px auto 0 auto;"/>             |
 
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
 
 #### ANTECEDENTES
+
 En el sector de la reparación automotriz, una de las principales preocupaciones de los propietarios de vehículos es conocer el estado y avance del servicio brindado por los talleres. Esta necesidad de seguimiento oportuno y transparente genera en muchos casos incertidumbre, especialmente cuando no se cuenta con canales eficientes de comunicación entre el taller y el cliente. Algunos talleres con mayores recursos han logrado implementar plataformas personalizadas o canales de mensajería como WhatsApp para informar sobre el progreso del servicio. Sin embargo, esta no es una realidad accesible para todos.
 
 Paralelamente, en diversos sectores se ha observado un crecimiento en soluciones que centralizan la oferta de productos o servicios, facilitando a los usuarios la comparación y elección de opciones que respondan a sus necesidades. En el rubro automotriz, la gran oferta de talleres mecánicos hace indispensable contar con herramientas que permitan filtrar, evaluar y contactar eficientemente con el proveedor más adecuado.
@@ -37,7 +38,9 @@ Paralelamente, en diversos sectores se ha observado un crecimiento en soluciones
 Muchos talleres no cuentan con el capital necesario para invertir en el desarrollo de sitios web propios o en estrategias de presencia digital, lo cual limita su alcance comercial. Iniciativas como tallermec.net.pe han buscado visibilizar a estos negocios, pero se requiere ir más allá de un simple directorio. Es fundamental crear plataformas que, además de mostrar información, permitan generar oportunidades reales de contacto con potenciales clientes, agendar citas y brindar atención personalizada de forma eficiente y accesible para ambos actores del servicio.
 
 #### PROBLEMÁTICA
+
 La falta de comunicación clara y seguimiento transparente en los procesos de reparación de vehículos genera desconfianza e insatisfacción en los clientes. Muchos talleres automotrices, especialmente los de menor capital, no cuentan con herramientas digitales para gestionar citas, actualizar el estado del servicio o atraer nuevos clientes. Esta carencia limita su competitividad frente a negocios con mayores recursos tecnológicos y deja al usuario con pocas opciones centralizadas para comparar y contactar talleres de forma efectiva. La necesidad de una plataforma accesible que conecte clientes con talleres y facilite la gestión del servicio es cada vez más evidente en un mercado con alta oferta y poca digitalización.
+
 - **What:**
   - Mejorar la gestión de citas, la visibilidad del estado de reparación del vehículo y la conexión directa con los clientes.
 - **Why:**
@@ -45,7 +48,7 @@ La falta de comunicación clara y seguimiento transparente en los procesos de re
 - **Who:**
   - Se ven afectados tanto los propietarios de vehículos como los talleres pequeños que no pueden competir digitalmente.
 - **When:**
-  - Tulio Track debe usarse desde que el cliente agenda una cita hasta la entrega final del vehículo.
+  - Tallerazo debe usarse desde que el cliente agenda una cita hasta la entrega final del vehículo.
 - **How:**
   - La solución se implementará en talleres automotrices sin mucha presencia digital.
 - **Where:**
@@ -66,37 +69,42 @@ Esta situación genera desconfianza e inseguridad en los clientes al momento de 
 #### 1.2.2.2. Lean UX Assumptions
 
 **User Assumptions:**
-  - Los usuarios están dispuestos a buscar, comparar y agendar servicios de reparación a través de una plataforma web.
-  - Los usuarios valoran la transparencia y la posibilidad de seguimiento de su vehículo como un diferenciador frente a la competencia.
-  - Los usuarios confían más en talleres que ofrecen actualizaciones claras y rápidas del estado de su vehículo.
-  - Los usuarios prefieren plataformas que agrupen múltiples opciones en un solo lugar para ahorrar tiempo.
-  - La mayoría de usuarios tiene acceso a smartphones o computadoras con conexión a internet.
-  - Los usuarios están dispuestos a crear una cuenta en la plataforma si esto les permite agendar, contactar y recibir seguimiento fácilmente.
+
+- Los usuarios están dispuestos a buscar, comparar y agendar servicios de reparación a través de una plataforma web.
+- Los usuarios valoran la transparencia y la posibilidad de seguimiento de su vehículo como un diferenciador frente a la competencia.
+- Los usuarios confían más en talleres que ofrecen actualizaciones claras y rápidas del estado de su vehículo.
+- Los usuarios prefieren plataformas que agrupen múltiples opciones en un solo lugar para ahorrar tiempo.
+- La mayoría de usuarios tiene acceso a smartphones o computadoras con conexión a internet.
+- Los usuarios están dispuestos a crear una cuenta en la plataforma si esto les permite agendar, contactar y recibir seguimiento fácilmente.
 
 **Business Assumptions:**
-  - Los talleres están dispuestos a utilizar herramientas sencillas y de bajo costo si esto les representa un beneficio comercial.
-  - La mayoría de talleres pequeños no cuentan con presencia digital significativa ni con una solución automatizada de atención al cliente.
-  - Los talleres ven valor en recibir nuevos clientes a través de una plataforma centralizada.
-  - Los propietarios de talleres están abiertos a modernizar su atención si no implica una curva de aprendizaje alta.
-  - Los talleres están dispuestos a actualizar manualmente o con asistencia el estado de los vehículos en reparación dentro de la plataforma.
-  - Los talleres aceptarán un modelo freemium o de suscripción asequible a cambio de visibilidad y generación de citas.
+
+- Los talleres están dispuestos a utilizar herramientas sencillas y de bajo costo si esto les representa un beneficio comercial.
+- La mayoría de talleres pequeños no cuentan con presencia digital significativa ni con una solución automatizada de atención al cliente.
+- Los talleres ven valor en recibir nuevos clientes a través de una plataforma centralizada.
+- Los propietarios de talleres están abiertos a modernizar su atención si no implica una curva de aprendizaje alta.
+- Los talleres están dispuestos a actualizar manualmente o con asistencia el estado de los vehículos en reparación dentro de la plataforma.
+- Los talleres aceptarán un modelo freemium o de suscripción asequible a cambio de visibilidad y generación de citas.
 
 **Business Outcome Assumptions**
-  - La plataforma incrementará la visibilidad de talleres que antes no tenían presencia digital.
-  - Los talleres recibirán más solicitudes de servicio gracias a la centralización de la oferta.
-  - Se reducirá el tiempo que los talleres dedican a responder consultas básicas, gracias a la automatización del seguimiento y agendamiento.
-  - Los talleres podrán fidelizar clientes mediante una experiencia más transparente y organizada.
-  - El modelo de negocio podrá escalar a otras ciudades o regiones con una demanda similar de servicios automotrices.
+
+- La plataforma incrementará la visibilidad de talleres que antes no tenían presencia digital.
+- Los talleres recibirán más solicitudes de servicio gracias a la centralización de la oferta.
+- Se reducirá el tiempo que los talleres dedican a responder consultas básicas, gracias a la automatización del seguimiento y agendamiento.
+- Los talleres podrán fidelizar clientes mediante una experiencia más transparente y organizada.
+- El modelo de negocio podrá escalar a otras ciudades o regiones con una demanda similar de servicios automotrices.
 
 **User Outcome Assumptions**
-  - Los usuarios podrán tomar decisiones más informadas al comparar múltiples talleres en un solo lugar.
-  - Los usuarios se sentirán más tranquilos al contar con actualizaciones sobre el estado de su vehículo.
-  - Se reducirá el tiempo y esfuerzo que el usuario dedica a encontrar un taller confiable.
-  - Los usuarios aumentarán su nivel de satisfacción y recurrencia al sentirse acompañados en todo el proceso de reparación.
-  - La experiencia digital mejorará la percepción de confianza y profesionalismo en los talleres afiliados.
+
+- Los usuarios podrán tomar decisiones más informadas al comparar múltiples talleres en un solo lugar.
+- Los usuarios se sentirán más tranquilos al contar con actualizaciones sobre el estado de su vehículo.
+- Se reducirá el tiempo y esfuerzo que el usuario dedica a encontrar un taller confiable.
+- Los usuarios aumentarán su nivel de satisfacción y recurrencia al sentirse acompañados en todo el proceso de reparación.
+- La experiencia digital mejorará la percepción de confianza y profesionalismo en los talleres afiliados.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
-Creemos que **una mayor confianza y organización  de los clientes**  
+
+Creemos que **una mayor confianza y organización de los clientes**  
 se logrará si **los dueños de vehículos que necesitan el servicio de los talleres automotrices**  
 pueden **gestionar citas, recibir notificaciones del avance de sus autos y comunicarse directamente con el taller de forma personalizada**  
 con **una plataforma digital que integre seguimiento en tiempo real, historial de servicios, recordatorios y chat directo**.
@@ -104,14 +112,16 @@ con **una plataforma digital que integre seguimiento en tiempo real, historial d
 Más hypothesis aquí
 
 #### 1.2.2.4. Lean UX Canvas
+
 ![UxCanvas](https://github.com/Tulio-pe/Project-Documentation/blob/main/src/Lean%20UX%20Canva.jpg)
 
 ## 1.3. Segmentos objetivo
 
-### *Usuarios con autos (Conductores particulares)*
+### _Usuarios con autos (Conductores particulares)_
+
 Este segmento está conformado por personas que poseen un vehículo propio y buscan soluciones tecnológicas que les permitan mejorar su experiencia de mantenimiento automotriz. Suelen valorar la transparencia, la comodidad y el ahorro de tiempo en el proceso de reparación o revisión de su auto.
 
-#### *Características demográficas:*
+#### _Características demográficas:_
 
 -Edad: 18 – 80 años.
 
@@ -123,16 +133,17 @@ Este segmento está conformado por personas que poseen un vehículo propio y bus
 
 -Ocupación: Profesionales, emprendedores, personas con alto uso del vehículo como herramienta diaria (trabajo o estudios).
 
-#### *Información estadística:*
+#### _Información estadística:_
 
 -Según el INEI (2023), Lima concentra el 64% del parque automotor del país, con más de 2 millones de vehículos particulares registrados.
 
 -El 35% de los usuarios de vehículos en Lima indican insatisfacción con la transparencia y seguimiento de procesos en talleres tradicionales.
 
-### *Concesionarias y talleres autorizados*
+### _Concesionarias y talleres autorizados_
+
 Este segmento agrupa a concesionarias de marcas de autos y talleres mecánicos autorizados que buscan optimizar su atención al cliente, mejorar la trazabilidad del servicio y diferenciarse en un mercado competitivo. Les interesa ofrecer un valor agregado digital que mejore la experiencia de posventa.
 
-#### *Características del negocio:*
+#### _Características del negocio:_
 
 -Ubicación: Distritos céntricos y de alto tráfico vehicular (San Luis, Surquillo, La Victoria, Independencia, entre otros).
 
@@ -142,7 +153,7 @@ Este segmento agrupa a concesionarias de marcas de autos y talleres mecánicos a
 
 -Interés en digitalización: Alta, impulsada por la necesidad de fidelización del cliente y por los nuevos estándares del consumidor post-pandemia.
 
-#### *Información estadística:*
+#### _Información estadística:_
 
 -En Lima operan más de 1,200 talleres mecánicos formales y concesionarias autorizadas.
 
