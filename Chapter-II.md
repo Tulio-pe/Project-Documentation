@@ -183,7 +183,11 @@ buen marketing lo puede lograr.Le gustaria que se moestrara sus especialidades y
 
 
 ##### 2.2.3. Análisis de entrevistas
-Análisis de los datos obtenidos durante las entrevistas.
+Análisis de los datos obtenidos durante las entrevistas:
+
+<img src="./src/estadistica1.png " alt="estadistica1" style="display: block; margin: 50px auto 0 auto;"/> 
+<img src="./src/estadistica2.png " alt="estadistica2" style="display: block; margin: 50px auto 0 auto;"/> 
+<img src="./src/estadistica3.png " alt="estadistica3" style="display: block; margin: 50px auto 0 auto;"/> 
 
 #### 2.3. Needfinding
 
