@@ -237,6 +237,73 @@ Esquemas iniciales para aplicaciones web.
 
 Diagramas de flujo de interacción para aplicaciones web.
 
+#### TALLER
+
+```
+flowchart LR
+    A[Login] --> B[Dashboard Admin]
+
+    B --> C[Gestión de Citas]
+    C --> C1[Listado de Citas]
+    C1 --> C2[Detalles de Cita (Modal)]
+    C2 --> C3[Crear Reparación (Modal)]
+    C3 --> C1
+
+    B --> D[Gestión de Reparaciones]
+    D --> D1[Listado de Reparaciones]
+    D1 --> D2[Actualizar Estado (Modal)]
+    D2 --> D1
+
+    B --> E[Gestión de Servicios]
+    E --> E1[Listado de Servicios]
+    E1 --> E2[Editar/Eliminar Servicio (Modal)]
+    E2 --> E1
+    E1 --> E3[Nuevo Servicio (Modal)]
+    E3 --> E1
+
+    B --> F[Configuración]
+    F --> F1[Pestaña Perfil]
+    F1 --> F1a[Editar Info del Taller]
+    F1a --> F1b[Guardar Cambios]
+
+    F --> F2[Pestaña Horario]
+    F2 --> F2a[Editar Franjas Horarias]
+    F2a --> F2b[Guardar Horario]
+
+    F --> F3[Pestaña Notificaciones]
+    F3 --> F3a[Activar/Desactivar Canales]
+    F3a --> F3b[Activar/Desactivar Tipos]
+    F3b --> F3c[Guardar Configuración]
+```
+
+#### USUARIO
+
+```
+flowchart LR
+    U1[Login Usuario] --> U2[Dashboard Usuario]
+
+    U2 --> U3[Buscar Taller]
+    U3 --> U4[Filtrar por Región/Provincia/Distrito/Localidad]
+    U4 --> U5[Listado de Talleres]
+    U5 --> U6[Detalle Taller]
+    U6 --> U7[Solicitar Cita (Formulario)]
+    U7 --> U8[Confirmación de Cita]
+
+    U2 --> U9[Mis Citas]
+    U9 --> U9a[Listado de Citas]
+    U9a --> U9b[Detalle Cita (Modal)]
+    U9b --> U9c[Seguimiento Cita (Modal)]
+
+    U2 --> U10[Mis Reparaciones]
+    U10 --> U10a[Listado de Reparaciones]
+    U10a --> U10b[Detalle Reparación (Modal)]
+    U10b --> U10c[Seguimiento Reparación (Modal)]
+
+    U2 --> U11[Historial de Mantenimientos]
+    U11 --> U11a[Listado de Mantenimientos]
+    U11a --> U11b[Detalle Mantenimiento (Modal)]
+```
+
 ### 4.4.3. Web Applications Mock-ups
 
 Prototipos visuales para aplicaciones web.
