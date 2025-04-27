@@ -536,7 +536,24 @@ En esta sección se explica y presenta los avances en implementación con relaci
 9781326 | Initial commit | Commit inicial del repositorio Report. | 06/04/25 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
-This subsection highlights the execution evidence, including completed tasks and milestones achieved during Sprint 1.
+
+Después de finalizar el Sprint 1, hemos logrado implementar algunas de las secciones de nuestra Landing Page, aunque con algunos desperfectos en cuanto a diseño. A continuación, te invitamos a explorar nuestros avances a través de imágenes que muestran el resultado obtenido.
+
+*Seccion de navegacion* : Nos ayudara a redirigirnos a secciones especificas de la lading page y Banner que contendra un boton (Call to Action) que te llevara a registrarte a nuestra aplicación.
+![hero](./src/Navegación.png)
+
+*Funcionality*: Seccion donde los visitantes de la lading page podrán ver como es que funciona nuestra aplicacion y que les ofrece.
+![funcionality](./src/Funcionalidad.png)
+
+*Misión y Visión*: sección donde se encuentra nuestra misión y visión como empresa
+![form](./src/Misión.png)
+
+*Calls*: sección donde se encuentra otro call to action
+![form](./src/Preguntas.png)
+
+*footer*: contenido extra, como telefono,correo y redes para que puedan comunicarse con la empresa.
+![footer](./src/Footer.png)
+
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 This subsection provides documentation evidence related to services implemented during Sprint 1.
