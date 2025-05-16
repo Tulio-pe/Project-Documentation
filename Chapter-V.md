@@ -749,7 +749,7 @@ Para el despliegue de nuestro Frontend hemos utilizado . Para hacer esto, hemos 
 
 Link de del FrontEnd desplegado: 
 
-![link2](./src/despliegue.png)
+https://tallerazo-front-three.vercel.app/
 
 5.2.1.9. Team Collaboration Insights during Sprint.
 
@@ -810,4 +810,4 @@ Link de la Organización Tulio: https://github.com/Tulio-pe
 |-------------------------------|---------------------------------------------------------|
 | TULIO Project Report     | https://github.com/Tulio-pe/Project-Documentation |
 | TULIO Landing Page       | https://github.com/Tulio-pe/LandingTaller  |
-| TULIO Frontend       | https://github.com/Tulio-pe/Tallerazo-Front  |
+| TULIO Frontend       | https://github.com/Tulio-pe/Tallerazo-Front  | https://tallerazo-front-three.vercel.app/
