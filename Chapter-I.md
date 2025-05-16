@@ -116,7 +116,7 @@ Más hypothesis aquí
 
 #### 1.2.2.4. Lean UX Canvas
 
-<img src="./src/LeanUXCanva.jpg" alt="LeanUXCanva" style="width: 600px"/>
+<img src="./src/Lean UX Canva.jpg" alt="Lean UX Canva" style="width: 600px"/>
 
 
 ## 1.3. Segmentos objetivo
