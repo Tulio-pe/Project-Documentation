@@ -62,7 +62,7 @@ TB1: El equipo entero participó en el desarrollo del sistema, asignando las tar
 <img src="./src/Insight.png" alt="collaboration insights sprint1" style="width: 600px"/>
 
 # Student Outcome
-El curso contribuye al cumplimiento del **Student Outcome ABET:ABET – EAC - Student Outcome 5** Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
+El curso contribuye al cumplimiento del **Student Outcome ABET – EAC - Student Outcome 3** Criterio: Capacidad de comunicarse efectivamente con una gama de audiencias.
 
 ## Student Outcome – TB1 y Trabajo Parcial (TP)
 
