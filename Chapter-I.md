@@ -31,7 +31,9 @@ En **Tallerazo.pe**, redefinimos la manera en que las personas se relacionan con
 
 #### ANTECEDENTES
 
-En el sector de la reparación automotriz, una de las principales preocupaciones de los propietarios de vehículos es conocer el estado y avance del servicio brindado por los talleres. Esta necesidad de seguimiento oportuno y transparente genera en muchos casos incertidumbre, especialmente cuando no se cuenta con canales eficientes de comunicación entre el taller y el cliente. Algunos talleres con mayores recursos han logrado implementar plataformas personalizadas o canales de mensajería como WhatsApp para informar sobre el progreso del servicio. Sin embargo, esta no es una realidad accesible para todos.
+En el sector de la reparación automotriz en Lima Metropolitana, más del 70% de talleres no cuentan con una página web, redes sociales activas ni herramientas digitales para gestionar citas o brindar seguimiento del servicio. Esta situación genera incertidumbre entre los propietarios de vehículos, quienes no reciben información oportuna sobre el avance de la reparación de sus unidades.
+
+Talleres con mayores recursos han implementado soluciones como mensajes por WhatsApp, pero esta no es una alternativa escalable ni accesible para todos. La ausencia de plataformas profesionales y centralizadas limita la capacidad de los talleres pequeños para competir y captar nuevos clientes.
 
 Paralelamente, en diversos sectores se ha observado un crecimiento en soluciones que centralizan la oferta de productos o servicios, facilitando a los usuarios la comparación y elección de opciones que respondan a sus necesidades. En el rubro automotriz, la gran oferta de talleres mecánicos hace indispensable contar con herramientas que permitan filtrar, evaluar y contactar eficientemente con el proveedor más adecuado.
 
