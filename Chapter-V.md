@@ -721,26 +721,26 @@ Tras finalizar el Sprint 2, hemos logrado implementar varias secciones del front
 
 *Seccion de registro e inicio de sesión* : Pantalla para que empresas accedan o se registren en la plataforma. Las empresas deben completar sus datos y subir el logo de su marca como parte del proceso de registro.
 
-![login](./assets/login1.png)
-![registro](./assets/register1.png)
-![info](./assets/workinfo.png)
-![horarios](./assets/horario.png)
+![login](./src/login1.png)
+![registro](./src/register1.png)
+![info](./src/workinfo.png)
+![horarios](./src/horario.png)
 
 *Dashboard*: Página principal del el taller donde puede visualizar los autos en estado de reparación
 
-![dashboardTaller](./assets/dashboard.png)
+![dashboardTaller](./src/dashboard.png)
 
 *Autos*: Sección con lista de los autos con su número de placa y demás características
 
-![autos](./assets/autos.png)
+![autos](./src/autos.png)
 
 *Tracker*: donde puedes escribir el código de tracking del auto
 
-![tracker](./assets/tracker.png)
+![tracker](./src/tracker.png)
 
 *Tracking*: Permite visualizar el seguimiento de tu vehículo en tiempo real
 
-![tracking](./assets/tracking.png)
+![tracking](./src/tracking.png)
 
 
 #### 5.2.1.8. Software Deployment Evidence for Sprint Review.
@@ -749,13 +749,13 @@ Para el despliegue de nuestro Frontend hemos utilizado . Para hacer esto, hemos 
 
 Link de del FrontEnd desplegado: 
 
-![link2](./assets/despliegue.png)
+![link2](./src/despliegue.png)
 
 5.2.1.9. Team Collaboration Insights during Sprint.
 
 La meta de este sprint fue la implementación del FrontEnd de nuestra pagina web y correcciones del informe. Para llevar a cabo este objetivo, hicimos uso de diversas herramientas como GitHub, WebStorm, Angular, AngularMaterial y heroicons.
 
-![insights](./assets/InsightFront.png)
+![insights](./src/InsightFront.png)
 
 ## 5.3. Video About-the-Product.  
 
