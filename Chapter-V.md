@@ -755,7 +755,7 @@ Link de del FrontEnd desplegado:
 
 La meta de este sprint fue la implementación del FrontEnd de nuestra pagina web y correcciones del informe. Para llevar a cabo este objetivo, hicimos uso de diversas herramientas como GitHub, WebStorm, Angular, AngularMaterial y heroicons.
 
-![insights](./src/InsightFront.png)
+![link2](./src/insight2.png)
 
 ## 5.3. Video About-the-Product.  
 
