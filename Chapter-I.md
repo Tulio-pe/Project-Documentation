@@ -118,16 +118,16 @@ Más hypothesis aquí
 
 ## Lean UX Canvas
 
-| **Business Problem** | **Solution** |
-|----------------------|----------------------|
+|     **Business Problem**   |           **Solution**          |
+|----------------------------|---------------------------------|
 | • Los conductores presentan dificultades al momento de llevar su vehículo a un taller debido a la falta de herramientas que hagan sencilla la comunicación entre el conductor y el mecánico.<br>• Por otro lado, los talleres sufren la falta de herramientas digitales que les permitan gestionar citas, informar sobre el avance de los trabajos y mantener una comunicación clara, lo que genera desconfianza e inseguridad en los clientes. | • Mejorar la confianza de los usuarios mediante un sistema que garantice el bienestar de un vehículo, que sea intuitivo para lograr una accesibilidad a cualquier público.<br>• Agendar citas para mantener un orden entre las personas y una comunicación más personalizada y precisa. |
 
-| **Users** | **Business Outcome** |
-|----------------------|----------------------|
+|            **Users**       |          **Business Outcome**    |
+|----------------------------|----------------------------------|
 | • Conductores de carros.<br>• Talleres mecánicos. | • La plataforma incrementará la visibilidad de talleres que antes no tenían presencia digital.<br>• Los talleres recibirán más solicitudes de servicio gracias a la centralización de la oferta. |
 
-| **User Benefits and Results** | **Hypothesis** |
-|----------------------|----------------------|
+| **User Benefits and Results** |         **Hypothesis**        |
+|-------------------------------|-------------------------------|
 | • Los usuarios podrán tomar decisiones más informadas al comparar múltiples talleres en un solo lugar.<br>• Se reducirá el tiempo y esfuerzo que el usuario dedica a encontrar un taller confiable. | • **Creemos que** una mayor confianza y organización de los clientes **se logrará si** los dueños de vehículos que necesiten el servicio de los talleres automotrices **pueden** gestionar citas, recibir notificaciones del avance de sus autos y comunicarse directamente **con una plataforma** de forma personalizada. |
 
 | **What is the most important thing we have to learn first?** | **What is the least amount of work we need to do to learn the next most important thing?** |
