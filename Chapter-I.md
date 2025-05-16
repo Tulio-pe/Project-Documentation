@@ -62,7 +62,7 @@ La falta de comunicación clara y seguimiento transparente en los procesos de re
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-Los talleres automotrices fueron creados para brindar servicios de reparación o remodelación a propietarios de vehículos, ofreciendo calidad y atención personalizada. Sin embargo, muchos de estos talleres no logran atraer nuevos clientes ni retener a los actuales debido a la falta de herramientas digitales que les permitan gestionar citas, informar sobre el avance de los trabajos y mantener una comunicación clara y oportuna.
+Los talleres automotrices ofrecen servicios de reparación o mantenimiento de vehículos, pero enfrentan dificultades para captar nuevos clientes y retener a los actuales por la falta de herramientas digitales que permitan gestionar citas, dar seguimiento al avance de los trabajos y mantener una comunicación clara y oportuna con el cliente.
 
 Esta situación genera desconfianza e inseguridad en los clientes al momento de dejar sus vehículos, reduciendo la competitividad de los talleres y provocando la pérdida de oportunidades comerciales.
 
