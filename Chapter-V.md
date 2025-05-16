@@ -720,31 +720,29 @@ Durante el Sprint 2, el equipo centró sus esfuerzos en el desarrollo del fronte
 
 Tras finalizar el Sprint 2, hemos logrado implementar varias secciones del frontend. Aunque aún existen detalles por pulir en el diseño visual, ya es posible visualizar gran parte de la estructura y funcionalidad planteadas. A continuación, te mostramos capturas que reflejan los avances alcanzados hasta el momento.
 
-*Seccion de registro e inicio de sesión* : Pantalla para que clientes y empresas accedan o se registren en la plataforma. Las empresas deben completar sus datos y subir el logo de su marca como parte del proceso de registro.
+*Seccion de registro e inicio de sesión* : Pantalla para que empresas accedan o se registren en la plataforma. Las empresas deben completar sus datos y subir el logo de su marca como parte del proceso de registro.
 
 ![login](./assets/login1.png)
 ![registro](./assets/register1.png)
-![compañiaregistro](./assets/companypicture.png)
+![info](./assets/workinfo.png)
+![horarios](./assets/horario.png)
 
-*Inicio*: Página principal del cliente donde puede visualizar su información personal, rutas guardadas y acceder rápidamente a funcionalidades clave de su cuenta.
+*Dashboard*: Página principal del el taller donde puede visualizar los autos en estado de reparación
 
-![inicio](./assets/inicio.png)
+![dashboardTaller](./assets/dashboard.png)
 
-*Paraderos*: Sección con lista de los paraderos con su ubicación, referencia y horarios de atención.
+*Autos*: Sección con lista de los autos con su número de placa y demás características
 
-![paraderos](./assets/Paraderos.png)
+![autos](./assets/autos.png)
 
-*Creación de rutas*: donde se crean las parada teniendo en cuenta la tarifa, lugar y hora de llegada y de salida.
+*Tracker*: donde puedes escribir el código de tracking del auto
 
-![rutas](./assets/Creación-rutas.png)
+![tracker](./assets/tracker.png)
 
-*Buscar empresa*: Permite buscar y visualizar empresas filtrando por región, ciudad y otros criterios.
+*Tracking*: Permite visualizar el seguimiento de tu vehículo en tiempo real
 
-![empresa](./assets/seleccionempresa.png)
+![tracking](./assets/tracking.png)
 
-*Informacion de la empresa*: Muestra detalles de la empresa de transporte, horarios, precio, duración y contacto.
-
-![infoempresa](./assets/Información-empresa.png)
 
 #### 5.2.1.8. Software Deployment Evidence for Sprint Review.
 
@@ -756,21 +754,13 @@ Link de del FrontEnd desplegado:
 
 5.2.1.9. Team Collaboration Insights during Sprint.
 
-La meta de este sprint fue la implementación del FrontEnd de nuestra pagina web y correcciones del informe. Para llevar a cabo este objetivo, hicimos uso de diversas herramientas como GitHub, WebStorm, Vue, Primevue y heroicons.
+La meta de este sprint fue la implementación del FrontEnd de nuestra pagina web y correcciones del informe. Para llevar a cabo este objetivo, hicimos uso de diversas herramientas como GitHub, WebStorm, Angular, AngularMaterial y heroicons.
 
 ![insights](./assets/InsightFront.png)
 
 ## 5.3. Video About-the-Product.  
 
 **LINK DE ACCESO AL VIDEO:** https://upcedupe-my.sharepoint.com/:f:/g/personal/u202214130_upc_edu_pe/EseYlIFryNpIsjLHPVf9BnABlryOyBUAjh3rxlStccrPDQ?e=ZCKjhk
-
-
-#### 5.2.1.8. Team Collaboration Insights during Sprint
-
-La meta de este sprint fue la implementación de la primera versión de la Landing Page y el informe. Para llevar a cabo este objetivo, hicimos uso de diversas herramientas como GitHub, Visual Studio Code, HTML, CSS. Como evidencias del trabajo realizado tenemos los diagramas de flujo que representan los commits realizados por cada miembro del equipo FROCK.
-
-![Commits-landing](./src/Insight.png)
-La imagen muestra un gráfico de barras donde se refleja la cantidad de commits hechos por cada miembro del equipo en la Landing Page.
 
 # Bibliografía  
 
