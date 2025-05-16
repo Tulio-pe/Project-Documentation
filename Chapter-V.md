@@ -581,6 +581,190 @@ Para el despliegue de nuestra Landing Page hemos utilizado GitHub Pages. Para ha
 
 ![GitHub-Pages](./src/LandingDeploy.png)
 
+### 5.2.2. Sprint 2
+#### 5.2.1.1. Sprint Planning 2.
+
+En esta siguiente etapa de proyecto, nuestra principal objetivo sera desarrollar el frontend mediante WebStorm aun como nuestro entorno de desarrollo
+
+Repositorio Github: https://github.com/Tulio-pe/Tallerazo-Front
+
+#### 5.2.2.2. Sprint  2.
+
+Para nuestro segundo sprint el equipo estableció que el desarrollos de nuestras tareas se realizarian en un aproximado de 26 horas
+
+<table>
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2"><b>Sprint  Background</b></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>2025/05/12</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>09:30 PM</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>Discord</td>
+        </tr>
+        <tr>
+            <td>Prepared by</td>
+            <td>Yasser Rentería Palacios</td>
+        </tr>
+        <tr>
+            <td>Atendees (to  meeting)</td>
+            <td>
+                <li>Yasser Rentería Palacios</li>
+                <li>Jesús Iván Castillo Vidal</li>
+                <li>Renato Guillermo Calvo Yalan</li>
+                <li>Raúl Adrian Medina Cruzado</li>
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 2 Review Summary</td>
+            <td>
+                Este es el segundo sprint a realizar por el equipo
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 2 Retrospective Summary</td>
+            <td>
+                Acuerdo de el desarrollo del frontend de nuestra pagina web
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+        </tr>
+        <tr>
+            <td>Sprint 2 Goal</td>
+            <td style="text-align: justify">
+                <p>
+                Nuestro objetivo en este sprint es desarrollar el frontend de nuestra frontend Tallerazo, enfocándonos en mostrar las funcionalidades que tendra nuestra pagina con un diseño atractivo pero simple y que sea de facil uso para los usuarios. Además, de mejorar los puntos faltantas en el anterior sprint. Implementaremos vistas clave para el login, crear tu taller con sus tus servicios y horarios, ver los talleres disponibles, ver los servicios y la información de tu vehículo en reparación.
+                </p>
+                <p>
+                Esto se confirmará cuando los usuarios experimenten una navegación fluida en la pagina web, con un diseño optimizado y una interfaz amigable que les permita buscar opciones de rutas sin inconvenientes. Asimismo, las empresas podrán gestionar sus horarios de atención para que sus clientes
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 2 Velocity</td>
+            <td>
+                -
+            </td>
+        </tr>
+        <tr>
+            <td>Sum of story points</td>
+            <td>
+                -
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+#### 5.2.2.3. Aspect Leaders and Collaborators.
+
+| Team Member (Last Name, First Name)    | GitHub Username     | Crear cuenta (corporativa) | Inicio de sesión | Dashboard Tallers | Talleres | Servicio de Talleres | Sección de usuario | Tracking de auto |
+|----------------------------------------|----------------------|--------------------------------------|------------------|------------------|--------------------------|-------------------------------|-----------------------------------|-------------------------|
+| Rentería Palacios, Yasser              | Mitawarmi2000        |                                      |                  | C                 |                          | L                             |                                   |                         |
+| Valerio Garcia, Renato         | tenzzly      | L                                    | L                |                  | C                         |                               |                                   |                         |
+| Castillo Vidal, Jesús Iván             | Jcdev04              | C                                     |                  |                  |                          |                               | L                                 |                         |
+| Castro Sanchez, Gianfranco           |  Azucarita   |                                      |                  |                 |                       |                               |                                  |                         |
+| Rodríguez Villa, Raúl Adrian               | Necxuz18              |                                      |                  |                  |                          |                               |                                  |                         |
+
+#### 5.2.2.4. Sprint Backlog 2.
+
+| **User Story** |                                 |        | **Work-Item / Task**                 |                                                            |                        |                 |                                                    |   |
+| -------------- | ------------------------------- | ------ | ------------------------------------ | ---------------------------------------------------------- | ---------------------- | --------------- | -------------------------------------------------- | - |
+| **Id**         | **Title**                       | **Id** | **Title**                            | **Description**                                            | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |   |
+| US09           | Conocer al Equipo de Desarrollo | T01    | Crear sección “Acerca de Nosotros”   | Diseñar y desarrollar sección de presentación del equipo   | 4                      | Raúl Medina     | In-Process                                         |   |
+| US04           | Evaluación de Talleres          | T02    | Sistema de calificación              | Calificación de 1 a 5 estrellas con comentarios            | 8                      | Yasser Rentería | To-do                                              |   |
+| US06           | Visualización en Tiempo Real    | T03    | Módulo de seguimiento en tiempo real | Mostrar estado del vehículo durante el servicio            | 10                     | Jesús Castillo  | To-do                                              |   |
+| US07           | Acceso Rápido desde Landing     | T04    | Botón “Ver Más” en landing           | Redirige a la aplicación web desde la landing page         | 3                      | Renato Calvo    | To-do                                              |   |
+| US13           | Ver Detalles del Taller         | T05    | Mostrar detalles del taller          | Dirección, fotos, horarios y servicios del taller          | 6                      | Jesús Castillo  | To-do                                              |   |
+| US15           | Landing Page Responsiva         | T06    | Ajustar diseño responsivo            | Optimizar diseño para distintos tamaños de pantalla        | 5                      | Renato Calvo    | To-do                                              |   |
+| US16           | Publicación de Servicios        | T07    | Gestión de servicios de taller       | Taller publica o edita servicios ofrecidos                 | 7                      | Yasser Rentería | To-do                                              |   |
+| US18           | Registro de Taller              | T08    | Formulario de registro               | Datos + documentación para crear cuenta                    | 6                      | Jesús Castillo  | To-do                                              |   |
+| US20           | Actualizar horario de atención  | T09    | Edición de horario en tiempo real    | El taller edita su horario actual en la app                | 4                      | Renato Calvo    | To-do                                              |   |
+| US21           | Seguimiento de trabajos         | T10    | Registro y estado de servicio        | Taller indica tipo de servicio, vehículo y tiempo estimado | 7                      | Yasser Rentería | To-do                                              |   |
+| US23           | Tracking del auto               | T11    | Ver estado con código de tracking    | Usuario ingresa código y ve el estado de su auto           | 5                      | Jesús Castillo  | To-do                                              |   |
+| US24           | Redirección al dashboard        | T12    | Botón para ir al dashboard           | Desde login, lleva al dashboard de cliente                 | 3                      | Renato Calvo    | To-do                                              |   |
+
+
+#### 5.2.2.5. Development Evidence for Sprint Review.
+
+## Avances de Implementación
+
+En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: FrontEnd. La sección inicia con una introducción que resume los principales avances en la implementación. A continuación se presenta la tabla que incluye, para cada repositorio, los commits relacionados con la implementación.
+
+| Repository       | Branch | Commit Id | Commit Message                               | Commit Message Body                                                                      | Committed   |
+|:----------------:|:------:|:---------:|:---------------------------------------------:|:-----------------------------------------------------------------------------------------:|:-----------:|
+| Tallerazo-Front   | develop   | 081f636   | feat: merge tracking feature          | Se fusionó la rama del tracking al develop para probar                     | 16/05/2025  |
+| FTallerazo-Front   | feature/test  | d81f51f   |feat(dashboard):Added navegation bard and Cars and Dashboard       | Se añadió la interfaz del dashboard del taller                          | 16/05/2025  |
+| Tallerazo-Front   | feature/tracking |04b6e56
+   | feat(coretrack): added vehicle tracking service.              | Implementación del seguimiento de los vehículos                                   | 14/04/2025  |
+| Tallerazo-Front   | feature/auth |   |      |                    | 28/04/2025  |
+
+
+#### 5.2.2.6. Execution Evidence for Sprint Review.
+
+Durante el Sprint 2, el equipo centró sus esfuerzos en el desarrollo del frontend, priorizando la implementación visual y estructural. Debido a que se trató principalmente de trabajo de interfaz, no fue necesario realizar pruebas de testing en esta etapa.
+
+#### 5.2.2.7. Execution Evidence for Sprint Review.
+
+Tras finalizar el Sprint 2, hemos logrado implementar varias secciones del frontend. Aunque aún existen detalles por pulir en el diseño visual, ya es posible visualizar gran parte de la estructura y funcionalidad planteadas. A continuación, te mostramos capturas que reflejan los avances alcanzados hasta el momento.
+
+*Seccion de registro e inicio de sesión* : Pantalla para que clientes y empresas accedan o se registren en la plataforma. Las empresas deben completar sus datos y subir el logo de su marca como parte del proceso de registro.
+
+![login](./assets/login1.png)
+![registro](./assets/register1.png)
+![compañiaregistro](./assets/companypicture.png)
+
+*Inicio*: Página principal del cliente donde puede visualizar su información personal, rutas guardadas y acceder rápidamente a funcionalidades clave de su cuenta.
+
+![inicio](./assets/inicio.png)
+
+*Paraderos*: Sección con lista de los paraderos con su ubicación, referencia y horarios de atención.
+
+![paraderos](./assets/Paraderos.png)
+
+*Creación de rutas*: donde se crean las parada teniendo en cuenta la tarifa, lugar y hora de llegada y de salida.
+
+![rutas](./assets/Creación-rutas.png)
+
+*Buscar empresa*: Permite buscar y visualizar empresas filtrando por región, ciudad y otros criterios.
+
+![empresa](./assets/seleccionempresa.png)
+
+*Informacion de la empresa*: Muestra detalles de la empresa de transporte, horarios, precio, duración y contacto.
+
+![infoempresa](./assets/Información-empresa.png)
+
+#### 5.2.1.8. Software Deployment Evidence for Sprint Review.
+
+Para el despliegue de nuestro Frontend hemos utilizado GitHub Pages. Para hacer esto, hemos trabajado en un repositorio de GitHub donde divimos el trabajo en ramas. En la sección de configuración y Pages, seleccionamos la rama main para desplegar nuestra web. 
+
+Link de del FrontEnd desplegado: https://deft-tapioca-c27a9c.netlify.app/
+
+![link2](./assets/despliegue.png)
+
+5.2.1.9. Team Collaboration Insights during Sprint.
+
+La meta de este sprint fue la implementación del FrontEnd de nuestra pagina web y correcciones del informe. Para llevar a cabo este objetivo, hicimos uso de diversas herramientas como GitHub, WebStorm, Vue, Primevue y heroicons.
+
+![insights](./assets/InsightFront.png)
+
+## 5.3. Video About-the-Product.  
+
+**LINK DE ACCESO AL VIDEO:** https://upcedupe-my.sharepoint.com/:f:/g/personal/u202214130_upc_edu_pe/Eol2tkHQItxAn8woQMXUUTQBgJi3MWuehDVBPoE6CaJQhw?e=e78EokSSss
+
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
 La meta de este sprint fue la implementación de la primera versión de la Landing Page y el informe. Para llevar a cabo este objetivo, hicimos uso de diversas herramientas como GitHub, Visual Studio Code, HTML, CSS. Como evidencias del trabajo realizado tenemos los diagramas de flujo que representan los commits realizados por cada miembro del equipo FROCK.
