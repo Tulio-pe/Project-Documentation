@@ -684,9 +684,9 @@ Para nuestro segundo sprint el equipo estableció que el desarrollos de nuestras
 | -------------- | ------------------------------- | ------ | ------------------------------------ | ---------------------------------------------------------- | ---------------------- | --------------- | -------------------------------------------------- | - |
 | **Id**         | **Title**                       | **Id** | **Title**                            | **Description**                                            | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |   |
 | US09           | Conocer al Equipo de Desarrollo | T01    | Crear sección “Acerca de Nosotros”   | Diseñar y desarrollar sección de presentación del equipo   | 4                      | Raúl Medina     | In-Process                                         |   |
-| US04           | Evaluación de Talleres          | T02    | Sistema de calificación              | Calificación de 1 a 5 estrellas con comentarios            | 8                      | Yasser Rentería | To-do                                              |   |
-| US06           | Visualización en Tiempo Real    | T03    | Módulo de seguimiento en tiempo real | Mostrar estado del vehículo durante el servicio            | 10                     | Jesús Castillo  | To-do                                              |   |
-| US07           | Acceso Rápido desde Landing     | T04    | Botón “Ver Más” en landing           | Redirige a la aplicación web desde la landing page         | 3                      | Renato Calvo    | To-do                                              |   |
+| US04           | Evaluación de Talleres          | T02    | Sistema de calificación              | Calificación de 1 a 5 estrellas con comentarios            | 8                      | Yasser Rentería | In-Process                                             |   |
+| US06           | Visualización en Tiempo Real    | T03    | Módulo de seguimiento en tiempo real | Mostrar estado del vehículo durante el servicio            | 10                     | Jesús Castillo  | To-do                                            |   |
+| US07           | Acceso Rápido desde Landing     | T04    | Botón “Empezar” en landing           | Redirige a la aplicación web desde la landing page         | 3                      | Renato Calvo    | To-do                                              |   |
 | US13           | Ver Detalles del Taller         | T05    | Mostrar detalles del taller          | Dirección, fotos, horarios y servicios del taller          | 6                      | Jesús Castillo  | To-do                                              |   |
 | US15           | Landing Page Responsiva         | T06    | Ajustar diseño responsivo            | Optimizar diseño para distintos tamaños de pantalla        | 5                      | Renato Calvo    | To-do                                              |   |
 | US16           | Publicación de Servicios        | T07    | Gestión de servicios de taller       | Taller publica o edita servicios ofrecidos                 | 7                      | Yasser Rentería | To-do                                              |   |
@@ -748,9 +748,9 @@ Tras finalizar el Sprint 2, hemos logrado implementar varias secciones del front
 
 #### 5.2.1.8. Software Deployment Evidence for Sprint Review.
 
-Para el despliegue de nuestro Frontend hemos utilizado GitHub Pages. Para hacer esto, hemos trabajado en un repositorio de GitHub donde divimos el trabajo en ramas. En la sección de configuración y Pages, seleccionamos la rama main para desplegar nuestra web. 
+Para el despliegue de nuestro Frontend hemos utilizado . Para hacer esto, hemos trabajado en un repositorio de GitHub donde divimos el trabajo en ramas. En la sección de configuración y Pages, seleccionamos la rama main para desplegar nuestra web. 
 
-Link de del FrontEnd desplegado: https://deft-tapioca-c27a9c.netlify.app/
+Link de del FrontEnd desplegado: 
 
 ![link2](./assets/despliegue.png)
 
@@ -762,7 +762,7 @@ La meta de este sprint fue la implementación del FrontEnd de nuestra pagina web
 
 ## 5.3. Video About-the-Product.  
 
-**LINK DE ACCESO AL VIDEO:** https://upcedupe-my.sharepoint.com/:f:/g/personal/u202214130_upc_edu_pe/Eol2tkHQItxAn8woQMXUUTQBgJi3MWuehDVBPoE6CaJQhw?e=e78EokSSss
+**LINK DE ACCESO AL VIDEO:** https://upcedupe-my.sharepoint.com/:f:/g/personal/u202214130_upc_edu_pe/EseYlIFryNpIsjLHPVf9BnABlryOyBUAjh3rxlStccrPDQ?e=ZCKjhk
 
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
