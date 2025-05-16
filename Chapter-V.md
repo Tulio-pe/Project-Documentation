@@ -706,9 +706,8 @@ En esta sección se explica y presenta los avances en implementación con relaci
 | Repository       | Branch | Commit Id | Commit Message                               | Commit Message Body                                                                      | Committed   |
 |:----------------:|:------:|:---------:|:---------------------------------------------:|:-----------------------------------------------------------------------------------------:|:-----------:|
 | Tallerazo-Front   | develop   | 081f636   | feat: merge tracking feature          | Se fusionó la rama del tracking al develop para probar                     | 16/05/2025  |
-| FTallerazo-Front   | feature/test  | d81f51f   |feat(dashboard):Added navegation bard and Cars and Dashboard       | Se añadió la interfaz del dashboard del taller                          | 16/05/2025  |
-| Tallerazo-Front   | feature/tracking |04b6e56
-   | feat(coretrack): added vehicle tracking service.              | Implementación del seguimiento de los vehículos                                   | 14/04/2025  |
+| FTallerazo-Front   | feature/test  | d81f51f   | feat(dashboard):Added navegation bard and Cars and Dashboard       | Se añadió la interfaz del dashboard del taller                          | 16/05/2025  |
+| Tallerazo-Front   | feature/tracking |04b6e56  | feat(coretrack): added vehicle tracking service.   | Implementación del seguimiento de los vehículos                                   | 14/04/2025  |
 | Tallerazo-Front   | feature/auth |   |      |                    | 28/04/2025  |
 
 
@@ -809,5 +808,6 @@ Link de la Organización Tulio: https://github.com/Tulio-pe
 
 | Repositorios                  | Enlace al Respositorio                                  |
 |-------------------------------|---------------------------------------------------------|
-| FROCK Project Report     | https://github.com/Tulio-pe/Project-Documentation |
-| FROCK Landing Page       | https://github.com/Tulio-pe/LandingTaller  |
+| TULIO Project Report     | https://github.com/Tulio-pe/Project-Documentation |
+| TULIO Landing Page       | https://github.com/Tulio-pe/LandingTaller  |
+| TULIO Frontend       | https://github.com/Tulio-pe/Tallerazo-Front  |
