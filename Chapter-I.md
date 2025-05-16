@@ -106,9 +106,10 @@ Esta situación genera desconfianza e inseguridad en los clientes al momento de 
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-Creemos que **una mayor confianza y organización de los clientes**  
-se logrará si **los dueños de vehículos que necesitan el servicio de los talleres automotrices**  
-pueden **gestionar citas, recibir notificaciones del avance de sus autos y comunicarse directamente con el taller de forma personalizada**  
+Creemos que **los talleres automotrices pueden atraer más clientes y generar confianza con una plataforma web que les permita gestionar citas, brindar seguimiento al estado de reparación y comunicarse de forma directa con sus usuarios.**  
+se logrará si **los usuarios perciben mayor transparencia y organización durante todo el proceso de atención**  
+pueden **gestionar citas, recibir notificaciones del avance de sus autos y comunicarse directamente con el taller de forma personalizada**
+Lo sabremos si **al menos el 80% de los talleres registrados reciben una o más reservas digitales por semana dentro de los primeros 3 meses**
 con **una plataforma digital que integre seguimiento en tiempo real, historial de servicios, recordatorios y chat directo**.
 
 Más hypothesis aquí
