@@ -253,18 +253,29 @@ Análisis de los datos obtenidos durante las entrevistas:
 #### 2.4. Ubiquitous Language
 En este proyecto, cuyo objetivo principal es permitir a los usuarios visualizar en tiempo real los servicios realizados a su vehículo en talleres, se ha definido el siguiente lenguaje ubicuo para garantizar la claridad y consistencia entre usuarios, desarrolladores y stakeholders:
 
-| **Término**               | **Definición** |
-|----------------------------|----------------|
-| **Taller**                 | Establecimiento donde se realizan servicios de mantenimiento, reparación o revisión de vehículos. |
-| **Servicio**               | Trabajo específico que ofrece un taller, como cambio de aceite, alineación, revisión de frenos, etc. |
-| **Orden de Servicio**      | Documento o registro que detalla los servicios que se realizarán a un vehículo en una visita específica. |
-| **Cliente**                | Persona que solicita servicios para su vehículo. |
-| **Vehículo**               | Automóvil del cliente que recibe los servicios en el taller. |
-| **Estado del Servicio**    | Representa el progreso de los trabajos en el vehículo (por ejemplo: "En espera", "En proceso", "Finalizado"). |
-| **Seguimiento en Tiempo Real** | Funcionalidad que permite al cliente visualizar el estado y avances del servicio en su vehículo en tiempo real. |
-| **Técnico**                | Persona que ejecuta los servicios sobre el vehículo. |
-| **Diagnóstico**            | Evaluación inicial que determina qué problemas presenta el vehículo. |
-| **Notificación**           | Mensaje enviado al cliente informándole sobre actualizaciones del servicio. |
+| **Término**                                            | **Definición**                                                                                                                                                     |
+| ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Gestor de taller**                                   | Usuario con rol de responsable de un taller mecánico; registra el taller, vehículos, órdenes de reparación y gestiona horarios.                                    |
+| **Conductor**                                          | Usuario que consulta el estado de la reparación de su vehículo mediante un `repairCode` y navega por la lista de talleres.                                         |
+| **Taller**                                             | Entidad que representa un negocio mecánico con información pública (nombre, foto, dirección, contacto, descripción) y privada (vehículos, reparaciones, horarios). |
+| **Ubicación (Región → Provincia → Distrito → Ciudad)** | Cadena jerárquica usada para filtrar talleres y registrar su localización exacta.                                                                                  |
+| **Schedule**                                           | Conjunto de entradas día–hora que definen la disponibilidad regular del taller. Cada registro contiene `dayOfWeek`, `startTime`, `endTime`, `enabled`.             |
+| **Vehicle**                                            | Vehículo registrado por el gestor: `carBrand`, `carModel`, `fuelType`, `licensePlate`, `year` (y opcionales como `color`, `vin`, `mileage`).                       |
+| **Repair (Orden de reparación)**                       | Proceso de servicio técnico asociado a un vehículo; contiene `repairCode`, `status`, `updatedAt` y referencias al taller y vehículo.                               |
+| **repairCode**                                         | Identificador único de la reparación con formato `licensePlate-NN`, donde **NN** es un correlativo por vehículo. Facilita tracking para el conductor.              |
+| **Estado de reparación**                               | Ciclo de vida de la orden: **Por revisar → En revisión → Revisado → Entregado**. Solo avanza en ese orden.                                                         |
+| **updatedAt**                                          | Marca de tiempo ISO8601 que registra la última vez que cambió el estado de la reparación.                                                                          |
+| **Tracking**                                           | Pantalla pública donde el conductor ingresa un `repairCode` y ve el estado y detalles de su reparación.                                                            |
+| **Card**                                               | Componente UI compacto que muestra información resumida (ej. taller, vehículo) con una imagen, campos clave y botones de acción.                                   |
+| **JWT (JSON Web Token)**                               | Token emitido tras inicio de sesión; mantiene la sesión del gestor y se invalida al cerrar sesión.                                                                 |
+| **Onboarding**                                         | Flujo inicial que guía al gestor recién registrado a crear su primer taller antes de acceder al dashboard principal.                                               |
+| **Dashboard**                                          | Vista principal del gestor con resumen de vehículos, reparaciones y métricas del taller.                                                                           |
+| **Filtro por estado**                                  | Herramienta en la vista de reparaciones que permite mostrar **Todas**, **Por revisar**, **En revisión**, **Revisado** o **Entregado**.                             |
+| **Contactar taller**                                   | Acción que abre `https://wa.me/<phone>` para iniciar conversación de WhatsApp con el teléfono del taller.                                                          |
+| **Sesión**                                             | Período autenticado del gestor; se mantiene mediante el JWT y se finaliza con la acción “Cerrar sesión”.                                                           |
+| **Tooltip “Reparación abierta”**                       | Mensaje emergente que explica por qué el botón “Crear reparación” está deshabilitado cuando ya hay una orden activa para el vehículo.                              |
+| **Tabla de permisos**                                  | Validaciones de front/back que garantizan que cada rol (gestor, conductor) solo acceda a las operaciones permitidas en su contexto.                                |
+
 
 ### Beneficios esperados del lenguaje ubicuo:
 - Facilita la comunicación entre usuarios, desarrolladores y administradores del sistema.
