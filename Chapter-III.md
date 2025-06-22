@@ -16,46 +16,11 @@ This section provides a collection of user stories that describe the functionali
 
 | Epic/User Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |--------------------|--------|-------------|-------------------------|---------------------------|
-| US05 | Registrar cuenta de gestor | Como gestor de taller, quiero registrarme en la plataforma, para obtener una cuenta que me permita acceder a mis funciones. | ```gherkin
-Scenario: Registro exitoso de gestor
-  Given el gestor está en el formulario "Registro"
-  When completa email, firstname, lastname, username y password (>= 6 caracteres)
-  And el email y el username no existen en la base de datos
-  And pulsa "Registrarse"
-  Then el sistema guarda la cuenta con la contraseña encriptada (bcrypt)
-  And redirige al inicio de sesión
-``` | |
-| US06 | Iniciar sesión | Como gestor de taller, quiero iniciar sesión con mis credenciales, para acceder a la plataforma. | ```gherkin
-Scenario: Inicio de sesión válido
-  Given el gestor está en la pantalla "Login"
-  When ingresa email y password correctos
-  Then el sistema emite un JWT
-  And redirige al dashboard si ya registró taller
-  And redirige al onboarding si aún no lo hizo
+| US05 | Registrar cuenta de gestor | Como gestor de taller, quiero registrarme en la plataforma, para obtener una cuenta que me permita acceder a mis funciones. | **Scenario:** Registro exitoso de gestor<br>**Given** el gestor está en el formulario "Registro"<br>**When** completa email, firstname, lastname, username y password (≥ 6 caracteres)<br>**And** el email y el username no existen en la base de datos<br>**And** pulsa "Registrarse"<br>**Then** el sistema guarda la cuenta con la contraseña encriptada (bcrypt)<br>**And** redirige al inicio de sesión | |
+| US06 | Iniciar sesión | Como gestor de taller, quiero iniciar sesión con mis credenciales, para acceder a la plataforma. | **Scenario:** Inicio de sesión válido<br>**Given** el gestor está en la pantalla "Login"<br>**When** ingresa email y password correctos<br>**Then** el sistema emite un JWT<br>**And** redirige al dashboard u onboarding según corresponda<br><br>**Scenario:** Inicio de sesión inválido<br>**Given** el gestor está en la pantalla "Login"<br>**When** ingresa email o password incorrectos<br>**Then** el sistema muestra "Credenciales inválidas"<br>**And** permanece en la misma pantalla | |
+| US07 | Actualizar perfil personal | Como gestor de taller, quiero actualizar mis datos personales, para mantener mi información al día. | **Scenario:** Actualización exitosa del perfil<br>**Given** el gestor está autenticado y en "Mi perfil"<br>**When** modifica firstname, lastname o username (dejando email y password sin cambios)<br>**And** el nuevo username no existe en otro usuario<br>**And** pulsa "Guardar"<br>**Then** el sistema actualiza los datos en la base de datos<br>**And** muestra el mensaje "Datos actualizados" | |
+| US08 | Cerrar sesión | Como gestor de taller, quiero cerrar sesión, para finalizar mi acceso de forma segura. | **Scenario:** Cierre de sesión<br>**Given** el gestor está autenticado en la plataforma<br>**When** pulsa "Cerrar sesión"<br>**Then** el sistema invalida el JWT actual<br>**And** redirige al inicio de sesión<br>**And** muestra "Sesión cerrada" | |
 
-Scenario: Inicio de sesión inválido
-  Given el gestor está en la pantalla "Login"
-  When ingresa email o password incorrectos
-  Then el sistema muestra "Credenciales inválidas"
-  And permanece en la misma pantalla
-``` | |
-| US07 | Actualizar perfil personal | Como gestor de taller, quiero actualizar mis datos personales, para mantener mi información al día. | ```gherkin
-Scenario: Actualización exitosa del perfil
-  Given el gestor está autenticado y en "Mi perfil"
-  When modifica firstname, lastname o username (dejando email y password sin cambios)
-  And el nuevo username no existe en otro usuario
-  And pulsa "Guardar"
-  Then el sistema actualiza los datos en la base de datos
-  And muestra el mensaje "Datos actualizados"
-``` | |
-| US08 | Cerrar sesión | Como gestor de taller, quiero cerrar sesión, para finalizar mi acceso de forma segura. | ```gherkin
-Scenario: Cierre de sesión
-  Given el gestor está autenticado en la plataforma
-  When pulsa "Cerrar sesión"
-  Then el sistema invalida el JWT actual
-  And redirige al inicio de sesión
-  And muestra "Sesión cerrada"
-``` | |
 
 
 
