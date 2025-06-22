@@ -61,21 +61,24 @@ This section lists the prioritized product backlog items, including features, en
 
 ## Product Backlog
 
-| #Orden | User Story ID | Título | Descripción | Story Points |
-|--------|---------------|--------|-------------|--------------|
-| 1 | US01 | Agendamiento de Citas en Talleres | Agendar citas en talleres disponibles. | 8 |
-| 2 | US02 | Notificaciones de Mantenimiento | Recibir alertas de mantenimiento de vehículo. | 5 |
-| 3 | US03 | Historial de Servicios | Consultar historial de servicios de un vehículo. | 5 |
-| 4 | US04 | Evaluación de Talleres | Dejar calificaciones y comentarios sobre talleres. | 5 |
-| 5 | US05 | Gestión de Múltiples Vehículos | Registrar y administrar varios vehículos. | 8 |
-| 6 | US06 | Visualización en Tiempo Real del Servicio | Ver en tiempo real qué se le está haciendo al vehículo. | 13 |
-| 7 | US07 | Acceso Rápido desde Landing | Botón "Ver Más" que redirige a la app. | 3 |
-| 8 | US08 | Información sobre los Planes Disponibles | Mostrar y comparar planes de servicio en la landing. | 5 |
-| 9 | US09 | Conocer al Equipo de Desarrollo | Sección en landing con información del equipo. | 3 |
-| 10 | US10 | Crear Cuenta como Cliente | Registro de nuevos usuarios y vehículos. | 8 |
-| 11 | US11 | Recuperar Contraseña | Sistema de recuperación de contraseñas olvidadas. | 5 |
-| 12 | US12 | Filtrar Talleres por Especialidad | Filtros de búsqueda por tipo de servicio. | 5 |
-| 13 | US13 | Ver Detalles del Taller | Vista completa de información de talleres. | 5 |
-| 14 | US14 | Notificación de Finalización de Servicio | Notificación de término de servicio del vehículo. | 5 |
-| 15 | US15 | Landing Page Responsiva | Diseño adaptable a computadoras y móviles. | 5 |
+| #Orden | User Story ID | Título | Descripción (resumen) | Story Points |
+|--------|---------------|--------|-----------------------|--------------|
+| 1 | **US01** | Registrar cuenta de gestor | Alta de usuario gestor (email, username únicos, pwd ≥ 6, bcrypt) | **5** |
+| 2 | **US02** | Iniciar sesión | Autenticación (JWT) y ruteo a dashboard / onboarding | **3** |
+| 3 | **US03** | Actualizar perfil personal | Cambiar firstname, lastname, username | **2** |
+| 4 | **US04** | Cerrar sesión | Invalidar JWT y redirigir al login | **1** |
+| 5 | **US05** | Registrar taller | Formulario completo + cascada Región → Ciudad + validaciones | **8** |
+| 6 | **US06** | Editar taller | Actualizar datos del taller con autocompletado | **5** |
+| 7 | **US07** | Configurar horarios | Crear calendario regular de atención con validaciones | **5** |
+| 8 | **US08** | Actualizar horarios | Modificar o eliminar entradas de horario existentes | **3** |
+| 9 | **US09** | Explorar talleres filtrados | Búsqueda por Región → Ciudad y cards de resultado | **5** |
+| 10 | **US10** | Ver detalle de taller | Ficha completa + horarios + botón WhatsApp | **3** |
+| 11 | **US11** | Registrar vehículo | Alta de vehículo (placa única, año válido) | **5** |
+| 12 | **US12** | Listar vehículos | Cards de vehículos + botón “Crear reparación” | **3** |
+| 13 | **US13** | Crear orden de reparación | Generar `repairCode` y estado inicial “Por revisar” | **8** |
+| 14 | **US14** | Cambiar estado de reparación | Flujo Por revisar→En revisión→Revisado→Entregado con `updatedAt` | **5** |
+| 15 | **US15** | Filtrar reparaciones | Lista filtrable por estado, respuesta ≤ 1 s | **3** |
+| 16 | **US16** | Tracking de reparación (conductor) | Campo `repairCode`, validación y redirección | **3** |
+| 17 | **US17** | Ver detalle de reparación | Estado + vehículo + taller + botón WhatsApp | **3** |
+
 
