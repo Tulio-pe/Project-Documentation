@@ -751,11 +751,112 @@ Link de del FrontEnd desplegado:
 
 https://tallerazo-front-three.vercel.app/
 
-5.2.1.9. Team Collaboration Insights during Sprint.
+#### 5.2.1.9. Team Collaboration Insights during Sprint.
 
 La meta de este sprint fue la implementación del FrontEnd de nuestra pagina web y correcciones del informe. Para llevar a cabo este objetivo, hicimos uso de diversas herramientas como GitHub, WebStorm, Angular, AngularMaterial y heroicons.
 
 ![link2](./src/insight2.png)
+
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1.Sprint Planning 3.
+
+Para nuestro segundo sprint el equipo estableció que el desarrollos de nuestras tareas se realizarian en un aproximado de 26 horas
+
+<table>
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2"><b>Sprint  Background</b></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>2025/06/01</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>10:30 PM</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>Discord</td>
+        </tr>
+        <tr>
+            <td>Prepared by</td>
+            <td>Renato Guillermo Calbo Yalan</td>
+        </tr>
+        <tr>
+            <td>Atendees (to  meeting)</td>
+            <td>
+                <li>Yasser Rentería Palacios</li>
+                <li>Jesús Iván Castillo Vidal</li>
+                <li>Raúl Adrian Medina Cruzado</li>
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 3 Review Summary</td>
+            <td>
+                Este es el tercer sprint a realizar por el equipo
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 3 Retrospective Summary</td>
+            <td>
+                Acuerdo en desarrollar el backend a más de 40% de avance y mejorar el frontend
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+        </tr>
+        <tr>
+            <td>Sprint 3 Goal</td>
+            <td style="text-align: justify">
+                <p>
+                Nuestro objetivo en este sprint es consolidar el desarrollo del sistema Tallerazo completando más del 40% de la funcionalidad backend, optimizando significativamente el frontend con mejoras en diseño y experiencia de usuario, y establecer un pipeline de deployment funcional para ambos componentes (frontend y backend). Además, resolver completamente las observaciones identificadas en el sprint anterior, asegurando que los usuarios experimenten una navegación fluida y funcional en la plataforma web.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 2 Velocity</td>
+            <td>
+                -
+            </td>
+        </tr>
+        <tr>
+            <td>Sum of story points</td>
+            <td>
+                -
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+
+#### 5.2.3.3.Sprint Backlog 3.
+
+#### 5.2.3.4.Development Evidence for Sprint Review.
+
+#### 5.2.3.5.Execution Evidence for Sprint Review.
+
+#### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+
+#### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+
+#### 5.2.3.8.Team Collaboration Insights during Sprint.
+
+### 5.3. Validation Interviews.
+
+#### 5.3.1. Diseño de Entrevistas.
+
+#### 5.3.2. Registro de Entrevistas.
+
+#### 5.3.3. Evaluaciones según heurísticas
 
 ## 5.3. Video About-the-Product.  
 
