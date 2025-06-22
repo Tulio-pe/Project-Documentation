@@ -937,6 +937,10 @@ Tras finalizar el Sprint 2, hemos logrado implementar varias secciones del front
 
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
 
+*Endpoints* : Muestra de los endpints correctamente implementados en Swagger.
+
+![registro](./src/SwaggerB.png)
+
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
 #### 5.2.3.8.Team Collaboration Insights during Sprint.
