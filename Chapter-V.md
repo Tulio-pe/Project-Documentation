@@ -943,6 +943,13 @@ Tras finalizar el Sprint 2, hemos logrado implementar varias secciones del front
 
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
+![registro](./src/Tallerazo.png)
+
+![registro](./src/FrontD.jpeg)
+
+![registro](./src/SwaggerB.jpeg)
+
+
 #### 5.2.3.8.Team Collaboration Insights during Sprint.
 
 ### 5.3. Validation Interviews.
@@ -1027,9 +1034,127 @@ https://upcedupe-my.sharepoint.com/personal/u202214130_upc_edu_pe/_layouts/15/st
 
 #### 5.3.3. Evaluaciones según heurísticas
 
+# UX Heuristics & Principles Evaluation  
+**Usability – Inclusive Design – Information Architecture**
+
+---
+
+**CARRERA**: Ingeniería de Software  
+**CURSO**: Desarrollo de Aplicaciones Open Source  
+**SECCIÓN**: 4289 
+**PROFESOR(ES)**: Efraín Bautista 
+**AUDITOR(ES)**: Tulio  
+**CLIENTE(S)**: Conductores y Talleres
+
+---
+
+## SITIO O APP A EVALUAR:
+**Nombre de App**: Gestión de Talleres
+
+---
+
+## TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro de un usuario nuevo  
+2. Búsqueda de talleres cercanos  
+3. Revisión del estado del servicio de un vehículo  
+4. Reserva de una cita en taller  
+5. Cancelación de una cita  
+6. Visualización del historial de servicios  
+7. Agregar comentarios o calificaciones al taller  
+8. Navegación entre landing, front y panel de usuario  
+9. Etc.
+
+**No están incluidas en esta versión de la evaluación las siguientes tareas:**
+
+1. Administración interna de talleres  
+2. Gestión de mecánicos y personal  
+3. Estadísticas o dashboards internos  
+4. Configuración de parámetros de sistema  
+5. Etc.
+
+---
+
+## ESCALA DE SEVERIDAD:
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1 | Problema superficial: puede ser superado fácilmente por el usuario o ocurre muy poco frecuentemente. |
+| 2 | Problema menor: puede dificultar al usuario ocasionalmente. Se debería arreglar con baja prioridad. |
+| 3 | Problema mayor: impide el uso normal a varios usuarios. Debe corregirse pronto. |
+| 4 | Problema muy grave: bloquea el uso de la app. Debe corregirse antes del lanzamiento. |
+
+---
+
+## TABLA RESUMEN:
+
+| #  | Problema | Escala de severidad | Heurística/Principio violado(a) |
+|----|----------|----------------------|----------------------------------|
+| 1  | No hay un botón para regresar al mapa de talleres desde el detalle del estado del servicio | 3 | Usability: Libertad y control del usuario |
+| 2  | Los íconos del estado del vehículo no tienen explicación contextual | 2 | Usability: Reconocimiento antes que recuerdo |
+| 3  | Imágenes de los talleres sin texto alternativo ("alt") | 3 | Inclusive Design: Proporciona experiencias comparables |
+| 4  | Botón “Reagendar” visible aún si no hay cita activa | 2 | Usability: Visibilidad del estado del sistema |
+| 5  | No hay información clara sobre los horarios de atención del taller | 2 | Information Architecture: Is it findable? |
+| 6  | Landing page no tiene una opción directa de ir al panel de usuario | 1 | Usability: Flexibilidad y eficiencia de uso |
+| 7  | No hay confirmación visual clara tras enviar un comentario o calificación | 2 | Usability: Feedback inmediato |
+
+---
+
+## DESCRIPCIÓN DE PROBLEMAS:
+
+---
+
+### PROBLEMA #1  
+**No hay un botón para regresar al mapa de talleres desde el detalle del estado del servicio**  
+**Severidad**: 3  
+**Heurística violada**: Usabilidad - Libertad y control del usuario  
+
+**Problema:**  
+El usuario al consultar el estado de su vehículo entra a una vista detallada del servicio, pero no tiene una opción clara y visible para regresar al mapa general de talleres. Esto le obliga a usar el botón del navegador, afectando la fluidez de navegación.
+
+**Recomendación:**  
+Agregar un botón de “Regresar al mapa” fijo en la parte superior o inferior de la vista de detalle.
+
+---
+
+### PROBLEMA #2  
+**Los íconos del estado del vehículo no tienen explicación contextual**  
+**Severidad**: 2  
+**Heurística violada**: Usabilidad - Reconocimiento antes que recuerdo  
+
+**Problema:**  
+Los íconos (ej. engranaje, reloj, check) no tienen etiquetas ni descripciones emergentes (tooltips), lo cual genera incertidumbre sobre el significado de cada uno.
+
+**Recomendación:**  
+Agregar tooltips o leyenda explicativa al pasar el cursor o tocar el ícono.
+
+---
+
+### PROBLEMA #3  
+**Imágenes de los talleres sin texto alternativo (“alt”)**  
+**Severidad**: 3  
+**Heurística violada**: Inclusive Design - Proporciona experiencias comparables  
+
+**Problema:**  
+Usuarios con lectores de pantalla no pueden acceder al contenido visual de los talleres, lo cual limita la accesibilidad.
+
+**Recomendación:**  
+Agregar atributos `alt` descriptivos en todas las imágenes de los talleres.
+
+
 ## 5.3. Video About-the-Product.  
 
-**LINK DE ACCESO AL VIDEO:** https://upcedupe-my.sharepoint.com/:f:/g/personal/u202214130_upc_edu_pe/EseYlIFryNpIsjLHPVf9BnABlryOyBUAjh3rxlStccrPDQ?e=ZCKjhk
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214130_upc_edu_pe/Ec9nt-pv8JFKtiMH4UtseVcB74l5o4CGHIVxA7oC3Q1-hg?e=kRh0GL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+https://youtu.be/tybXEHvaWC0
+
+## 5.3. Video About-the-Team. 
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214130_upc_edu_pe/EfS0W1SMu01JgYRP6fnLsCMBYI9Chmgfvl8Dw29MbzCQ3Q?e=pyF9YJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+https://youtu.be/d5alZRwrCuo
 
 # Bibliografía  
 
@@ -1060,7 +1185,9 @@ Vernon, V. (2013). *Implementing domain-driven design.* Addison-Wesley.
 
 ### Anexo A. Products Deployed.
 
-Landing Page Desplegada: https://tulio-pe.github.io/LandingTaller/
+Landing Page Desplegada: https://tallerazo-landingpage.web.app/
+Frontend desplegado: https://chapa-tu-ruta-frontend.web.app/
+Backend desplegado:
 
 ### Anexo B. Web tools
 
@@ -1080,4 +1207,5 @@ Link de la Organización Tulio: https://github.com/Tulio-pe
 |-------------------------------|---------------------------------------------------------|
 | TULIO Project Report     | https://github.com/Tulio-pe/Project-Documentation |
 | TULIO Landing Page       | https://github.com/Tulio-pe/LandingTaller  |
-| TULIO Frontend       | https://github.com/Tulio-pe/Tallerazo-Front  | https://tallerazo-front-three.vercel.app/
+| TULIO Frontend       | https://github.com/Tulio-pe/FrontEnd  | 
+| TULIO Backend       | https://github.com/Tulio-pe/Backend  | 
