@@ -889,7 +889,7 @@ Para nuestro segundo sprint el equipo estableció que el desarrollos de nuestras
 
 ## Avances de Implementación
 
-En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: FrontEnd. La sección inicia con una introducción que resume los principales avances en la implementación. A continuación se presenta la tabla que incluye, para cada repositorio, los commits relacionados con la implementación.
+En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: FrontEnd y Backend. La sección inicia con una introducción que resume los principales avances en la implementación. A continuación se presenta la tabla que incluye, para cada repositorio, los commits relacionados con la implementación.
 
 | Repository       | Branch | Commit Id | Commit Message                               | Commit Message Body                                                                      | Committed   |
 |:----------------:|:------:|:---------:|:---------------------------------------------:|:-----------------------------------------------------------------------------------------:|:-----------:|
@@ -899,6 +899,41 @@ En esta sección se explica y presenta los avances en implementación con relaci
 
 
 #### 5.2.3.5.Execution Evidence for Sprint Review.
+
+Tras finalizar el Sprint 2, hemos logrado implementar varias secciones del frontend. Aunque aún existen detalles por pulir en el diseño visual, ya es posible visualizar gran parte de la estructura y funcionalidad planteadas. A continuación, te mostramos capturas que reflejan los avances alcanzados hasta el momento.
+
+*Seccion de registro e inicio de sesión* : Pantalla para que empresas accedan o se registren en la plataforma. Las empresas deben completar sus datos.
+
+![login](./src/LoginF.png)
+![registro](./src/RegisterF.png)
+
+*Dashboard* : Pantalla para que empresas accedan a los estados de reparación de los vehículos y a crear una reparación,
+
+![registro](./src/DashboardF.png)
+
+*Cars* : Pantalla para que empresas vean los autos que tienen en espera o dentro de la revisión.
+
+![registro](./src/CarsF.png)
+
+*Configuration* : Pantalla para que empresas accedan a la configuración de sus datos para cambiarlos y cambiar sus horarios de atención.
+
+![registro](./src/ConfigF.png)
+
+*Workshops* : Pantalla para que los conductores vean los talleres mecánicos que están cerca a él y los servicios que ofrecen de manera resumida.
+
+![registro](./src/WorkshopsF.png)
+
+*Workshops Details* : Pantalla para que los conductores vean los talleres de manera detallada y puedan contactar con ellos.
+
+![registro](./src/WorkDetailF.png)
+
+*Code* : Pantalla para que los conductores cuando la empresa les de un código puedan ingresar su código de seguimiento.
+
+![registro](./src/CodeF.png)
+
+*Vehícle Tracking* : Pantalla para que los conductores vean el seguimienot en tiempo real de los servicios le están haciendo a su auto.
+
+![registro](./src/TrackingF.png)
 
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
 
