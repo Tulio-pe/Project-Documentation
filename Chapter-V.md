@@ -817,7 +817,7 @@ Para nuestro segundo sprint el equipo estableció que el desarrollos de nuestras
             <td>Sprint 3 Goal</td>
             <td style="text-align: justify">
                 <p>
-                Nuestro objetivo en este sprint es consolidar el desarrollo del sistema Tallerazo completando más del 40% de la funcionalidad backend, optimizando significativamente el frontend con mejoras en diseño y experiencia de usuario, y establecer un pipeline de deployment funcional para ambos componentes (frontend y backend). Además, resolver completamente las observaciones identificadas en el sprint anterior, asegurando que los usuarios experimenten una navegación fluida y funcional en la plataforma web.
+                Nuestro objetivo en este sprint es consolidar el desarrollo del sistema Tallerazo completando más del 40% de la funcionalidad backend, optimizando significativamente el frontend con mejoras en diseño y experiencia de usuario, y establecer un pipeline de deployment funcional para ambos componentes (frontend y backend). Además, resolver completamente las observaciones identificadas en el sprint anterior, asegurando que los usuarios experimenten una navegación fluida y funcional en la plataforma web. Por último levantamos algunas observaciones de del sprint 2.
                 </p>
             </td>
         </tr>
