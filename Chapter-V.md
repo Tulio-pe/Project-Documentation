@@ -939,7 +939,7 @@ Tras finalizar el Sprint 2, hemos logrado implementar varias secciones del front
 
 *Endpoints* : Muestra de los endpints correctamente implementados en Swagger.
 
-![registro](./src/SwaggerB.jepg)
+![registro](./src/SwaggerB.jpeg)
 
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
