@@ -847,6 +847,44 @@ Para nuestro segundo sprint el equipo estableció que el desarrollos de nuestras
 
 #### 5.2.3.3.Sprint Backlog 3.
 
+| **User Story** |                                 |        | **Work-Item / Task**                 |                                                            |                        |                 |                                                    |
+| -------------- | ------------------------------- | ------ | ------------------------------------ | ---------------------------------------------------------- | ---------------------- | --------------- | -------------------------------------------------- |
+| **Id**         | **Title**                       | **Id** | **Title**                            | **Description**                                            | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| US01           | Registrar cuenta de gestor      | T01    | Crear formulario de registro         | Desarrollar formulario con validaciones para email, firstname, lastname, username y password | 6 | Renato | Done |
+| US01           | Registrar cuenta de gestor      | T02    | Implementar encriptación de contraseña | Sistema de encriptación bcrypt para passwords | 4 | Renato | To-do |
+| US01           | Registrar cuenta de gestor      | T03    | Validación de unicidad de datos     | Verificar que email y username no existan en BD | 3 | Renato | Done |
+| US02           | Iniciar sesión                  | T04    | Pantalla de login                   | Crear interfaz de inicio de sesión con validaciones | 4 | Yasser | Done |
+| US02           | Iniciar sesión                  | T05    | Sistema de autenticación JWT        | Implementar generación y validación de JWT | 6 | Renato | To-do |
+| US02           | Iniciar sesión                  | T06    | Manejo de errores de login          | Mostrar mensajes de error para credenciales inválidas | 2 | Renato | Done |
+| US03           | Actualizar perfil personal      | T07    | Pantalla "Mi perfil"                | Crear interfaz para editar datos personales | 5 | Jesús | To-do |
+| US03           | Actualizar perfil personal      | T08    | Validación de username único        | Verificar que nuevo username no exista | 3 | Renato | Done |
+| US04           | Cerrar sesión                   | T09    | Funcionalidad de logout             | Invalidar JWT y redirigir a login | 2 | Renato | To-do |
+| US05           | Registrar información del taller | T10    | Formulario de registro de taller    | Crear formulario con todos los campos requeridos | 8 | Yasser | Done |
+| US05           | Registrar información del taller | T11    | Sistema de ubicación cascada        | Implementar selección Región → Provincia → Distrito → Ciudad | 6 | Raúl | To-do |
+| US05           | Registrar información del taller | T12    | Subida y validación de imágenes     | Sistema para cargar y validar fotos png/jpg | 4 | Rául | Done |
+| US06           | Editar información del taller   | T13    | Pantalla "Editar taller"            | Interfaz para modificar datos del taller con autocompletado | 6 | Yasser | To-do |
+| US07           | Configurar horarios regulares   | T14    | Sección de configuración de horarios | Crear interfaz para definir horarios por día de semana | 7 | Jesús | Done |
+| US07           | Configurar horarios regulares   | T15    | Validación de horarios              | Validar que StartTime < EndTime y formato correcto | 3 | Jesús | To-do |
+| US08           | Actualizar horarios de atención | T16    | Edición de horarios existentes      | Permitir modificar horarios ya configurados | 5 | Yasser | Done|
+| US09           | Explorar talleres filtrados     | T17    | Pantalla de exploración de talleres | Crear interfaz de búsqueda con filtros de ubicación | 8 | Yasser | Done |
+| US09           | Explorar talleres filtrados     | T18    | Sistema de filtrado por ubicación   | Implementar filtro cascada para conductores | 6 | Raúl | To-do |
+| US09           | Explorar talleres filtrados     | T19    | Cards de talleres                   | Mostrar información resumida en formato card | 4 | Yasser | Done |
+| US10           | Ver detalle de taller           | T20    | Página de detalle de taller         | Crear vista completa con toda la información del taller | 7 | Yasser | Done |
+| US10           | Ver detalle de taller           | T21    | Integración con WhatsApp            | Implementar botón de contacto vía WhatsApp | 3 | Rául | To-do |
+| US11           | Registrar vehículo              | T22    | Formulario de registro de vehículo  | Crear formulario con validaciones para datos del vehículo | 5 | Renato | To-do |
+| US11           | Registrar vehículo              | T23    | Validación de placa única           | Verificar unicidad de licensePlate por taller | 3 | Yasser | To-do |
+| US12           | Listar vehículos del taller     | T24    | Vista de lista de vehículos         | Mostrar vehículos registrados en formato card | 4 | Rául | Done|
+| US12           | Listar vehículos del taller     | T25    | Estado vacío y navegación           | Manejar caso sin vehículos y botones de acción | 2 | Yasser | To-do |
+| US13           | Crear orden de reparación       | T26    | Sistema de generación de códigos    | Generar repairCode único formato licensePlate-NN | 4 | Jesús | To-do |
+| US13           | Crear orden de reparación       | T27    | Validación de reparación abierta    | Verificar que no exista reparación activa | 3 | Jesús | Done |
+| US14           | Cambiar estado de reparación    | T28    | Interfaz de cambio de estados       | Crear controles para actualizar estado de reparación | 5 | Rául | Done |
+| US14           | Cambiar estado de reparación    | T29    | Lógica de flujo de estados          | Implementar transiciones válidas entre estados | 4 | Raúl | Done |
+| US15           | Filtrar reparaciones por estado | T30    | Sistema de filtrado de reparaciones | Crear filtros por estado con actualización en tiempo real | 6 | Raúl | Done |
+| US16           | Tracking de reparación (conductor) | T31    | Pantalla de tracking                | Crear interfaz para ingresar código de seguimiento | 4 | sserYa | Done|
+| US16           | Tracking de reparación (conductor) | T32    | Validación de códigos de tracking   | Verificar formato y existencia de repairCode | 3 | Yasser | To-do |
+| US17           | Ver detalle de reparación       | T33    | Vista de detalle de reparación      | Mostrar información completa de la reparación | 6 | Yasser | Done |
+| US17           | Ver detalle de reparación       | T34    | Indicadores visuales de estado      | Crear elementos visuales para cada estado | 3 | Renato | Done |
+
 #### 5.2.3.4.Development Evidence for Sprint Review.
 
 #### 5.2.3.5.Execution Evidence for Sprint Review.
