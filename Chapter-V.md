@@ -838,6 +838,13 @@ Para nuestro segundo sprint el equipo estableció que el desarrollos de nuestras
 
 #### 5.2.3.2. Aspect Leaders and Collaborators.
 
+| Team Member (Last Name, First Name) | GitHub Username | Gestión de Cuentas y Autenticación | Gestión de Información del Taller | Búsqueda y Visualización de Talleres | Gestión de Vehículos | Gestión de Órdenes de Reparación | Seguimiento de Reparaciones | Creación de Endpoints |
+|--------------------------------------|-----------------|-------------------------------------|-----------------------------------|--------------------------------------|---------------------|-----------------------------------|----------------------------|---------------------|
+| Rentería Palacios, Yasser | Mitawarmi2000 | C | L | | | | | C |
+| Valerio García, Renato | tenzzly | L | | C | | | | L |
+| Castillo Vidal, Jesús Iván | Jcdev04 | C | | | L | | | C |
+| Rodríguez Villa, Raúl Adrián | Necxuz18 | | | | | C | L | C |
+
 #### 5.2.3.3.Sprint Backlog 3.
 
 #### 5.2.3.4.Development Evidence for Sprint Review.
