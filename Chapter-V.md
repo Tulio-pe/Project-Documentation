@@ -949,7 +949,81 @@ Tras finalizar el Sprint 2, hemos logrado implementar varias secciones del front
 
 #### 5.3.1. Diseño de Entrevistas.
 
+## Datos del Usuario
+- **Nombre:** _______________
+- **Apellido:** _______________  
+- **Tipo de usuario:** [ ] Dueño de Taller [ ] [ ] Conductor [ ] Otro
+
+---
+
+## 1. Landing Page
+1. ¿Entiendes qué hace la aplicación? [ ] Sí [ ] No
+2. ¿Te interesa probarla? [ ] Sí [ ] No
+3. ¿Los colores te gustan? [ ] Sí [ ] No
+
+## 2. Registro
+4. ¿Fue fácil crear la cuenta? [ ] Sí [ ] No
+5. ¿Fue fácil registrar tu empresa? [ ] Sí [ ] No
+
+## 3. Aplicación
+6. ¿Es fácil navegar? [ ] Sí [ ] No
+7. ¿Entiendes cómo crear reparaciones? [ ] Sí [ ] No
+8. ¿Entiendes cómo agregar tu empresa? [ ] Sí [ ] No
+9. ¿Entiendes cómo puedes ver tu auto a través de un código? [ ] Sí [ ] No
+10. ¿El diseño se ve limpio? [ ] Sí [ ] No
+
+## 4. General
+10. **Califica la app del 1 al 10:** ___/10
+11. **¿Qué mejorarías?** _______________
+12. **¿La recomendarías?** [ ] Sí [ ] No
+
+---
+
 #### 5.3.2. Registro de Entrevistas.
+
+### Segmento objetivo: Taller mecánico 
+
+![registro](./src/Int1.png)
+
+*Timing:* 00:00 - 01:24
+
+*Nombres:* Diego
+
+*Apellidos:* Cisneros
+
+*Edad:* 27
+
+*Distrito:* Villa EL Salvador
+
+https://upcedupe-my.sharepoint.com/personal/u202214130_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202214130%5Fupc%5Fedu%5Fpe%2FDocuments%2FWhatsApp%20Video%202025%2D06%2D22%20at%201%2E22%2E33%20PM%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ead4c6d8e%2Db3a4%2D4e6d%2D8868%2D79e548678811&isDarkMode=false
+
+![registro](./src/Int2.png)
+
+*Timing:* 00:00 - 01:27
+
+*Nombres:* Andy 
+
+*Apellidos:* Calvo Yalan
+
+*Edad:* 29
+
+*Distrito:* Chorrillos
+
+https://upcedupe-my.sharepoint.com/personal/u202214130_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202214130%5Fupc%5Fedu%5Fpe%2FDocuments%2Fvideo1330465944%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eedd7c8c7%2D3f17%2D493f%2D9f90%2Ddb5dd8c9fbcd&isDarkMode=false
+
+![registro](./src/Int3.png)
+
+*Timing:* 00:00 - 01:43
+
+*Nombres:* Luciano 
+
+*Apellidos:* Paco
+
+*Edad:* 25
+
+*Distrito:* Villa EL Salvador
+
+https://upcedupe-my.sharepoint.com/personal/u202214130_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202214130%5Fupc%5Fedu%5Fpe%2FDocuments%2Fvideo1733403779%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E33af4f57%2Df09e%2D4d06%2D9d66%2Dbbbad746625d&isDarkMode=false
 
 #### 5.3.3. Evaluaciones según heurísticas
 
