@@ -16,7 +16,7 @@ This section provides a collection of user stories that describe the functionali
 
 | Epic/User Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |--------------------|--------|-------------|-------------------------|---------------------------|
-| US01 | Registrar cuenta de gestor | Como gestor de taller, quiero registrarme en la plataforma, para obtener una cuenta que me permita acceder a mis funciones. | 
+| US05 | Registrar cuenta de gestor | Como gestor de taller, quiero registrarme en la plataforma, para obtener una cuenta que me permita acceder a mis funciones. | ```gherkin
 Scenario: Registro exitoso de gestor
   Given el gestor está en el formulario "Registro"
   When completa email, firstname, lastname, username y password (>= 6 caracteres)
@@ -24,8 +24,8 @@ Scenario: Registro exitoso de gestor
   And pulsa "Registrarse"
   Then el sistema guarda la cuenta con la contraseña encriptada (bcrypt)
   And redirige al inicio de sesión
- | |
-| US02 | Iniciar sesión | Como gestor de taller, quiero iniciar sesión con mis credenciales, para acceder a la plataforma. | 
+``` | |
+| US06 | Iniciar sesión | Como gestor de taller, quiero iniciar sesión con mis credenciales, para acceder a la plataforma. | ```gherkin
 Scenario: Inicio de sesión válido
   Given el gestor está en la pantalla "Login"
   When ingresa email y password correctos
@@ -38,8 +38,8 @@ Scenario: Inicio de sesión inválido
   When ingresa email o password incorrectos
   Then el sistema muestra "Credenciales inválidas"
   And permanece en la misma pantalla
- | |
-| US03 | Actualizar perfil personal | Como gestor de taller, quiero actualizar mis datos personales, para mantener mi información al día. | 
+``` | |
+| US07 | Actualizar perfil personal | Como gestor de taller, quiero actualizar mis datos personales, para mantener mi información al día. | ```gherkin
 Scenario: Actualización exitosa del perfil
   Given el gestor está autenticado y en "Mi perfil"
   When modifica firstname, lastname o username (dejando email y password sin cambios)
@@ -47,15 +47,16 @@ Scenario: Actualización exitosa del perfil
   And pulsa "Guardar"
   Then el sistema actualiza los datos en la base de datos
   And muestra el mensaje "Datos actualizados"
- | |
-| US08 | Cerrar sesión | Como gestor de taller, quiero cerrar sesión, para finalizar mi acceso de forma segura. | 
+``` | |
+| US08 | Cerrar sesión | Como gestor de taller, quiero cerrar sesión, para finalizar mi acceso de forma segura. | ```gherkin
 Scenario: Cierre de sesión
   Given el gestor está autenticado en la plataforma
   When pulsa "Cerrar sesión"
   Then el sistema invalida el JWT actual
   And redirige al inicio de sesión
   And muestra "Sesión cerrada"
-| |
+``` | |
+
 
 
 ## 3.3. Impact Mapping
