@@ -887,6 +887,17 @@ Para nuestro segundo sprint el equipo estableció que el desarrollos de nuestras
 
 #### 5.2.3.4.Development Evidence for Sprint Review.
 
+## Avances de Implementación
+
+En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: FrontEnd. La sección inicia con una introducción que resume los principales avances en la implementación. A continuación se presenta la tabla que incluye, para cada repositorio, los commits relacionados con la implementación.
+
+| Repository       | Branch | Commit Id | Commit Message                               | Commit Message Body                                                                      | Committed   |
+|:----------------:|:------:|:---------:|:---------------------------------------------:|:-----------------------------------------------------------------------------------------:|:-----------:|
+| Landing Tallerazo   | develop   | 1412c44 | feat: add translation configuration for ngx-translate with HttpLoader   | Se añadió la configuración del Httploader                    | 16/06/2025  |
+| FrontEnd   | feature/workshop-discovery  | cdbdd76  | feat(workshop-discovery): added workshop discovery files. | Se añadió los archivos correspondientes para mostrar los talleres  | 07/06/2025  |
+| Backend   | feature/IAM |0714bc2 | fix: foraign keys   | Se arreglo la lógica para los foraign keys         | 22/06/2025  |
+
+
 #### 5.2.3.5.Execution Evidence for Sprint Review.
 
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
