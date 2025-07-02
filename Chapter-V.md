@@ -757,7 +757,7 @@ La meta de este sprint fue la implementación del FrontEnd de nuestra pagina web
 
 ### 5.2.3. Sprint 3
 
-#### 5.2.3.1.Sprint Planning 3.
+#### 5.2.3.1. Sprint Planning 3.
 
 Para nuestro segundo sprint el equipo estableció que el desarrollos de nuestras tareas se realizarian en un aproximado de 26 horas
 
@@ -843,7 +843,7 @@ Para nuestro segundo sprint el equipo estableció que el desarrollos de nuestras
 | Castillo Vidal, Jesús Iván | Jcdev04 | C | | | L | | | C |
 | Rodríguez Villa, Raúl Adrián | Necxuz18 | | | | | C | L | C |
 
-#### 5.2.3.3.Sprint Backlog 3.
+#### 5.2.3.3. Sprint Backlog 3.
 
 | **User Story** |                                 |        | **Work-Item / Task**                 |                                                            |                        |                 |                                                    |
 | -------------- | ------------------------------- | ------ | ------------------------------------ | ---------------------------------------------------------- | ---------------------- | --------------- | -------------------------------------------------- |
@@ -883,7 +883,7 @@ Para nuestro segundo sprint el equipo estableció que el desarrollos de nuestras
 | US17           | Ver detalle de reparación       | T33    | Vista de detalle de reparación      | Mostrar información completa de la reparación | 6 | Yasser | Done |
 | US17           | Ver detalle de reparación       | T34    | Indicadores visuales de estado      | Crear elementos visuales para cada estado | 3 | Renato | Done |
 
-#### 5.2.3.4.Development Evidence for Sprint Review.
+#### 5.2.3.4. Development Evidence for Sprint Review.
 
 ## Avances de Implementación
 
@@ -896,7 +896,7 @@ En esta sección se explica y presenta los avances en implementación con relaci
 | Backend   | feature/IAM |0714bc2 | fix: foraign keys   | Se arreglo la lógica para los foraign keys         | 22/06/2025  |
 
 
-#### 5.2.3.5.Execution Evidence for Sprint Review.
+#### 5.2.3.5. Execution Evidence for Sprint Review.
 
 Tras finalizar el Sprint 2, hemos logrado implementar varias secciones del frontend. Aunque aún existen detalles por pulir en el diseño visual, ya es posible visualizar gran parte de la estructura y funcionalidad planteadas. A continuación, te mostramos capturas que reflejan los avances alcanzados hasta el momento.
 
@@ -939,7 +939,7 @@ Tras finalizar el Sprint 2, hemos logrado implementar varias secciones del front
 
 ![registro](./src/SwaggerB.jpeg)
 
-#### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
 ![registro](./src/Tallerazo.png)
 
@@ -948,7 +948,7 @@ Tras finalizar el Sprint 2, hemos logrado implementar varias secciones del front
 ![registro](./src/SwaggerB.jpeg)
 
 
-#### 5.2.3.8.Team Collaboration Insights during Sprint.
+#### 5.2.3.8. Team Collaboration Insights during Sprint.
 
 ### 5.3. Validation Interviews.
 
