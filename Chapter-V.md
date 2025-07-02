@@ -582,13 +582,11 @@ Para el despliegue de nuestra Landing Page hemos utilizado GitHub Pages. Para ha
 ![GitHub-Pages](./src/LandingDeploy.png)
 
 ### 5.2.2. Sprint 2
-#### 5.2.1.1. Sprint Planning 2.
+#### 5.2.2.1. Sprint Planning 2.
 
 En esta siguiente etapa de proyecto, nuestra principal objetivo sera desarrollar el frontend mediante WebStorm aun como nuestro entorno de desarrollo
 
 Repositorio Github: https://github.com/Tulio-pe/Tallerazo-Front
-
-#### 5.2.2.2. Sprint  2.
 
 Para nuestro segundo sprint el equipo estableció que el desarrollos de nuestras tareas se realizarian en un aproximado de 26 horas
 
@@ -668,7 +666,7 @@ Para nuestro segundo sprint el equipo estableció que el desarrollos de nuestras
     </tbody>
 </table>
 
-#### 5.2.2.3. Aspect Leaders and Collaborators.
+#### 5.2.2.2. Aspect Leaders and Collaborators.
 
 | Team Member (Last Name, First Name)    | GitHub Username     | Crear cuenta (corporativa) | Inicio de sesión | Dashboard Tallers | Talleres | Servicio de Talleres | Sección de usuario | Tracking de auto |
 |----------------------------------------|----------------------|--------------------------------------|------------------|------------------|--------------------------|-------------------------------|-----------------------------------|-------------------------|
@@ -678,7 +676,7 @@ Para nuestro segundo sprint el equipo estableció que el desarrollos de nuestras
 | Castro Sanchez, Gianfranco           |  Azucarita   |                                      |                  |                 |                       |                               |                                  |                         |
 | Rodríguez Villa, Raúl Adrian               | Necxuz18              |                                      |                  |                  |                          |                               |                                  |                         |
 
-#### 5.2.2.4. Sprint Backlog 2.
+#### 5.2.2.3. Sprint Backlog 2.
 
 | **User Story** |                                 |        | **Work-Item / Task**                 |                                                            |                        |                 |                                                    |   |
 | -------------- | ------------------------------- | ------ | ------------------------------------ | ---------------------------------------------------------- | ---------------------- | --------------- | -------------------------------------------------- | - |
@@ -697,7 +695,7 @@ Para nuestro segundo sprint el equipo estableció que el desarrollos de nuestras
 | US24           | Redirección al dashboard        | T12    | Botón para ir al dashboard           | Desde login, lleva al dashboard de cliente                 | 3                      | Renato Calvo    | To-do                                              |   |
 
 
-#### 5.2.2.5. Development Evidence for Sprint Review.
+#### 5.2.2.4. Development Evidence for Sprint Review.
 
 ## Avances de Implementación
 
@@ -711,11 +709,11 @@ En esta sección se explica y presenta los avances en implementación con relaci
 | Tallerazo-Front   | feature/auth |   |      |                    | 28/04/2025  |
 
 
-#### 5.2.2.6. Execution Evidence for Sprint Review.
+#### 5.2.2.5. Execution Evidence for Sprint Review.
 
 Durante el Sprint 2, el equipo centró sus esfuerzos en el desarrollo del frontend, priorizando la implementación visual y estructural. Debido a que se trató principalmente de trabajo de interfaz, no fue necesario realizar pruebas de testing en esta etapa.
 
-#### 5.2.2.7. Execution Evidence for Sprint Review.
+#### 5.2.2.6. Execution Evidence for Sprint Review.
 
 Tras finalizar el Sprint 2, hemos logrado implementar varias secciones del frontend. Aunque aún existen detalles por pulir en el diseño visual, ya es posible visualizar gran parte de la estructura y funcionalidad planteadas. A continuación, te mostramos capturas que reflejan los avances alcanzados hasta el momento.
 
@@ -743,7 +741,7 @@ Tras finalizar el Sprint 2, hemos logrado implementar varias secciones del front
 ![tracking](./src/tracking.png)
 
 
-#### 5.2.1.8. Software Deployment Evidence for Sprint Review.
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
 Para el despliegue de nuestro Frontend hemos utilizado . Para hacer esto, hemos trabajado en un repositorio de GitHub donde divimos el trabajo en ramas. En la sección de configuración y Pages, seleccionamos la rama main para desplegar nuestra web. 
 
@@ -751,7 +749,7 @@ Link de del FrontEnd desplegado:
 
 https://tallerazo-front-three.vercel.app/
 
-#### 5.2.1.9. Team Collaboration Insights during Sprint.
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
 
 La meta de este sprint fue la implementación del FrontEnd de nuestra pagina web y correcciones del informe. Para llevar a cabo este objetivo, hicimos uso de diversas herramientas como GitHub, WebStorm, Angular, AngularMaterial y heroicons.
 
