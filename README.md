@@ -164,5 +164,5 @@ El curso contribuye al cumplimiento del **Student Outcome ABET 3**, que evalúa 
       - [5.2.1.8. Team Collaboration Insights during Sprint](Chapter-V.md#52x8-team-collaboration-insights-during-sprint)
 
 - [Conclusiones](#conclusiones)
-- [Bibliografía](#bibliografía) 
+- [Bibliografía](#bibliografia) 
 - [Anexos](#anexos)
