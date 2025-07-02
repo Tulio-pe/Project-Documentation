@@ -4,7 +4,8 @@
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
     <strong>Ingeniería de Software</strong><br>
-    <strong>Open Source</strong><br>
+    <strong>Desarrollo de Aplicaciones Open Source</strong><br>
+    <strong>NRC: 4289</strong><br>
     <strong>Profesor: Efraín Ricardo Bautista Ubillús </strong><br>
     <br>INFORME TRABAJO FINAL
 </p>
@@ -27,7 +28,7 @@
 | Raúl Adrian Medina Cruzado  | U202210938 |
 | Jesús Iván Castillo Vidal     | U202322952 |
 
-<br> ABRIL 2025 
+<br> Julio 2025 
 </center>  
 
 <center>
