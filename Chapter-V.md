@@ -1156,7 +1156,7 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214130_upc_edu_pe/EfS0W1SM
 
 https://youtu.be/d5alZRwrCuo
 
-## Bibliografía  
+### Bibliografía  
 
 Jansen, S. M. (2019). *Practical Domain-Driven Design in Enterprise Java: Using Jakarta EE, NoSQL Databases, and 
 Microservices. Apress.* Retrieved from https://bit.ly/4flQyB7
@@ -1181,7 +1181,7 @@ Structurizr. (n.d.). *Structurizr: Software architecture diagram design*. Struct
 
 Vernon, V. (2013). *Implementing domain-driven design.* Addison-Wesley.
 
-## Anexos
+### Anexos
 
 ### Anexo A. Products Deployed.
 
