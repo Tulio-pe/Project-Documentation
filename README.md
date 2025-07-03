@@ -86,7 +86,7 @@ TB2: En este sprint, el equipo alcanzó hitos importantes tanto en el Frontend c
 # Student Outcome
 El curso contribuye al cumplimiento del **Student Outcome ABET – EAC - Student Outcome 3** Criterio: Capacidad de comunicarse efectivamente con una gama de audiencias.
 
-## Student Outcome – TB1, Trabajo Parcial (TP) y TB2
+## Student Outcome
 
 El curso contribuye al cumplimiento del **Student Outcome ABET 3**, que evalúa la: **Capacidad de comunicarse efectivamente con una gama de audiencias.**
 
