@@ -279,15 +279,15 @@ flowchart LR
     U1[User View] --> U2[User Dashboard]
 
     U2 --> U3[Search Workshop]
-    U3 --> U4[Filter by Region/Province/District/Locality]
+    U3 --> U4[Filter by Region,Province,District,Locality]
     U4 --> U5[Workshop List]
     U5 --> U6[Workshop Details]
-    U6 --> U7[Request Appointment (Form)]
+    U6 --> U7[Request Appointment - Form]
     U7 --> U8[Appointment Confirmation]
 
     U2 --> U10[My Repairs]
     U10 --> U10a[Repairs List]
-    U10a --> U10b[Repair Details (Code, Status)]
+    U10a --> U10b[Repair Details - Code, Status]
     U10b --> U10c[Associated Workshop Details]
     U10b --> U10d[Repair Tracking]
 ```
