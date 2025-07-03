@@ -248,7 +248,7 @@ flowchart LR
     C1 --> C2[Edit Car]
     C2 --> C3[Create Car – Modal]
     C3 --> C1
-    C4 --> C5[Delete Car]
+    C --> C4[Delete Car]
 
     B --> D[Repair Management]
     D --> D1[Repair List]
