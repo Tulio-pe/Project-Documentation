@@ -62,6 +62,27 @@ TB1: El equipo entero participó en el desarrollo del sistema, asignando las tar
 
 <img src="./src/Insight.png" alt="collaboration insights sprint1" style="width: 600px"/>
 
+TP: Durante este sprint, el equipo se enfocó en el desarrollo del Frontend y en atender las observaciones identificadas en el Sprint 1. El trabajo colaborativo y la metodología ágil implementada permitieron alcanzar los objetivos establecidos con alta eficiencia.
+
+* Desarrollo del Frontend: Se completó el avance significativo del Frontend de la aplicación, implementando las interfaces de usuario diseñadas y asegurando una experiencia de usuario fluida y responsiva.
+* Resolución de Observaciones del Sprint 1: El equipo abordó sistemáticamente todas las observaciones y mejoras identificadas en el sprint anterior, implementando las correcciones necesarias para optimizar el rendimiento y la funcionalidad.
+* Integración de Componentes: Se logró la integración exitosa de los diferentes componentes del Frontend, garantizando la coherencia visual y funcional de la aplicación.
+* Documentación y Commits: Cada miembro del equipo mantuvo la práctica de documentar el progreso mediante commits organizados en formato Markdown, asegurando la trazabilidad del desarrollo.
+* Coordinación de Equipo: Se mantuvieron las reuniones regulares para coordinar el avance y comunicar los logros, centrándose en la página de inicio y los componentes principales del Frontend.
+
+<img src="./src/Ins2.PNG" alt="collaboration insights sprint2" style="width: 600px"/>
+
+TB2: En este sprint, el equipo alcanzó hitos importantes tanto en el Frontend como en el Backend, demostrando un progreso sustancial en el desarrollo completo de la aplicación.
+
+* Frontend al 90%: Se completó aproximadamente el 90% del desarrollo del Frontend, incluyendo todas las interfaces principales, componentes interactivos, y funcionalidades de usuario. La aplicación presenta una interfaz completa y funcional.
+* Backend al 40%+: Se avanzó significativamente en el desarrollo del Backend, completando más del 40% de la arquitectura del servidor, APIs, y lógica de negocio. Se establecieron las bases sólidas para la funcionalidad completa del sistema.
+* Resolución de Observaciones del Sprint 2: El equipo identificó y solucionó múltiples observaciones del sprint anterior, mejorando la calidad del código, optimizando el rendimiento, y refinando la experiencia de usuario.
+* Integración Frontend-Backend: Se iniciaron las pruebas de integración entre el Frontend y Backend, asegurando la comunicación efectiva entre ambas capas de la aplicación.
+* Metodología Ágil: Se mantuvo la metodología de trabajo colaborativo con commits organizados, reuniones de coordinación regulares, y distribución equitativa de tareas entre los miembros del equipo.
+* Documentación Técnica: Se actualizó la documentación técnica del proyecto, incluyendo guías de instalación, arquitectura del sistema, y especificaciones de APIs desarrolladas.
+
+<img src="./src/Ins3.PNG" alt="collaboration insights sprint3" style="width: 600px"/>
+
 # Student Outcome
 El curso contribuye al cumplimiento del **Student Outcome ABET – EAC - Student Outcome 3** Criterio: Capacidad de comunicarse efectivamente con una gama de audiencias.
 
