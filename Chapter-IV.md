@@ -239,58 +239,11 @@ Diagramas de flujo de interacción para aplicaciones web.
 
 #### Gestor de taller
 
-```mermaid
-flowchart LR
-    A[Login] --> B[Workshop manager panel]
-
-    B --> C[Car Management]
-    C --> C1[Car List]
-    C1 --> C2[Edit Car]
-    C2 --> C3[Create Car – Modal]
-    C3 --> C1
-    C --> C4[Delete Car]
-
-    B --> D[Repair Management]
-    D --> D1[Repair List]
-    D1 --> D2[Update Status – Modal]
-    D2 --> D1
-
-    B --> E[Service Management]
-    E --> E1[Service List]
-    E1 --> E2[Edit/Delete Service – Modal]
-    E2 --> E1
-    E1 --> E3[New Service – Modal]
-    E3 --> E1
-
-    B --> F[Settings]
-    F --> F1[Profile Tab]
-    F1 --> F1a[Edit Workshop Info]
-    F1a --> F1b[Save Changes]
-
-    F --> F2[Schedule Tab]
-    F2 --> F2a[Edit Time Slots]
-    F2a --> F2b[Save Schedule]
-```
+![Agendar cita calendar](./src/WebFlow1.PNG)
 
 #### Conductor
 
-```mermaid
-flowchart LR
-    U1[User View] --> U2[User Dashboard]
-
-    U2 --> U3[Search Workshop]
-    U3 --> U4[Filter by Region,Province,District,Locality]
-    U4 --> U5[Workshop List]
-    U5 --> U6[Workshop Details]
-    U6 --> U7[Request Appointment - Form]
-    U7 --> U8[Appointment Confirmation]
-
-    U2 --> U10[My Repairs]
-    U10 --> U10a[Repairs List]
-    U10a --> U10b[Repair Details - Code, Status]
-    U10b --> U10c[Associated Workshop Details]
-    U10b --> U10d[Repair Tracking]
-```
+![Agendar cita calendar](./src/WebFlow2.PNG)
 
 ### 4.4.3. Web Applications Mock-ups
 
@@ -370,33 +323,56 @@ Prototipos visuales para aplicaciones web.
 
 ### 4.6.1. Software Architecture Context Diagram
 
-### *Diagrama de contexto de la arquitectura de software.*
-
-![Context](./src/Context.png)
-
-### *Diagrama de contexto del backend*
-
-![Context](./src/ContextB.png)
+![Agendar cita calendar](./src/Contexto1.png)
 
 ### 4.6.2. Software Architecture Container Diagrams
 
 ### *Diagramas de contenedores de la arquitectura de software.*
 
-![Container](./src/Container.png)
-
-### *Diagrama de contexto del backend*
-
-![Context](./src/ContainerB.png)
+![Agendar cita calendar](./src/Contenedores1.png)
 
 ### 4.6.3. Software Architecture Components Diagrams
 
-### *Diagramas de componentes de la arquitectura de software.*
+### *Diagramas de componentes del frontend.*
 
-![Components](./src/Components.png)
+![Agendar cita calendar](./src/ComponentesFront.png)
 
-### *Diagrama de contexto del backend*
+### *Workshop*
 
-![Context](./src/ComponentsB.png)
+![Agendar cita calendar](./src/WorkshopFront.png)
+
+### *Workshop Discovery*
+
+![Agendar cita calendar](./src/WorDiscoFront.png)
+
+### *Vehicle Tracking*
+
+![Agendar cita calendar](./src/VehicleTrackingFront.png)
+
+### *Shared*
+
+![Agendar cita calendar](./src/WorDiscoFront.png)
+
+### *IAM*
+
+![Agendar cita calendar](./src/IAMFront.png)
+
+
+### *Diagramas de componentes del backend.*
+
+![Agendar cita calendar](./src/ComponenterBack.png)
+
+### *Workshop Managment*
+
+![Agendar cita calendar](./src/WorkMangBack.png)
+
+### *Shared*
+
+![Agendar cita calendar](./src/SharedBack.png)
+
+### *IAM*
+
+![Agendar cita calendar](./src/IAMBack.png)
 
 ## 4.7. Software Object-Oriented Design
 
