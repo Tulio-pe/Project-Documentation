@@ -681,18 +681,18 @@ Para nuestro segundo sprint el equipo estableció que el desarrollos de nuestras
 | **User Story** |                                 |        | **Work-Item / Task**                 |                                                            |                        |                 |                                                    |   |
 | -------------- | ------------------------------- | ------ | ------------------------------------ | ---------------------------------------------------------- | ---------------------- | --------------- | -------------------------------------------------- | - |
 | **Id**         | **Title**                       | **Id** | **Title**                            | **Description**                                            | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |   |
-| US09           | Conocer al Equipo de Desarrollo | T01    | Crear sección “Acerca de Nosotros”   | Diseñar y desarrollar sección de presentación del equipo   | 4                      | Raúl Medina     | In-Process                                         |   |
-| US04           | Evaluación de Talleres          | T02    | Sistema de calificación              | Calificación de 1 a 5 estrellas con comentarios            | 8                      | Yasser Rentería | In-Process                                             |   |
-| US06           | Visualización en Tiempo Real    | T03    | Módulo de seguimiento en tiempo real | Mostrar estado del vehículo durante el servicio            | 10                     | Jesús Castillo  | To-do                                            |   |
-| US07           | Acceso Rápido desde Landing     | T04    | Botón “Empezar” en landing           | Redirige a la aplicación web desde la landing page         | 3                      | Renato Calvo    | In-Process                                            |   |
-| US13           | Ver Detalles del Taller         | T05    | Mostrar detalles del taller          | Dirección, fotos, horarios y servicios del taller          | 6                      | Jesús Castillo  | To-do                                              |   |
-| US15           | Landing Page Responsiva         | T06    | Ajustar diseño responsivo            | Optimizar diseño para distintos tamaños de pantalla        | 5                      | Renato Calvo    | To-do                                              |   |
-| US16           | Publicación de Servicios        | T07    | Gestión de servicios de taller       | Taller publica o edita servicios ofrecidos                 | 7                      | Yasser Rentería | In-Process                                               |   |
-| US18           | Registro de Taller              | T08    | Formulario de registro               | Datos + documentación para crear cuenta                    | 6                      | Jesús Castillo  | To-do                                              |   |
-| US20           | Actualizar horario de atención  | T09    | Edición de horario en tiempo real    | El taller edita su horario actual en la app                | 4                      | Renato Calvo    | In-Process                                               |   |
-| US21           | Seguimiento de trabajos         | T10    | Registro y estado de servicio        | Taller indica tipo de servicio, vehículo y tiempo estimado | 7                      | Yasser Rentería | To-do                                              |   |
-| US23           | Tracking del auto               | T11    | Ver estado con código de tracking    | Usuario ingresa código y ve el estado de su auto           | 5                      | Jesús Castillo  | To-do                                              |   |
-| US24           | Redirección al dashboard        | T12    | Botón para ir al dashboard           | Desde login, lleva al dashboard de cliente                 | 3                      | Renato Calvo    | To-do                                              |   |
+| US09           | Conocer al Equipo de Desarrollo | T01    | Crear sección “Acerca de Nosotros”   | Diseñar y desarrollar sección de presentación del equipo   | 4                      | Raúl Medina     | Done                                           |   |
+| US04           | Evaluación de Talleres          | T02    | Sistema de calificación              | Calificación de 1 a 5 estrellas con comentarios            | 8                      | Yasser Rentería | Done                                               |   |
+| US06           | Visualización en Tiempo Real    | T03    | Módulo de seguimiento en tiempo real | Mostrar estado del vehículo durante el servicio            | 10                     | Jesús Castillo  | Done                                              |   |
+| US07           | Acceso Rápido desde Landing     | T04    | Botón “Empezar” en landing           | Redirige a la aplicación web desde la landing page         | 3                      | Renato Calvo    | Done                                            |   |
+| US13           | Ver Detalles del Taller         | T05    | Mostrar detalles del taller          | Dirección, fotos, horarios y servicios del taller          | 6                      | Jesús Castillo  | Done                                                |   |
+| US15           | Landing Page Responsiva         | T06    | Ajustar diseño responsivo            | Optimizar diseño para distintos tamaños de pantalla        | 5                      | Renato Calvo    | Done                                                |   |
+| US16           | Publicación de Servicios        | T07    | Gestión de servicios de taller       | Taller publica o edita servicios ofrecidos                 | 7                      | Yasser Rentería | Done                                                 |   |
+| US18           | Registro de Taller              | T08    | Formulario de registro               | Datos + documentación para crear cuenta                    | 6                      | Jesús Castillo  | Done                                              |   |
+| US20           | Actualizar horario de atención  | T09    | Edición de horario en tiempo real    | El taller edita su horario actual en la app                | 4                      | Renato Calvo    | Done                                                 |   |
+| US21           | Seguimiento de trabajos         | T10    | Registro y estado de servicio        | Taller indica tipo de servicio, vehículo y tiempo estimado | 7                      | Yasser Rentería | Done                                               |   |
+| US23           | Tracking del auto               | T11    | Ver estado con código de tracking    | Usuario ingresa código y ve el estado de su auto           | 5                      | Jesús Castillo  |Done                                               |   |
+| US24           | Redirección al dashboard        | T12    | Botón para ir al dashboard           | Desde login, lleva al dashboard de cliente                 | 3                      | Renato Calvo    | Done                                               |   |
 
 
 #### 5.2.2.4. Development Evidence for Sprint Review.
@@ -849,37 +849,37 @@ Para nuestro segundo sprint el equipo estableció que el desarrollos de nuestras
 | -------------- | ------------------------------- | ------ | ------------------------------------ | ---------------------------------------------------------- | ---------------------- | --------------- | -------------------------------------------------- |
 | **Id**         | **Title**                       | **Id** | **Title**                            | **Description**                                            | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
 | US01           | Registrar cuenta de gestor      | T01    | Crear formulario de registro         | Desarrollar formulario con validaciones para email, firstname, lastname, username y password | 6 | Renato | Done |
-| US01           | Registrar cuenta de gestor      | T02    | Implementar encriptación de contraseña | Sistema de encriptación bcrypt para passwords | 4 | Renato | To-do |
+| US01           | Registrar cuenta de gestor      | T02    | Implementar encriptación de contraseña | Sistema de encriptación bcrypt para passwords | 4 | Renato |Done   |
 | US01           | Registrar cuenta de gestor      | T03    | Validación de unicidad de datos     | Verificar que email y username no existan en BD | 3 | Renato | Done |
 | US02           | Iniciar sesión                  | T04    | Pantalla de login                   | Crear interfaz de inicio de sesión con validaciones | 4 | Yasser | Done |
-| US02           | Iniciar sesión                  | T05    | Sistema de autenticación JWT        | Implementar generación y validación de JWT | 6 | Renato | To-do |
+| US02           | Iniciar sesión                  | T05    | Sistema de autenticación JWT        | Implementar generación y validación de JWT | 6 | Renato | Done   |
 | US02           | Iniciar sesión                  | T06    | Manejo de errores de login          | Mostrar mensajes de error para credenciales inválidas | 2 | Renato | Done |
-| US03           | Actualizar perfil personal      | T07    | Pantalla "Mi perfil"                | Crear interfaz para editar datos personales | 5 | Jesús | To-do |
+| US03           | Actualizar perfil personal      | T07    | Pantalla "Mi perfil"                | Crear interfaz para editar datos personales | 5 | Jesús | Done   |
 | US03           | Actualizar perfil personal      | T08    | Validación de username único        | Verificar que nuevo username no exista | 3 | Renato | Done |
-| US04           | Cerrar sesión                   | T09    | Funcionalidad de logout             | Invalidar JWT y redirigir a login | 2 | Renato | To-do |
+| US04           | Cerrar sesión                   | T09    | Funcionalidad de logout             | Invalidar JWT y redirigir a login | 2 | Renato | Done |
 | US05           | Registrar información del taller | T10    | Formulario de registro de taller    | Crear formulario con todos los campos requeridos | 8 | Yasser | Done |
-| US05           | Registrar información del taller | T11    | Sistema de ubicación cascada        | Implementar selección Región → Provincia → Distrito → Ciudad | 6 | Raúl | To-do |
+| US05           | Registrar información del taller | T11    | Sistema de ubicación cascada        | Implementar selección Región → Provincia → Distrito → Ciudad | 6 | Raúl | Done |
 | US05           | Registrar información del taller | T12    | Subida y validación de imágenes     | Sistema para cargar y validar fotos png/jpg | 4 | Rául | Done |
-| US06           | Editar información del taller   | T13    | Pantalla "Editar taller"            | Interfaz para modificar datos del taller con autocompletado | 6 | Yasser | To-do |
+| US06           | Editar información del taller   | T13    | Pantalla "Editar taller"            | Interfaz para modificar datos del taller con autocompletado | 6 | Yasser | Done |
 | US07           | Configurar horarios regulares   | T14    | Sección de configuración de horarios | Crear interfaz para definir horarios por día de semana | 7 | Jesús | Done |
-| US07           | Configurar horarios regulares   | T15    | Validación de horarios              | Validar que StartTime < EndTime y formato correcto | 3 | Jesús | To-do |
+| US07           | Configurar horarios regulares   | T15    | Validación de horarios              | Validar que StartTime < EndTime y formato correcto | 3 | Jesús | Done|
 | US08           | Actualizar horarios de atención | T16    | Edición de horarios existentes      | Permitir modificar horarios ya configurados | 5 | Yasser | Done|
 | US09           | Explorar talleres filtrados     | T17    | Pantalla de exploración de talleres | Crear interfaz de búsqueda con filtros de ubicación | 8 | Yasser | Done |
-| US09           | Explorar talleres filtrados     | T18    | Sistema de filtrado por ubicación   | Implementar filtro cascada para conductores | 6 | Raúl | To-do |
+| US09           | Explorar talleres filtrados     | T18    | Sistema de filtrado por ubicación   | Implementar filtro cascada para conductores | 6 | Raúl | Done |
 | US09           | Explorar talleres filtrados     | T19    | Cards de talleres                   | Mostrar información resumida en formato card | 4 | Yasser | Done |
 | US10           | Ver detalle de taller           | T20    | Página de detalle de taller         | Crear vista completa con toda la información del taller | 7 | Yasser | Done |
-| US10           | Ver detalle de taller           | T21    | Integración con WhatsApp            | Implementar botón de contacto vía WhatsApp | 3 | Rául | To-do |
-| US11           | Registrar vehículo              | T22    | Formulario de registro de vehículo  | Crear formulario con validaciones para datos del vehículo | 5 | Renato | To-do |
-| US11           | Registrar vehículo              | T23    | Validación de placa única           | Verificar unicidad de licensePlate por taller | 3 | Yasser | To-do |
+| US10           | Ver detalle de taller           | T21    | Integración con WhatsApp            | Implementar botón de contacto vía WhatsApp | 3 | Rául | Done |
+| US11           | Registrar vehículo              | T22    | Formulario de registro de vehículo  | Crear formulario con validaciones para datos del vehículo | 5 | Renato | Done |
+| US11           | Registrar vehículo              | T23    | Validación de placa única           | Verificar unicidad de licensePlate por taller | 3 | Yasser | Done |
 | US12           | Listar vehículos del taller     | T24    | Vista de lista de vehículos         | Mostrar vehículos registrados en formato card | 4 | Rául | Done|
-| US12           | Listar vehículos del taller     | T25    | Estado vacío y navegación           | Manejar caso sin vehículos y botones de acción | 2 | Yasser | To-do |
-| US13           | Crear orden de reparación       | T26    | Sistema de generación de códigos    | Generar repairCode único formato licensePlate-NN | 4 | Jesús | To-do |
+| US12           | Listar vehículos del taller     | T25    | Estado vacío y navegación           | Manejar caso sin vehículos y botones de acción | 2 | Yasser | Done |
+| US13           | Crear orden de reparación       | T26    | Sistema de generación de códigos    | Generar repairCode único formato licensePlate-NN | 4 | Jesús | Done |
 | US13           | Crear orden de reparación       | T27    | Validación de reparación abierta    | Verificar que no exista reparación activa | 3 | Jesús | Done |
 | US14           | Cambiar estado de reparación    | T28    | Interfaz de cambio de estados       | Crear controles para actualizar estado de reparación | 5 | Rául | Done |
 | US14           | Cambiar estado de reparación    | T29    | Lógica de flujo de estados          | Implementar transiciones válidas entre estados | 4 | Raúl | Done |
 | US15           | Filtrar reparaciones por estado | T30    | Sistema de filtrado de reparaciones | Crear filtros por estado con actualización en tiempo real | 6 | Raúl | Done |
 | US16           | Tracking de reparación (conductor) | T31    | Pantalla de tracking                | Crear interfaz para ingresar código de seguimiento | 4 | sserYa | Done|
-| US16           | Tracking de reparación (conductor) | T32    | Validación de códigos de tracking   | Verificar formato y existencia de repairCode | 3 | Yasser | To-do |
+| US16           | Tracking de reparación (conductor) | T32    | Validación de códigos de tracking   | Verificar formato y existencia de repairCode | 3 | Yasser | Done |
 | US17           | Ver detalle de reparación       | T33    | Vista de detalle de reparación      | Mostrar información completa de la reparación | 6 | Yasser | Done |
 | US17           | Ver detalle de reparación       | T34    | Indicadores visuales de estado      | Crear elementos visuales para cada estado | 3 | Renato | Done |
 
