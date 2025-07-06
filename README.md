@@ -52,7 +52,7 @@ Reporte: https://github.com/Tulio-pe/Project-Documentation
 
 Organización: https://github.com/orgs/Tulio-pe/repositories
 
-Landing Page: https://tulio-pe.github.io/LandingTaller/
+Landing Page: https://tallerazo-landingpage.web.app/
 
 TB1: El equipo entero participó en el desarrollo del sistema, asignando las tareas de manera equitativa entre todos. También trabajamos juntos en aspectos esenciales, como las entrevistas con usuarios y el diseño de la página de inicio. Este método integral y colaborativo nos permitió asegurar calidad y eficiencia durante todas las fases del proyecto.  
 
