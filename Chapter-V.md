@@ -627,7 +627,7 @@ Para nuestro segundo sprint el equipo estableció que el desarrollos de nuestras
             </td>
         </tr>
         <tr>
-            <td>Sprint 2 Review Summary</td>
+            <td>Sprint 1 Review Summary</td>
             <td>
                 Este es el segundo sprint a realizar por el equipo
             </td>
@@ -645,22 +645,24 @@ Para nuestro segundo sprint el equipo estableció que el desarrollos de nuestras
             <td>Sprint 2 Goal</td>
             <td style="text-align: justify">
                 <p>
-                Nuestro objetivo en este sprint es desarrollar el frontend de nuestra frontend Tallerazo, enfocándonos en mostrar las funcionalidades que tendra nuestra pagina con un diseño atractivo pero simple y que sea de facil uso para los usuarios. Además, de mejorar los puntos faltantas en el anterior sprint. Implementaremos vistas clave para el login, crear tu taller con sus tus servicios y horarios, ver los talleres disponibles, ver los servicios y la información de tu vehículo en reparación.
+Nuestro enfoque está en desarrollar el frontend de la plataforma Tallerazo, priorizando un diseño atractivo, simple y fácil de usar, e implementando vistas clave como login, creación de taller con servicios y horarios, consulta de talleres disponibles, visualización de servicios y seguimiento del vehículo en reparación. También abordaremos los puntos pendientes del sprint anterior.
+
+Creemos que esto aportará una navegación fluida y una experiencia más clara e intuitiva para los usuarios finales, facilitando tanto la búsqueda de talleres como la gestión de servicios por parte de las empresas.
+
+Esto se confirmará cuando los usuarios puedan interactuar con las nuevas vistas de manera eficiente, navegar sin fricciones y las empresas logren gestionar sus horarios de atención a través del sistema con éxito.
                 </p>
-                <p>
-                Esto se confirmará cuando los usuarios experimenten una navegación fluida en la pagina web, con un diseño optimizado y una interfaz amigable que les permita buscar opciones de rutas sin inconvenientes. Asimismo, las empresas podrán gestionar sus horarios de atención para que sus clientes
             </td>
         </tr>
         <tr>
             <td>Sprint 2 Velocity</td>
             <td>
-                -
+                30
             </td>
         </tr>
         <tr>
             <td>Sum of story points</td>
             <td>
-                -
+                30
             </td>
         </tr>
     </tbody>
@@ -797,7 +799,7 @@ Para nuestro segundo sprint el equipo estableció que el desarrollos de nuestras
             </td>
         </tr>
         <tr>
-            <td>Sprint 3 Review Summary</td>
+            <td>Sprint 2 Review Summary</td>
             <td>
                 Este es el tercer sprint a realizar por el equipo
             </td>
@@ -815,20 +817,24 @@ Para nuestro segundo sprint el equipo estableció que el desarrollos de nuestras
             <td>Sprint 3 Goal</td>
             <td style="text-align: justify">
                 <p>
-                Nuestro objetivo en este sprint es consolidar el desarrollo del sistema Tallerazo completando más del 40% de la funcionalidad backend, optimizando significativamente el frontend con mejoras en diseño y experiencia de usuario, y establecer un pipeline de deployment funcional para ambos componentes (frontend y backend). Además, resolver completamente las observaciones identificadas en el sprint anterior, asegurando que los usuarios experimenten una navegación fluida y funcional en la plataforma web. Por último levantamos algunas observaciones de del sprint 2.
+                Nuestro enfoque está en consolidar el desarrollo del sistema Tallerazo, completando al menos el 40% de las funcionalidades del backend, optimizando el frontend con mejoras visuales y de experiencia de usuario, y estableciendo un pipeline de deployment funcional para ambos componentes.
+
+Creemos que esto aportará mayor estabilidad, eficiencia de desarrollo y una experiencia de navegación más fluida y profesional para los usuarios de la plataforma.
+
+Esto se confirmará cuando los usuarios puedan interactuar con una versión funcional del sistema con navegación estable, el equipo logre desplegar los cambios desde desarrollo hasta producción de forma automatizada, y se resuelvan satisfactoriamente las observaciones pendientes del sprint anterior y del sprint 2.
                 </p>
             </td>
         </tr>
         <tr>
-            <td>Sprint 2 Velocity</td>
+            <td>Sprint 3 Velocity</td>
             <td>
-                -
+                30
             </td>
         </tr>
         <tr>
             <td>Sum of story points</td>
             <td>
-                -
+                30
             </td>
         </tr>
     </tbody>
@@ -1204,6 +1210,6 @@ Link de la Organización Tulio: https://github.com/Tulio-pe
 | Repositorios                  | Enlace al Respositorio                                  |
 |-------------------------------|---------------------------------------------------------|
 | TULIO Project Report     | https://github.com/Tulio-pe/Project-Documentation |
-| TULIO Landing Page       | https://github.com/Tulio-pe/LandingTaller  |
+| TULIO Landing Page       | https://github.com/Tulio-pe/Landing-Tallerazo |
 | TULIO Frontend       | https://github.com/Tulio-pe/FrontEnd  | 
 | TULIO Backend       | https://github.com/Tulio-pe/Backend  | 
