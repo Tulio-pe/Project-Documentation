@@ -378,118 +378,818 @@ Prototipos visuales para aplicaciones web.
 
 ### 4.7.1. Class Diagrams
 
-### Diagramas de clases para el diseño orientado a objetos.
-![Diagram class](https://github.com/Tulio-pe/Project-Documentation/blob/main/src/class%20diagram.jpeg)
-
 ### Diagrama de clases del backend
-![Context](./src/ClassB.png)
+<p>diagrama del bounded context WorkshopManagment</p>
+<img src="https://raw.githubusercontent.com/Tulio-pe/Project-Documentation/main/src/WorkShopManagment.png" alt="Diagrama de WorkshopManagment" style="display: block; margin: 50px auto 0 auto;"/>
 
+<p>diagrama del bounded context RepairManagment</p>
+<img src="https://raw.githubusercontent.com/Tulio-pe/Project-Documentation/main/src/RepairManagment.png" alt="Diagrama de RepairManagment" style="display: block; margin: 50px auto 0 auto;"/>
+
+<p>diagrama del bounded context IAM</p>
+<img src="https://raw.githubusercontent.com/Tulio-pe/Project-Documentation/main/src/IAMopen.png" alt="Diagrama de IAM" style="display: block; margin: 50px auto 0 auto;"/>
 ### 4.7.2. Class Dictionary
 
-<h3>Class User</h3>
-<table border="1">
-  <tr><th>Visibility</th><th>Name</th><th>Type</th><th>Description</th></tr>
-  <tr><td>private</td><td>userId</td><td>int</td><td>User ID</td></tr>
-  <tr><td>private</td><td>name</td><td>string</td><td>Full name</td></tr>
-  <tr><td>private</td><td>email</td><td>string</td><td>Email address</td></tr>
-  <tr><td>private</td><td>password</td><td>string</td><td>User password</td></tr>
-  <tr><td>private</td><td>role</td><td>UserRole</td><td>User role</td></tr>
-  <tr><td>public</td><td>login()</td><td>void</td><td>Logs the user into the system</td></tr>
-  <tr><td>public</td><td>updateProfile()</td><td>void</td><td>Updates user profile information</td></tr>
+    
+    <h2>Bounded Context IAM</h2>
+
+### Clase `User` (Entity)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>userId</td><td>int</td><td>Identificador único del usuario.</td></tr>
+    <tr><td>username</td><td>string</td><td>Nombre de usuario para inicio de sesión.</td></tr>
+    <tr><td>email</td><td>string</td><td>Correo electrónico del usuario.</td></tr>
+    <tr><td>passwordHash</td><td>string</td><td>Hash de la contraseña del usuario.</td></tr>
+    <tr><td>role</td><td>UserRole</td><td>Rol asignado al usuario.</td></tr>
+  </tbody>
+</table>
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Métodos</strong></caption>
+  <thead>
+    <tr><th>Método</th><th>Tipo de Retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>authenticate(username, password)</td><td>boolean</td><td>Autentica al usuario en el sistema.</td></tr>
+    <tr><td>changePassword(newPassword)</td><td>void</td><td>Permite al usuario cambiar su contraseña.</td></tr>
+    <tr><td>assignRole(userRole)</td><td>void</td><td>Asigna un rol específico al usuario.</td></tr>
+  </tbody>
 </table>
 
-<h3>Class Client</h3>
-<table border="1">
-  <tr><th>Visibility</th><th>Name</th><th>Type</th><th>Description</th></tr>
-  <tr><td>private</td><td>dni</td><td>string</td><td>National identity document</td></tr>
-  <tr><td>private</td><td>city</td><td>string</td><td>City of residence</td></tr>
+---
+
+### Clase `Role` (Entity)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>roleId</td><td>int</td><td>Identificador único del rol.</td></tr>
+    <tr><td>name</td><td>string</td><td>Nombre del rol (ej. "Cliente", "Administrador de Taller", "Mecánico").</td></tr>
+    <tr><td>permissions</td><td>List&lt;Permission&gt;</td><td>Lista de permisos asociados a este rol.</td></tr>
+  </tbody>
 </table>
 
-<h3>Class WorkshopAdministrator</h3>
-<table border="1">
-  <tr><th>Visibility</th><th>Name</th><th>Type</th><th>Description</th></tr>
-  <tr><td>private</td><td>workshopId</td><td>int</td><td>Workshop ID</td></tr>
-  <tr><td>private</td><td>workshopName</td><td>string</td><td>Workshop name</td></tr>
-  <tr><td>private</td><td>address</td><td>string</td><td>Workshop address</td></tr>
+---
+
+### Clase `Permission` (Entity)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>permissionId</td><td>int</td><td>Identificador único del permiso.</td></tr>
+    <tr><td>name</td><td>string</td><td>Nombre del permiso (ej. "VIEW_APPOINTMENTS", "CREATE_MAINTENANCE").</td></tr>
+  </tbody>
 </table>
 
-<h3>Class Mechanic</h3>
-<table border="1">
-  <tr><th>Visibility</th><th>Name</th><th>Type</th><th>Description</th></tr>
-  <tr><td>private</td><td>specialty</td><td>string</td><td>Mechanic specialty</td></tr>
+---
+
+### Clase `Session` (Entity)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>sessionId</td><td>string</td><td>Identificador único de la sesión.</td></tr>
+    <tr><td>userId</td><td>int</td><td>ID del usuario asociado a la sesión.</td></tr>
+    <tr><td>expirationTime</td><td>DateTime</td><td>Tiempo de expiración de la sesión.</td></tr>
+    <tr><td>isActive</td><td>boolean</td><td>Indica si la sesión está activa.</td></tr>
+  </tbody>
+</table>
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Métodos</strong></caption>
+  <thead>
+    <tr><th>Método</th><th>Tipo de Retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>generateToken()</td><td>string</td><td>Genera un token de sesión seguro.</td></tr>
+    <tr><td>invalidateSession()</td><td>void</td><td>Invalida la sesión actual.</td></tr>
+  </tbody>
 </table>
 
-<h3>Class Workshop</h3>
-<table border="1">
-  <tr><th>Visibility</th><th>Name</th><th>Type</th><th>Description</th></tr>
-  <tr><td>private</td><td>workshopId</td><td>int</td><td>Workshop ID</td></tr>
-  <tr><td>private</td><td>name</td><td>string</td><td>Workshop name</td></tr>
-  <tr><td>private</td><td>address</td><td>string</td><td>Workshop address</td></tr>
-  <tr><td>private</td><td>description</td><td>string</td><td>Workshop description</td></tr>
+---
+
+<h2>Bounded Context WorkShopManagement</h2>
+
+### Clase `Workshop` (Aggregate)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>Long</td><td>Identificador único del taller (ID del agregado).</td></tr>
+    <tr><td>managerId</td><td>Manager_id</td><td>Identificador del gerente asociado al taller (Value Object).</td></tr>
+    <tr><td>name</td><td>WorkshopName</td><td>Nombre del taller (Value Object).</td></tr>
+    <tr><td>address</td><td>WorkshopAddress</td><td>Dirección del taller (Value Object).</td></tr>
+    <tr><td>phone</td><td>WorkshopPhone</td><td>Número de teléfono del taller (Value Object).</td></tr>
+    <tr><td>email</td><td>WorkshopEmail</td><td>Correo electrónico del taller (Value Object).</td></tr>
+    <tr><td>description</td><td>WorkshopDescription</td><td>Descripción del taller (Value Object).</td></tr>
+    <tr><td>photos</td><td>List&lt;Photo&gt;</td><td>Lista de fotos del taller (Value Object).</td></tr>
+    <tr><td>services</td><td>List&lt;Service&gt;</td><td>Lista de servicios que ofrece el taller (Entidades).</td></tr>
+  </tbody>
+</table>
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Métodos</strong></caption>
+  <thead>
+    <tr><th>Método</th><th>Tipo de Retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>createWorkshop(command)</td><td>Workshop</td><td>Crea una nueva instancia de taller (constructor/método de fábrica).</td></tr>
+    <tr><td>addService(service)</td><td>void</td><td>Añade un servicio al taller.</td></tr>
+    <tr><td>updateDetails(command)</td><td>void</td><td>Actualiza los detalles básicos del taller.</td></tr>
+  </tbody>
 </table>
 
-<h3>Class Appointment</h3>
-<table border="1">
-  <tr><th>Visibility</th><th>Name</th><th>Type</th><th>Description</th></tr>
-  <tr><td>private</td><td>appointmentId</td><td>int</td><td>Appointment ID</td></tr>
-  <tr><td>private</td><td>dateTime</td><td>DateTime</td><td>Date and time of the appointment</td></tr>
-  <tr><td>private</td><td>status</td><td>AppointmentStatus</td><td>Current status of the appointment</td></tr>
+---
+
+### Clase `Service` (Entity)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>Long</td><td>Identificador único del servicio.</td></tr>
+    <tr><td>name</td><td>String</td><td>Nombre del servicio (ej. "Cambio de aceite").</td></tr>
+    <tr><td>description</td><td>String</td><td>Descripción del servicio.</td></tr>
+    <tr><td>price</td><td>Double</td><td>Precio del servicio.</td></tr>
+  </tbody>
+</table>
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Métodos</strong></caption>
+  <thead>
+    <tr><th>Método</th><th>Tipo de Retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>updateInfo(name, description, price)</td><td>void</td><td>Actualiza la información del servicio.</td></tr>
+  </tbody>
 </table>
 
-<h3>Class Vehicle</h3>
-<table border="1">
-  <tr><th>Visibility</th><th>Name</th><th>Type</th><th>Description</th></tr>
-  <tr><td>private</td><td>vehicleId</td><td>int</td><td>Vehicle ID</td></tr>
-  <tr><td>private</td><td>licensePlate</td><td>string</td><td>License plate number</td></tr>
-  <tr><td>private</td><td>brand</td><td>string</td><td>Vehicle brand</td></tr>
-  <tr><td>private</td><td>model</td><td>string</td><td>Vehicle model</td></tr>
-  <tr><td>private</td><td>year</td><td>int</td><td>Manufacture year</td></tr>
-  <tr><td>private</td><td>color</td><td>string</td><td>Vehicle color</td></tr>
+---
+
+### Clase `Manager_id` (Value Object)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>value</td><td>Long</td><td>ID del gerente.</td></tr>
+  </tbody>
 </table>
 
-<h3>Class Maintenance</h3>
-<table border="1">
-  <tr><th>Visibility</th><th>Name</th><th>Type</th><th>Description</th></tr>
-  <tr><td>private</td><td>maintenanceId</td><td>int</td><td>Maintenance ID</td></tr>
-  <tr><td>private</td><td>description</td><td>string</td><td>Description of the maintenance</td></tr>
-  <tr><td>private</td><td>status</td><td>string</td><td>Maintenance status</td></tr>
-  <tr><td>private</td><td>estimatedCost</td><td>float</td><td>Estimated cost</td></tr>
+---
+
+### Clase `Photo` (Value Object)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>url</td><td>String</td><td>URL de la imagen de la foto.</td></tr>
+  </tbody>
 </table>
 
-<h3>Class Review</h3>
-<table border="1">
-  <tr><th>Visibility</th><th>Name</th><th>Type</th><th>Description</th></tr>
-  <tr><td>private</td><td>reviewId</td><td>int</td><td>Review ID</td></tr>
-  <tr><td>private</td><td>rating</td><td>int</td><td>Rating score</td></tr>
-  <tr><td>private</td><td>comment</td><td>string</td><td>Client comment</td></tr>
-  <tr><td>private</td><td>date</td><td>Date</td><td>Date of submission</td></tr>
+---
+
+### Clase `WorkshopAddress` (Value Object)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>street</td><td>String</td><td>Calle y número.</td></tr>
+    <tr><td>city</td><td>String</td><td>Ciudad.</td></tr>
+    <tr><td>postalCode</td><td>String</td><td>Código postal.</td></tr>
+  </tbody>
 </table>
 
-<h3>Class ChatMessage</h3>
-<table border="1">
-  <tr><th>Visibility</th><th>Name</th><th>Type</th><th>Description</th></tr>
-  <tr><td>private</td><td>messageId</td><td>int</td><td>Message ID</td></tr>
-  <tr><td>private</td><td>content</td><td>string</td><td>Message content</td></tr>
-  <tr><td>private</td><td>dateTime</td><td>DateTime</td><td>Date and time of sending</td></tr>
+---
+
+### Clase `WorkshopDescription` (Value Object)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>value</td><td>String</td><td>Texto de descripción del taller.</td></tr>
+  </tbody>
 </table>
 
-<h3>Class UserRole (Enum)</h3>
-<table border="1">
-  <tr><th>Value</th><th>Description</th></tr>
-  <tr><td>CLIENT</td><td>Client role</td></tr>
-  <tr><td>WORKSHOP_ADMIN</td><td>Workshop administrator role</td></tr>
-  <tr><td>MECHANIC</td><td>Mechanic role</td></tr>
+---
+
+### Clase `WorkshopEmail` (Value Object)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>value</td><td>String</td><td>Dirección de correo electrónico del taller.</td></tr>
+  </tbody>
 </table>
 
-<h3>Class AppointmentStatus (Enum)</h3>
-<table border="1">
-  <tr><th>Value</th><th>Description</th></tr>
-  <tr><td>PENDING</td><td>Pending appointment</td></tr>
-  <tr><td>CONFIRMED</td><td>Confirmed appointment</td></tr>
-  <tr><td>IN_PROGRESS</td><td>Ongoing service</td></tr>
-  <tr><td>COMPLETED</td><td>Completed service</td></tr>
-  <tr><td>CANCELLED</td><td>Cancelled appointment</td></tr>
+---
+
+### Clase `WorkshopName` (Value Object)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>value</td><td>String</td><td>Nombre oficial del taller.</td></tr>
+  </tbody>
 </table>
+
+---
+
+### Clase `WorkshopPhone` (Value Object)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>value</td><td>String</td><td>Número de teléfono de contacto del taller.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Clase `WorkshopServices` (Value Object)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>serviceIds</td><td>List&lt;Long&gt;</td><td>Lista de IDs de servicios ofrecidos por el taller (quizás una representación más ligera).</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Clase `CreateWorkshopCommand` (Command)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>managerId</td><td>Long</td><td>ID del gerente que crea el taller.</td></tr>
+    <tr><td>name</td><td>String</td><td>Nombre del taller a crear.</td></tr>
+    <tr><td>address</td><td>String</td><td>Dirección del taller.</td></tr>
+    <tr><td>phone</td><td>String</td><td>Teléfono del taller.</td></tr>
+    <tr><td>email</td><td>String</td><td>Email del taller.</td></tr>
+    <tr><td>description</td><td>String</td><td>Descripción del taller.</td></tr>
+    <tr><td>photoUrls</td><td>List&lt;String&gt;</td><td>URLs de las fotos iniciales del taller.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Clase `SeedServicesCommand` (Command)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>workshopId</td><td>Long</td><td>ID del taller al que se agregarán los servicios.</td></tr>
+    <tr><td>serviceNames</td><td>List&lt;String&gt;</td><td>Nombres de los servicios a añadir.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Clase `GetServiceByNameQuery` (Query)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>name</td><td>String</td><td>Nombre del servicio a buscar.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Clase `GetWorkshopByNameQuery` (Query)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>name</td><td>String</td><td>Nombre del taller a buscar.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Interfaz `ServiceCommandService` (Service Interface)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Métodos</strong></caption>
+  <thead>
+    <tr><th>Método</th><th>Tipo de Retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>createService(command)</td><td>Service</td><td>Crea un nuevo servicio.</td></tr>
+    <tr><td>updateService(command)</td><td>Service</td><td>Actualiza un servicio existente.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Clase `ServiceCommandServiceImpl` (Service Implementation)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>serviceRepository</td><td>ServiceRepository</td><td>Repositorio para interactuar con la persistencia de Service.</td></tr>
+  </tbody>
+</table>
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Métodos</strong></caption>
+  <thead>
+    <tr><th>Método</th><th>Tipo de Retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>createService(command)</td><td>Service</td><td>Implementación para crear un servicio.</td></tr>
+    <tr><td>updateService(command)</td><td>Service</td><td>Implementación para actualizar un servicio.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Interfaz `ServiceQueryService` (Service Interface)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Métodos</strong></caption>
+  <thead>
+    <tr><th>Método</th><th>Tipo de Retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>getServiceByName(query)</td><td>Service</td><td>Obtiene un servicio por su nombre.</td></tr>
+    <tr><td>getAllServices()</td><td>List&lt;Service&gt;</td><td>Obtiene todos los servicios.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Clase `ServiceQueryServiceImpl` (Service Implementation)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>serviceRepository</td><td>ServiceRepository</td><td>Repositorio para interactuar con la persistencia de Service.</td></tr>
+  </tbody>
+</table>
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Métodos</strong></caption>
+  <thead>
+    <tr><th>Método</th><th>Tipo de Retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>getServiceByName(query)</td><td>Service</td><td>Implementación para obtener un servicio por nombre.</td></tr>
+    <tr><td>getAllServices()</td><td>List&lt;Service&gt;</td><td>Implementación para obtener todos los servicios.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Interfaz `WorkshopCommandService` (Service Interface)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Métodos</strong></caption>
+  <thead>
+    <tr><th>Método</th><th>Tipo de Retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>createWorkshop(command)</td><td>Workshop</td><td>Crea un nuevo taller.</td></tr>
+    <tr><td>addServicesToWorkshop(command)</td><td>void</td><td>Añade servicios a un taller existente.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Clase `WorkshopCommandServiceImpl` (Service Implementation)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>workshopRepository</td><td>WorkshopRepository</td><td>Repositorio para interactuar con la persistencia de Workshop.</td></tr>
+  </tbody>
+</table>
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Métodos</strong></caption>
+  <thead>
+    <tr><th>Método</th><th>Tipo de Retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>createWorkshop(command)</td><td>Workshop</td><td>Implementación para crear un taller.</td></tr>
+    <tr><td>addServicesToWorkshop(command)</td><td>void</td><td>Implementación para añadir servicios a un taller.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Interfaz `WorkshopQueryService` (Service Interface)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Métodos</strong></caption>
+  <thead>
+    <tr><th>Método</th><th>Tipo de Retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>getWorkshopByName(query)</td><td>Workshop</td><td>Obtiene un taller por su nombre.</td></tr>
+    <tr><td>getWorkshopById(id)</td><td>Workshop</td><td>Obtiene un taller por su ID.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Clase `WorkshopQueryServiceImpl` (Service Implementation)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>workshopRepository</td><td>WorkshopRepository</td><td>Repositorio para interactuar con la persistencia de Workshop.</td></tr>
+  </tbody>
+</table>
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Métodos</strong></caption>
+  <thead>
+    <tr><th>Método</th><th>Tipo de Retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>getWorkshopByName(query)</td><td>Workshop</td><td>Implementación para obtener un taller por nombre.</td></tr>
+    <tr><td>getWorkshopById(id)</td><td>Workshop</td><td>Implementación para obtener un taller por ID.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Interfaz `ServiceRepository` (Repository Interface)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Métodos</strong></caption>
+  <thead>
+    <tr><th>Método</th><th>Tipo de Retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>save(service)</td><td>Service</td><td>Guarda o actualiza un servicio en la base de datos.</td></tr>
+    <tr><td>findById(id)</td><td>Optional&lt;Service&gt;</td><td>Busca un servicio por su ID.</td></tr>
+    <tr><td>findByName(name)</td><td>Optional&lt;Service&gt;</td><td>Busca un servicio por su nombre.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Interfaz `WorkshopRepository` (Repository Interface)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Métodos</strong></caption>
+  <thead>
+    <tr><th>Método</th><th>Tipo de Retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>save(workshop)</td><td>Workshop</td><td>Guarda o actualiza un taller en la base de datos.</td></tr>
+    <tr><td>findById(id)</td><td>Optional&lt;Workshop&gt;</td><td>Busca un taller por su ID.</td></tr>
+    <tr><td>findByName(name)</td><td>Optional&lt;Workshop&gt;</td><td>Busca un taller por su nombre.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Clase `CreateWorkshopResource` (REST Resource / DTO)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>managerId</td><td>Long</td><td>ID del gerente para la creación del taller.</td></tr>
+    <tr><td>name</td><td>String</td><td>Nombre del taller.</td></tr>
+    <tr><td>address</td><td>String</td><td>Dirección del taller.</td></tr>
+    <tr><td>phone</td><td>String</td><td>Teléfono del taller.</td></tr>
+    <tr><td>email</td><td>String</td><td>Email del taller.</td></tr>
+    <tr><td>description</td><td>String</td><td>Descripción del taller.</td></tr>
+    <tr><td>photoUrls</td><td>List&lt;String&gt;</td><td>URLs de las fotos.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Clase `WorkshopResource` (REST Resource / DTO)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>Long</td><td>ID del taller.</td></tr>
+    <tr><td>managerId</td><td>Long</td><td>ID del gerente.</td></tr>
+    <tr><td>name</td><td>String</td><td>Nombre del taller.</td></tr>
+    <tr><td>address</td><td>String</td><td>Dirección del taller.</td></tr>
+    <tr><td>phone</td><td>String</td><td>Teléfono del taller.</td></tr>
+    <tr><td>email</td><td>String</td><td>Email del taller.</td></tr>
+    <tr><td>description</td><td>String</td><td>Descripción del taller.</td></tr>
+    <tr><td>photoUrls</td><td>List&lt;String&gt;</td><td>URLs de las fotos.</td></tr>
+    <tr><td>serviceNames</td><td>List&lt;String&gt;</td><td>Nombres de los servicios del taller.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Clase `CreateWorkshopCommandFromResourceAssembler` (Assembler)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Métodos</strong></caption>
+  <thead>
+    <tr><th>Método</th><th>Tipo de Retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>toCommand(resource)</td><td>CreateWorkshopCommand</td><td>Convierte un `CreateWorkshopResource` en un `CreateWorkshopCommand`.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Clase `WorkshopResourceFromEntityAssembler` (Assembler)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Métodos</strong></caption>
+  <thead>
+    <tr><th>Método</th><th>Tipo de Retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>toResource(workshop)</td><td>WorkshopResource</td><td>Convierte una entidad `Workshop` en un `WorkshopResource` para la respuesta.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Clase `WorkshopsController` (Controller)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>workshopCommandService</td><td>WorkshopCommandService</td><td>Servicio para ejecutar comandos relacionados con talleres.</td></tr>
+    <tr><td>workshopQueryService</td><td>WorkshopQueryService</td><td>Servicio para ejecutar consultas relacionadas con talleres.</td></tr>
+    <tr><td>createAssembler</td><td>CreateWorkshopCommandFromResourceAssembler</td><td>Ensamblador para comandos de creación.</td></tr>
+    <tr><td>resourceAssembler</td><td>WorkshopResourceFromEntityAssembler</td><td>Ensamblador para recursos de taller.</td></tr>
+  </tbody>
+</table>
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Métodos</strong></caption>
+  <thead>
+    <tr><th>Método</th><th>Tipo de Retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>createWorkshop(resource)</td><td>ResponseEntity&lt;WorkshopResource&gt;</td><td>Maneja la solicitud HTTP POST para crear un taller.</td></tr>
+    <tr><td>getWorkshopByName(name)</td><td>ResponseEntity&lt;WorkshopResource&gt;</td><td>Maneja la solicitud HTTP GET para obtener un taller por nombre.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Clase `ApplicationReadyEventHandler` (Event Handler)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Métodos</strong></caption>
+  <thead>
+    <tr><th>Método</th><th>Tipo de Retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>onApplicationReadyEvent(event)</td><td>void</td><td>Método que se ejecuta cuando la aplicación ha terminado de inicializarse.</td></tr>
+  </tbody>
+</table>
+
+---
+
+<h2>Bounded Context RepairManagement</h2>
+
+### Clase `RepairOrder` (Aggregate)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>orderId</td><td>int</td><td>Identificador único de la orden de reparación.</td></tr>
+    <tr><td>appointmentId</td><td>int</td><td>ID de la cita asociada a esta orden.</td></tr>
+    <tr><td>vehicleId</td><td>int</td><td>ID del vehículo en reparación.</td></tr>
+    <tr><td>mechanicId</td><td>int</td><td>ID del mecánico asignado.</td></tr>
+    <tr><td>startDate</td><td>Date</td><td>Fecha de inicio de la reparación.</td></tr>
+    <tr><td>endDate</td><td>Date</td><td>Fecha de finalización de la reparación.</td></tr>
+    <tr><td>status</td><td>RepairStatus</td><td>Estado actual de la reparación (ej. En Progreso, Completada).</td></tr>
+    <tr><td>totalCost</td><td>float</td><td>Costo total estimado de la reparación.</td></tr>
+  </tbody>
+</table>
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Métodos</strong></caption>
+  <thead>
+    <tr><th>Método</th><th>Tipo de Retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>createRepairOrder()</td><td>void</td><td>Crea una nueva orden de reparación.</td></tr>
+    <tr><td>updateRepairStatus()</td><td>void</td><td>Actualiza el estado de la orden de reparación.</td></tr>
+    <tr><td>addRepairPart(part)</td><td>void</td><td>Añade una pieza a la reparación.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Clase `RepairDetail` (Entity)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>detailId</td><td>int</td><td>Identificador único del detalle de reparación.</td></tr>
+    <tr><td>orderId</td><td>int</td><td>ID de la orden de reparación a la que pertenece.</td></tr>
+    <tr><td>description</td><td>string</td><td>Descripción específica de la tarea o pieza.</td></tr>
+    <tr><td>cost</td><td>float</td><td>Costo de esta parte del detalle.</td></tr>
+    <tr><td>mechanicNotes</td><td>string</td><td>Notas del mecánico sobre esta parte de la reparación.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Clase `Part` (Entity)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>partId</td><td>int</td><td>Identificador único de la pieza.</td></tr>
+    <tr><td>name</td><td>string</td><td>Nombre de la pieza.</td></tr>
+    <tr><td>supplier</td><td>string</td><td>Proveedor de la pieza.</td></tr>
+    <tr><td>price</td><td>float</td><td>Precio unitario de la pieza.</td></tr>
+    <tr><td>stock</td><td>int</td><td>Cantidad de piezas en stock.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Clase `ServicePerformed` (Entity)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>serviceId</td><td>int</td><td>Identificador único del servicio realizado.</td></tr>
+    <tr><td>orderId</td><td>int</td><td>ID de la orden de reparación asociada.</td></tr>
+    <tr><td>description</td><td>string</td><td>Descripción del servicio realizado.</td></tr>
+    <tr><td>hoursWorked</td><td>float</td><td>Horas de trabajo dedicadas al servicio.</td></tr>
+    <tr><td>costPerHour</td><td>float</td><td>Costo por hora de trabajo.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Clase `Review` (Entity)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>reviewId</td><td>int</td><td>Identificador único de la reseña.</td></tr>
+    <tr><td>clientId</td><td>int</td><td>ID del cliente que realizó la reseña.</td></tr>
+    <tr><td>workshopId</td><td>int</td><td>ID del taller reseñado.</td></tr>
+    <tr><td>rating</td><td>int</td><td>Calificación (ej. de 1 a 5 estrellas).</td></tr>
+    <tr><td>comment</td><td>string</td><td>Comentario o feedback del cliente.</td></tr>
+    <tr><td>reviewDate</td><td>Date</td><td>Fecha en que se envió la reseña.</td></tr>
+  </tbody>
+</table>
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Métodos</strong></caption>
+  <thead>
+    <tr><th>Método</th><th>Tipo de Retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>submitReview()</td><td>void</td><td>Envía una nueva reseña.</td></tr>
+  </tbody>
+</table>
+
+---
+
+<h2>Clases de Referencia (fuera de contextos específicos o transversales)</h2>
+
+### Clase `Client` (Entity)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>dni</td><td>string</td><td>Documento nacional de identidad.</td></tr>
+    <tr><td>city</td><td>string</td><td>Ciudad de residencia.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Clase `Vehicle` (Entity)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>vehicleId</td><td>int</td><td>ID del vehículo.</td></tr>
+    <tr><td>licensePlate</td><td>string</td><td>Número de placa.</td></tr>
+    <tr><td>brand</td><td>string</td><td>Marca del vehículo.</td></tr>
+    <tr><td>model</td><td>string</td><td>Modelo del vehículo.</td></tr>
+    <tr><td>year</td><td>int</td><td>Año de fabricación.</td></tr>
+    <tr><td>color</td><td>string</td><td>Color del vehículo.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Clase `Maintenance` (Entity)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>maintenanceId</td><td>int</td><td>ID de mantenimiento.</td></tr>
+    <tr><td>description</td><td>string</td><td>Descripción del mantenimiento.</td></tr>
+    <tr><td>status</td><td>string</td><td>Estado del mantenimiento.</td></tr>
+    <tr><td>estimatedCost</td><td>float</td><td>Costo estimado.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Clase `ChatMessage` (Entity)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Atributos</strong></caption>
+  <thead>
+    <tr><th>Atributo</th><th>Tipo</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>messageId</td><td>int</td><td>ID del mensaje.</td></tr>
+    <tr><td>content</td><td>string</td><td>Contenido del mensaje.</td></tr>
+    <tr><td>dateTime</td><td>DateTime</td><td>Fecha y hora de envío.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Clase `UserRole` (Enum)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Valores</strong></caption>
+  <thead>
+    <tr><th>Valor</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>CLIENT</td><td>Rol de Cliente.</td></tr>
+    <tr><td>WORKSHOP_ADMIN</td><td>Rol de Administrador de Taller.</td></tr>
+    <tr><td>MECHANIC</td><td>Rol de Mecánico.</td></tr>
+  </tbody>
+</table>
+
+---
+
+### Clase `AppointmentStatus` (Enum)
+<table border="1" cellspacing="0" cellpadding="5">
+  <caption><strong>Valores</strong></caption>
+  <thead>
+    <tr><th>Valor</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>PENDING</td><td>Cita pendiente.</td></tr>
+    <tr><td>CONFIRMED</td><td>Cita confirmada.</td></tr>
+    <tr><td>IN_PROGRESS</td><td>Servicio en progreso.</td></tr>
+    <tr><td>COMPLETED</td><td>Servicio completado.</td></tr>
+    <tr><td>CANCELLED</td><td>Cita cancelada.</td></tr>
+  </tbody>
+</table>
+
+---
+
 
 ## 4.8. Database Design
 
