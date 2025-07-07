@@ -453,12 +453,6 @@ Para el primer sprint el equipo establecio que el desarrollo de las tareas seria
             </td>
         </tr>
         <tr>
-            <td>Sprint 1 Review Summary</td>
-            <td>
-                Este es el primer sprint a realizar por el equipo
-            </td>
-        </tr>
-        <tr>
             <td>Sprint 1 Retrospective Summary</td>
             <td>
                 Acuerdo de la implementación de una primera versión del Landing Page  
