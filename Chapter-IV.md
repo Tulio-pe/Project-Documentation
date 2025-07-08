@@ -389,9 +389,6 @@ Prototipos visuales para aplicaciones web.
 <img src="https://raw.githubusercontent.com/Tulio-pe/Project-Documentation/main/src/IAMopen.png" alt="Diagrama de IAM" style="display: block; margin: 50px auto 0 auto;"/>
 ### 4.7.2. Class Dictionary
 
-    
-    <h2>Bounded Context IAM</h2>
-
 ### Clase `User` (Entity)
 <table border="1" cellspacing="0" cellpadding="5">
   <caption><strong>Atributos</strong></caption>
@@ -1199,7 +1196,4 @@ Diagrama Entidad - Relación nivel lógico
 
 ![Context](./src/DBLogico.jpg)
 
-Diagrama en el nivel Físico generado en MySQL
-
-![Context](./src/DBFisico.png)
 
