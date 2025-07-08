@@ -1409,16 +1409,13 @@ Agregar atributos `alt` descriptivos en todas las imágenes de los talleres.
 
 ## 5.3. Video About-the-Product.  
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214130_upc_edu_pe/Ec9nt-pv8JFKtiMH4UtseVcB74l5o4CGHIVxA7oC3Q1-hg?e=kRh0GL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214130_upc_edu_pe/EQoLn2kzv5ZAp0Y6wdTeREoBbas8BcQpVfgYG8yL6XmkPg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Ynwhz3
 
-https://youtu.be/tybXEHvaWC0
+https://youtu.be/W87W9KkNLXY
 
 ## 5.3. Video About-the-Team. 
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214130_upc_edu_pe/EfS0W1SMu01JgYRP6fnLsCMBYI9Chmgfvl8Dw29MbzCQ3Q?e=pyF9YJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-
-https://youtu.be/d5alZRwrCuo
-
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210938_upc_edu_pe/EY502CArbAZOqD_RZt-67bMBin3yNjWpddeZy3OJ5XmY4Q?e=EFaj5w&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 ## Bibliografía
 
 Jansen, S. M. (2019). *Practical Domain-Driven Design in Enterprise Java: Using Jakarta EE, NoSQL Databases, and 
@@ -1450,7 +1447,7 @@ Vernon, V. (2013). *Implementing domain-driven design.* Addison-Wesley.
 
 Landing Page Desplegada: https://tallerazo-landingpage.web.app/
 Frontend desplegado: https://chapa-tu-ruta-frontend.web.app/
-Backend desplegado:
+Backend desplegado:https://backend-production-1cc0.up.railway.app/swagger-ui/index.html#/
 
 ### Anexo B. Web tools
 
