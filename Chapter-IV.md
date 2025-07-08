@@ -1197,7 +1197,7 @@ Prototipos visuales para aplicaciones web.
 
 Diagrama Entidad - Relación nivel lógico
 
-![Context](./src/DBLogico.png)
+![Context](./src/DBLogico.jpg)
 
 Diagrama en el nivel Físico generado en MySQL
 
