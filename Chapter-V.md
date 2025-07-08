@@ -1023,6 +1023,199 @@ Tras finalizar el Sprint 2, hemos logrado implementar varias secciones del front
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
 
+### 5.2.4 Sprint 4
+
+<h4>5.2.4.1. Sprint Planning 4.</h4>
+
+Para nuestro cuarto sprint, el equipo estableció que el desarrollo de nuestras tareas se realizaría en un aproximado de 162 horas.
+
+<table>
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 4</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2"><b>Sprint Background</b></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>2025/07/08</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>10:30 PM</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>Discord</td>
+        </tr>
+        <tr>
+            <td>Prepared by</td>
+            <td>Renato Guillermo Calbo Yalan</td>
+        </tr>
+        <tr>
+            <td>Attendees (to meeting)</td>
+            <td>
+                <li>Yasser Rentería Palacios</li>
+                <li>Jesús Iván Castillo Vidal</li>
+                <li>Raúl Adrian Medina Cruzado</li>
+                <li>Renato Valerio García</li>
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 4 Review Summary</td>
+            <td>
+                Este es el cuarto sprint a realizar por el equipo, centrado en la segunda mitad de las historias técnicas.
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 4 Retrospective Summary</td>
+            <td>
+                Acuerdo en refinar la persistencia, optimizaciones de base de datos y mejoras en el manejo de errores para una mayor robustez del sistema.
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Sprint Goal & Technical Stories</b></td>
+        </tr>
+        <tr>
+            <td>Sprint 4 Goal</td>
+            <td style="text-align: justify">
+                <p>
+                Nuestro objetivo para este Sprint 4 es fortalecer la arquitectura del backend mediante la implementación robusta de la persistencia de datos para entidades clave, la optimización intensiva de consultas a la base de datos para mejorar el rendimiento, la adición de validaciones de negocio críticas para asegurar la integridad de los datos, y la estandarización del manejo de excepciones para proporcionar respuestas de API consistentes. Esto asegurará la integridad y eficiencia del sistema, preparando la plataforma para futuras funcionalidades y una experiencia de usuario más confiable. Se confirmará cuando todas las operaciones de datos sean consistentes y persistentes, las consultas clave respondan rápidamente, la API maneje los errores de forma predecible, y las entidades clave incorporen la trazabilidad de auditoría.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 4 Velocity</td>
+            <td>
+                162
+            </td>
+        </tr>
+        <tr>
+            <td>Sum of story points</td>
+            <td>
+                162
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+
+| Team Member (Last Name, First Name) | GitHub Username | Gestión de Cuentas y Autenticación | Gestión de Información del Taller | Búsqueda y Visualización de Talleres | Gestión de Vehículos | Gestión de Órdenes de Reparación | Seguimiento de Reparaciones | Creación de Endpoints |
+|--------------------------------------|-----------------|-------------------------------------|-----------------------------------|--------------------------------------|---------------------|-----------------------------------|----------------------------|---------------------|
+| Rentería Palacios, Yasser | Mitawarmi2000 | | L | | | | | C |
+| Valerio García, Renato | tenzzly | | C | | L | C | | |
+| Castillo Vidal, Jesús Iván | Jcdev04 | | | | | L | | L |
+| Medina Cruzado, Raúl Adrián | Necxuz18 | | C | L | L | L | | |
+
+#### 5.2.4.3. Sprint Backlog 4
+
+<table border="1">
+  <caption>Sprint #4 </caption>
+  <thead>
+    <tr>
+      <th colspan="2">Technical Story</th>
+      <th colspan="6">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status (To-do / In-Process / To-Review / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS10</td>
+      <td>Implementar Persistencia para Agregados Car y RepairOrder</td>
+      <td>TS10</td>
+      <td>Implementar Persistencia para Agregados Car y RepairOrder</td>
+      <td>Se desarrollarán los repositorios y la lógica de persistencia para las entidades Car y RepairOrder utilizando JPA.</td>
+      <td>28</td>
+      <td>Raul</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS11</td>
+      <td>Optimizar Rendimiento de Consultas de Vehículos y Reparaciones</td>
+      <td>TS11</td>
+      <td>Optimizar Rendimiento de Consultas de Vehículos y Reparaciones</td>
+      <td>Se analizarán y refactorizarán las consultas de CarQueryServiceImpl y RepairQueryServiceImpl, añadiendo índices para mejorar el rendimiento.</td>
+      <td>22</td>
+      <td>Renato</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS12</td>
+      <td>Implementar Validaciones de Negocio para Comandos de Reparaciones</td>
+      <td>TS12</td>
+      <td>Implementar Validaciones de Negocio para Comandos de Reparaciones</td>
+      <td>Se añadirán validaciones de negocio específicas a los comandos (AddRepairCommand, CreateCarCommand, etc.) antes de su ejecución.</td>
+      <td>18</td>
+      <td>Jesus</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS13</td>
+      <td>Implementar Persistencia para Agregados Workshop</td>
+      <td>TS13</td>
+      <td>Implementar Persistencia para Agregados Workshop</td>
+      <td>Se desarrollarán los repositorios y la lógica de persistencia para Workshop y sus entidades relacionadas (District, Province, etc.) utilizando JPA.</td>
+      <td>30</td>
+      <td>Yasser</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS14</td>
+      <td>Optimizar Rendimiento de Consultas de Talleres y Datos Geográficos</td>
+      <td>TS14</td>
+      <td>Optimizar Rendimiento de Consultas de Talleres y Datos Geográficos</td>
+      <td>Se analizarán y optimizarán las consultas de WorkshopQueryServiceImpl y datos geográficos, aplicando índices necesarios.</td>
+      <td>24</td>
+      <td>Raul</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS15</td>
+      <td>Implementar Validaciones de Negocio para Comandos de Talleres y Datos Geográficos</td>
+      <td>TS15</td>
+      <td>Implementar Validaciones de Negocio para Comandos de Talleres y Datos Geográficos</td>
+      <td>Se añadirán validaciones de negocio específicas a los comandos de talleres y datos geográficos (CreateWorkshopCommand, CreateDistrictCommand, etc.).</td>
+      <td>16</td>
+      <td>Renato</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS16</td>
+      <td>Mejorar Manejo de Excepciones y Mapeo a Respuestas REST</td>
+      <td>TS16</td>
+      <td>Mejorar Manejo de Excepciones y Mapeo a Respuestas REST</td>
+      <td>Se implementará un controlador de excepciones global para mapear excepciones a respuestas HTTP consistentes.</td>
+      <td>14</td>
+      <td>Jesus</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS17</td>
+      <td>Implementar Patrón de Diseño para AuditableAbstractAggregateRoot y AuditableModel</td>
+      <td>TS17</td>
+      <td>Implementar Patrón de Diseño para AuditableAbstractAggregateRoot y AuditableModel</td>
+      <td>Se configurará la actualización automática de campos de auditoría (createdAt, updatedAt) en entidades del dominio.</td>
+      <td>10</td>
+      <td>Yasser</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+
 ### 5.3. Validation Interviews.
 
 #### 5.3.1. Diseño de Entrevistas.
