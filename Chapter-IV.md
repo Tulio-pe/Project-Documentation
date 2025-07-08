@@ -313,11 +313,11 @@ Prototipos visuales para aplicaciones web.
 
 #### USUARIO
 
-![Configuración de horarios](./src/WebFlow1.PNG)
+![Configuración de horarios](./src/chapter-4/Diagram_UserFlow_User.jpeg)
 
 #### TALLER
 
-![Configuración de horarios](./src/WebFlow2.PNG)
+![Configuración de horarios](./src/chapter-4/User_Flow_Diagram-Workshop.jpg)
 
 ## 4.6. Domain-Driven Software Architecture
 
