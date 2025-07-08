@@ -1091,13 +1091,13 @@ Para nuestro cuarto sprint, el equipo estableció que el desarrollo de nuestras 
         <tr>
             <td>Sprint 4 Velocity</td>
             <td>
-                162
+                10
             </td>
         </tr>
         <tr>
             <td>Sum of story points</td>
             <td>
-                162
+                87
             </td>
         </tr>
     </tbody>
