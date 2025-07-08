@@ -1416,6 +1416,81 @@ https://youtu.be/W87W9KkNLXY
 ## 5.3. Video About-the-Team. 
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210938_upc_edu_pe/EY502CArbAZOqD_RZt-67bMBin3yNjWpddeZy3OJ5XmY4Q?e=EFaj5w&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+## Conclusiones
+
+### Yasser Rentería Palacios
+
+Conclusiones:
+
+* TB1: Yasser demostró habilidades sólidas de comunicación oral y escrita, siendo un eje clave en la coordinación del equipo.
+
+* TP: Mantuvo claridad en la documentación y exposición del buscador, lo que permitió al equipo mantener un enfoque claro sobre su funcionalidad.
+
+* TB2: Su participación en las validaciones fortaleció la calidad técnica del frontend.
+
+* TF: Mostró dominio del sistema completo, explicando con claridad los flujos y mejoras aplicadas.
+
+Recomendaciones:
+
+* Continuar desarrollando su capacidad de liderazgo técnico y claridad en la exposición de soluciones complejas.
+
+* Mantener el equilibrio entre lo técnico y lo comunicacional, ya que sus habilidades son valiosas en ambas áreas.
+
+### Renato Guillermo Calvo Yalan
+
+Conclusiones:
+
+* TB1: Renato tuvo una comunicación técnica fluida en presentaciones internas, aportando claridad al equipo.
+
+* TP: Su documentación del dashboard del taller fue clara y funcional.
+
+* TB2: Efectuó una buena integración de endpoints y supo comunicarlo correctamente.
+
+* TF: Su exposición fue precisa y mostró conocimiento profundo de su módulo.
+
+Recomendaciones:
+
+* Reforzar la proactividad en la documentación colaborativa para distribuir mejor el esfuerzo en entregas finales.
+
+* Seguir fortaleciendo su capacidad de síntesis para exposiciones frente a audiencias externas.
+
+### Raúl Adrian Medina Cruzado
+
+Conclusiones:
+
+* TB1: Su capacidad de adaptar el lenguaje en entrevistas fue clave para la obtención de feedback real.
+
+* TP: La redacción de flujos del usuario ayudó a mejorar la interfaz.
+
+* TB2: Coordinó validaciones que guiaron mejoras visuales y funcionales.
+
+* TF: Su explicación de la experiencia del usuario fue clara y bien fundamentada.
+
+Recomendaciones:
+
+* Fomentar una mayor participación en presentaciones internas para reforzar la seguridad oral.
+
+* Continuar aplicando empatía comunicacional, especialmente en validaciones con usuarios reales.
+
+### Jesús Iván Castillo Vidal
+
+Conclusiones:
+
+* TB1: Su rol en la revisión del informe fue clave para asegurar calidad desde el inicio.
+
+* TP: Comunicó claramente los flujos de autenticación del sistema.
+
+* TB2: Mantuvo consistencia en los comentarios del frontend y facilitó la organización en Discord.
+
+* TF: Su aporte en la presentación visual y del CTA fue valioso para resaltar la parte estética y funcional.
+
+Recomendaciones:
+
+* Seguir promoviendo una comunicación empática entre el equipo, como lo ha hecho hasta ahora.
+
+* Reforzar aún más su participación en redacción técnica para equilibrar sus fortalezas visuales con la documentación.
+
 ## Bibliografía
 
 Jansen, S. M. (2019). *Practical Domain-Driven Design in Enterprise Java: Using Jakarta EE, NoSQL Databases, and 
