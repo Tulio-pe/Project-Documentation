@@ -841,47 +841,120 @@ Esto se confirmará cuando los usuarios puedan interactuar con una versión func
 | Rentería Palacios, Yasser | Mitawarmi2000 | C | L | | | | | C |
 | Valerio García, Renato | tenzzly | L | | C | | | | L |
 | Castillo Vidal, Jesús Iván | Jcdev04 | C | | | L | | | C |
-| Rodríguez Villa, Raúl Adrián | Necxuz18 | | | | | C | L | C |
+| Medina Cruzado, Raúl Adrián | Necxuz18 | | | | | C | L | C |
 
 #### 5.2.3.3. Sprint Backlog 3.
-
-| **User Story** |                                 |        | **Work-Item / Task**                 |                                                            |                        |                 |                                                    |
-| -------------- | ------------------------------- | ------ | ------------------------------------ | ---------------------------------------------------------- | ---------------------- | --------------- | -------------------------------------------------- |
-| **Id**         | **Title**                       | **Id** | **Title**                            | **Description**                                            | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
-| US01           | Registrar cuenta de gestor      | T01    | Crear formulario de registro         | Desarrollar formulario con validaciones para email, firstname, lastname, username y password | 6 | Renato | Done |
-| US01           | Registrar cuenta de gestor      | T02    | Implementar encriptación de contraseña | Sistema de encriptación bcrypt para passwords | 4 | Renato |Done   |
-| US01           | Registrar cuenta de gestor      | T03    | Validación de unicidad de datos     | Verificar que email y username no existan en BD | 3 | Renato | Done |
-| US02           | Iniciar sesión                  | T04    | Pantalla de login                   | Crear interfaz de inicio de sesión con validaciones | 4 | Yasser | Done |
-| US02           | Iniciar sesión                  | T05    | Sistema de autenticación JWT        | Implementar generación y validación de JWT | 6 | Renato | Done   |
-| US02           | Iniciar sesión                  | T06    | Manejo de errores de login          | Mostrar mensajes de error para credenciales inválidas | 2 | Renato | Done |
-| US03           | Actualizar perfil personal      | T07    | Pantalla "Mi perfil"                | Crear interfaz para editar datos personales | 5 | Jesús | Done   |
-| US03           | Actualizar perfil personal      | T08    | Validación de username único        | Verificar que nuevo username no exista | 3 | Renato | Done |
-| US04           | Cerrar sesión                   | T09    | Funcionalidad de logout             | Invalidar JWT y redirigir a login | 2 | Renato | Done |
-| US05           | Registrar información del taller | T10    | Formulario de registro de taller    | Crear formulario con todos los campos requeridos | 8 | Yasser | Done |
-| US05           | Registrar información del taller | T11    | Sistema de ubicación cascada        | Implementar selección Región → Provincia → Distrito → Ciudad | 6 | Raúl | Done |
-| US05           | Registrar información del taller | T12    | Subida y validación de imágenes     | Sistema para cargar y validar fotos png/jpg | 4 | Rául | Done |
-| US06           | Editar información del taller   | T13    | Pantalla "Editar taller"            | Interfaz para modificar datos del taller con autocompletado | 6 | Yasser | Done |
-| US07           | Configurar horarios regulares   | T14    | Sección de configuración de horarios | Crear interfaz para definir horarios por día de semana | 7 | Jesús | Done |
-| US07           | Configurar horarios regulares   | T15    | Validación de horarios              | Validar que StartTime < EndTime y formato correcto | 3 | Jesús | Done|
-| US08           | Actualizar horarios de atención | T16    | Edición de horarios existentes      | Permitir modificar horarios ya configurados | 5 | Yasser | Done|
-| US09           | Explorar talleres filtrados     | T17    | Pantalla de exploración de talleres | Crear interfaz de búsqueda con filtros de ubicación | 8 | Yasser | Done |
-| US09           | Explorar talleres filtrados     | T18    | Sistema de filtrado por ubicación   | Implementar filtro cascada para conductores | 6 | Raúl | Done |
-| US09           | Explorar talleres filtrados     | T19    | Cards de talleres                   | Mostrar información resumida en formato card | 4 | Yasser | Done |
-| US10           | Ver detalle de taller           | T20    | Página de detalle de taller         | Crear vista completa con toda la información del taller | 7 | Yasser | Done |
-| US10           | Ver detalle de taller           | T21    | Integración con WhatsApp            | Implementar botón de contacto vía WhatsApp | 3 | Rául | Done |
-| US11           | Registrar vehículo              | T22    | Formulario de registro de vehículo  | Crear formulario con validaciones para datos del vehículo | 5 | Renato | Done |
-| US11           | Registrar vehículo              | T23    | Validación de placa única           | Verificar unicidad de licensePlate por taller | 3 | Yasser | Done |
-| US12           | Listar vehículos del taller     | T24    | Vista de lista de vehículos         | Mostrar vehículos registrados en formato card | 4 | Rául | Done|
-| US12           | Listar vehículos del taller     | T25    | Estado vacío y navegación           | Manejar caso sin vehículos y botones de acción | 2 | Yasser | Done |
-| US13           | Crear orden de reparación       | T26    | Sistema de generación de códigos    | Generar repairCode único formato licensePlate-NN | 4 | Jesús | Done |
-| US13           | Crear orden de reparación       | T27    | Validación de reparación abierta    | Verificar que no exista reparación activa | 3 | Jesús | Done |
-| US14           | Cambiar estado de reparación    | T28    | Interfaz de cambio de estados       | Crear controles para actualizar estado de reparación | 5 | Rául | Done |
-| US14           | Cambiar estado de reparación    | T29    | Lógica de flujo de estados          | Implementar transiciones válidas entre estados | 4 | Raúl | Done |
-| US15           | Filtrar reparaciones por estado | T30    | Sistema de filtrado de reparaciones | Crear filtros por estado con actualización en tiempo real | 6 | Raúl | Done |
-| US16           | Tracking de reparación (conductor) | T31    | Pantalla de tracking                | Crear interfaz para ingresar código de seguimiento | 4 | sserYa | Done|
-| US16           | Tracking de reparación (conductor) | T32    | Validación de códigos de tracking   | Verificar formato y existencia de repairCode | 3 | Yasser | Done |
-| US17           | Ver detalle de reparación       | T33    | Vista de detalle de reparación      | Mostrar información completa de la reparación | 6 | Yasser | Done |
-| US17           | Ver detalle de reparación       | T34    | Indicadores visuales de estado      | Crear elementos visuales para cada estado | 3 | Renato | Done |
+<table border="1">
+  <caption>Sprint #3 </caption>
+  <thead>
+    <tr>
+      <th colspan="2">Technical Story</th>
+      <th colspan="6">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status (To-do / In-Process / To-Review / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS01</td>
+      <td>Implementar Sistema de Autenticación Basado en JWT</td>
+      <td>TS01</td>
+      <td>Implementar Sistema de Autenticación Basado en JWT</td>
+      <td>Se implementará la lógica de generación y validación de tokens JWT en el backend.</td>
+      <td>20</td>
+      <td>Raul</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS02</td>
+      <td>Implementar Hashing de Contraseñas con Bcrypt</td>
+      <td>TS02</td>
+      <td>Implementar Hashing de Contraseñas con Bcrypt</td>
+      <td>Se integrará la librería Bcrypt para el hashing de contraseñas durante el registro y la verificación.</td>
+      <td>8</td>
+      <td>Renato</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS03</td>
+      <td>Configurar Gestión Segura de Variables de Entorno</td>
+      <td>TS03</td>
+      <td>Configurar Gestión Segura de Variables de Entorno</td>
+      <td>Se configurará el cargado de variables de entorno desde archivos .env o gestores de secretos.</td>
+      <td>12</td>
+      <td>Jesus</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS04</td>
+      <td>Diseñar y Configurar la Base de Datos Relacional (MySQL)</td>
+      <td>TS04</td>
+      <td>Diseñar y Configurar la Base de Datos Relacional (MySQL)</td>
+      <td>Se creará el esquema de la base de datos MySQL con tablas, relaciones e índices.</td>
+      <td>30</td>
+      <td>Yasser</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS05</td>
+      <td>Desarrollar API RESTful para la Gestión de Usuarios</td>
+      <td>TS05</td>
+      <td>Desarrollar API RESTful para la Gestión de Usuarios</td>
+      <td>Se construirán los endpoints REST para operaciones CRUD de usuarios.</td>
+      <td>25</td>
+      <td>Raul</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS06</td>
+      <td>Desarrollar API RESTful para la Gestión de Talleres y Citas</td>
+      <td>TS06</td>
+      <td>Desarrollar API RESTful para la Gestión de Talleres y Citas</td>
+      <td>Se crearán los endpoints REST para la búsqueda, creación y gestión de talleres y citas.</td>
+      <td>35</td>
+      <td>Renato</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS07</td>
+      <td>Implementar Sistema de Notificaciones en la Aplicación</td>
+      <td>TS07</td>
+      <td>Implementar Sistema de Notificaciones en la Aplicación</td>
+      <td>Se desarrollará la funcionalidad para generar, almacenar y mostrar notificaciones.</td>
+      <td>20</td>
+      <td>Jesus</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS08</td>
+      <td>Implementar Paginación y Filtrado Avanzado en Listados</td>
+      <td>TS08</td>
+      <td>Implementar Paginación y Filtrado Avanzado en Listados</td>
+      <td>Se añadirán parámetros de paginación y filtrado a los endpoints de listado de datos.</td>
+      <td>15</td>
+      <td>Yasser</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS09</td>
+      <td>Optimizar Consultas a la Base de Datos para Rendimiento</td>
+      <td>TS09</td>
+      <td>Optimizar Consultas a la Base de Datos para Rendimiento</td>
+      <td>Se analizarán y refactorizarán consultas SQL y se aplicarán índices para mejorar la eficiencia.</td>
+      <td>25</td>
+      <td>Raul</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 5.2.3.4. Development Evidence for Sprint Review.
 
