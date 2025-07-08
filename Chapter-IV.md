@@ -1195,10 +1195,11 @@ Prototipos visuales para aplicaciones web.
 
 ### 4.8.1. Database Diagram
 
-Diagrama de la base de datos hecho en MySql:
+Diagrama Entidad - Relación nivel lógico
 
-![Context](./src/DBBACK.png)
+![Context](./src/DBLogico.png)
 
+Diagrama en el nivel Físico generado en MySQL
 
-
+![Context](./src/DBFisico.png)
 
