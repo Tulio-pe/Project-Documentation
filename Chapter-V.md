@@ -1256,7 +1256,7 @@ Para nuestro cuarto sprint, el equipo estableció que el desarrollo de nuestras 
 
 ![registro](./src/Int1.png)
 
-*Timing:* 00:00 - 01:24
+*Timing:* 09:27 - 10:27
 
 *Nombres:* Diego
 
@@ -1266,11 +1266,11 @@ Para nuestro cuarto sprint, el equipo estableció que el desarrollo de nuestras 
 
 *Distrito:* Villa EL Salvador
 
-https://upcedupe-my.sharepoint.com/personal/u202214130_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202214130%5Fupc%5Fedu%5Fpe%2FDocuments%2FWhatsApp%20Video%202025%2D06%2D22%20at%201%2E22%2E33%20PM%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ead4c6d8e%2Db3a4%2D4e6d%2D8868%2D79e548678811&isDarkMode=false
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210938_upc_edu_pe/EcAkYCaI2qxPrHOu_7jqpDYBx874wSck232STXRzGY5xsg?e=xExsN1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ![registro](./src/Int2.png)
 
-*Timing:* 00:00 - 01:27
+*Timing:* 07:49 - 09:04
 
 *Nombres:* Andy 
 
@@ -1280,8 +1280,7 @@ https://upcedupe-my.sharepoint.com/personal/u202214130_upc_edu_pe/_layouts/15/st
 
 *Distrito:* Chorrillos
 
-https://upcedupe-my.sharepoint.com/personal/u202214130_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202214130%5Fupc%5Fedu%5Fpe%2FDocuments%2Fvideo1330465944%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eedd7c8c7%2D3f17%2D493f%2D9f90%2Ddb5dd8c9fbcd&isDarkMode=false
-
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210938_upc_edu_pe/EcAkYCaI2qxPrHOu_7jqpDYBx874wSck232STXRzGY5xsg?e=xExsN1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 ![registro](./src/Int3.png)
 
 *Timing:* 00:00 - 01:43
@@ -1294,7 +1293,7 @@ https://upcedupe-my.sharepoint.com/personal/u202214130_upc_edu_pe/_layouts/15/st
 
 *Distrito:* Villa EL Salvador
 
-https://upcedupe-my.sharepoint.com/personal/u202214130_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202214130%5Fupc%5Fedu%5Fpe%2FDocuments%2Fvideo1733403779%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E33af4f57%2Df09e%2D4d06%2D9d66%2Dbbbad746625d&isDarkMode=false
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210938_upc_edu_pe/EcAkYCaI2qxPrHOu_7jqpDYBx874wSck232STXRzGY5xsg?e=xExsN1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 #### 5.3.3. Evaluaciones según heurísticas
 
