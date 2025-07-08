@@ -113,7 +113,7 @@ Nuestra estrategia se basa en la diferenciación mediante una plataforma integra
 ---
 
 #### Entrevistado N°2 - Segmento 1(clientes)
-![entrevista_segmento1](src/2.jpeg) 
+![entrevista_segmento1](src/6.jpeg) 
 - Nombres: Angel 
 - Apellidos: Ramirez
 - Edad: 25
@@ -126,7 +126,7 @@ Nuestra estrategia se basa en la diferenciación mediante una plataforma integra
 ---
 
 #### Entrevistado N°3 - Segmento 2(Talleres)
-![entrevista_segmento1](src/3.jpeg) 
+![entrevista_segmento1](src/5.jpeg) 
 - Nombres: Cristian 
 - Apellidos: Valencia 
 - Edad: 19
@@ -154,7 +154,7 @@ buen marketing lo puede lograr.Le gustaria que se moestrara sus especialidades y
 ---
 
 #### Entrevistado N°5 - Segmento 1(clientes)
-![entrevista_segmento1](src/5.jpeg) 
+![entrevista_segmento1](src/3.jpeg) 
 - Nombres: Renzo 
 - Apellidos: Calvo Yalan
 - Edad: 32
@@ -170,7 +170,7 @@ buen marketing lo puede lograr.Le gustaria que se moestrara sus especialidades y
 ---
 
 #### Entrevistado N°6 - Segmento 2(Talleres)
-![entrevista_segmento1](src/6.jpeg) 
+![entrevista_segmento1](src/2.jpeg) 
 - Nombres:Diego 
 - Apellidos: Ramirez 
 - Edad: 20
